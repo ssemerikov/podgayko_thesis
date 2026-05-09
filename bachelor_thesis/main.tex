@@ -1,0 +1,104 @@
+% =============================================================
+% bachelor_thesis/main.tex
+% Кваліфікаційна робота бакалавра — Підгайко С.В.
+% Структура за Положенням КДПУ 2025: титульний → запевнення →
+% анотація → зміст → вступ → 2 розділи → висновки → список
+% літератури → додатки.
+% =============================================================
+
+\documentclass[a4paper,14pt]{extarticle}
+
+\usepackage{setup}
+
+\usepackage[
+sorting=abyrvalg,
+style=gost-numeric,        % DSTU 8302:2015 (gost-numeric — найближчий доступний еквівалент)
+language=auto,
+autolang=other,
+backend=biber]{biblatex}
+
+\DeclareSortingTemplate{abyrvalg}{
+    \sort{\field{presort}}
+    \sort[final]{\field{sortkey}}
+    \sort{
+        \field{sortname}
+        \field{author}
+        \field{editor}
+        \field{sorttitle}
+        \field{title}
+        \field{journaltitle}
+    }
+    \sort{\field{sortyear}\field{year}}
+    \sort{
+        \field{sorttitle}
+        \field{author}
+        \field{editor}
+        \field{title}
+        \field{booktitle}
+        \field{journaltitle}
+    }
+}
+
+\usepackage{totcount}
+\usepackage[figure,table]{totalcount}
+\newtotcounter{citenum}
+\AtEveryBibitem{\stepcounter{citenum}}
+
+\addbibresource{scopus.bib}
+\addbibresource{capstone.bib}
+
+\newcommand*{\citet}[1]{\citeauthor{#1}~\cite{#1}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,chains}
+
+\pgfplotsset{compat=1.18}
+
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+
+\usepackage[normalem]{ulem}
+
+\begin{document}
+
+% --- Титульний аркуш (Додаток Б) ---
+\input{chapters/title-page}
+
+% --- Запевнення про доброчесність (Додаток В) ---
+\input{chapters/integrity}
+
+% --- Анотація (укр./англ.) ---
+\input{chapters/summary}
+\clearpage
+
+% --- Зміст ---
+\renewcommand{\contentsname}{\hspace*{\fill}\bfseries\Large ЗМІСТ\hspace*{\fill}}
+\tableofcontents
+\clearpage
+
+% --- Вступ ---
+\input{chapters/vstup}
+\clearpage
+
+% --- РОЗДІЛ 1 ---
+\input{chapters/rozdil1}
+\clearpage
+
+% --- РОЗДІЛ 2 ---
+\input{chapters/rozdil2}
+\clearpage
+
+% --- Загальні висновки ---
+\input{chapters/vysnovky}
+\clearpage
+
+% --- Список використаної літератури ---
+\printbibliography[heading=bibintoc,title={\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}]
+\clearpage
+
+% --- Додатки ---
+\input{chapters/appendix}
+
+\label{last_page}
+
+\end{document}

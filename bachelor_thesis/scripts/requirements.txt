@@ -1,0 +1,19 @@
+# Core analytics (existing pipeline)
+pandas>=2.2
+numpy>=1.26
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+networkx>=3.3
+python-louvain>=0.16
+
+# Multi-LLM cluster naming experiment (Phase 1 / T1.4)
+sentence-transformers>=3.0      # cosine similarity of cluster names
+krippendorff>=0.8                # inter-rater agreement metric
+anthropic>=0.40                  # Claude Haiku/Sonnet/Opus
+ollama>=0.4                      # local open-weight models
+httpx>=0.27                      # OpenRouter REST calls
+
+# Optional: Excel/PDF helpers (Phase 2 / T2.6 expert eval)
+openpyxl>=3.1
+pypdf>=5.0
