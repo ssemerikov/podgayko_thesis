@@ -1,0 +1,1451 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{abyrvalg/global//global/global}
+    \entry{Eichhorst2015}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=b7f9c9cf088618b1d41d28fd6ce0b9d6}{%
+           family={Eichhorst},
+           familyi={E\bibinitperiod},
+           given={Werner},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d9bd385ae2c7766e4917259103054f95}{%
+           family={Rodriguez-Planas},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5cf19679fc8fc626b4faede66481f5c2}{%
+           family={Schmidl},
+           familyi={S\bibinitperiod},
+           given={Ricarda},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5e0ca71db05e5c7da19339b2c8608841}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={Klaus\bibnamedelima F.},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{f52ed07ec9cb77dbfa43edd34e3310f4}
+      \strng{authornamehash}{f52ed07ec9cb77dbfa43edd34e3310f4}
+      \strng{authorfullhash}{5f452f3cc26374b887fb293bbaf85851}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ILR Review}
+      \field{title}{A road map to vocational education and training in industrialized countries}
+      \field{year}{2015}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{314\bibrangedash 337}
+      \range{pages}{24}
+      \field{volume}{68}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1177/0019793914564963
+      \endverb
+    \endentry
+    \entry{Aarkrog2005}{article}{}
+      \name{author}{1}{}{%
+        {{hash=62d4994f2d14250fa92070ce5fd615fe}{%
+           family={Aarkrog},
+           familyi={A\bibinitperiod},
+           given={Vibe},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{62d4994f2d14250fa92070ce5fd615fe}
+      \strng{fullhash}{62d4994f2d14250fa92070ce5fd615fe}
+      \strng{bibnamehash}{62d4994f2d14250fa92070ce5fd615fe}
+      \strng{authorbibnamehash}{62d4994f2d14250fa92070ce5fd615fe}
+      \strng{authornamehash}{62d4994f2d14250fa92070ce5fd615fe}
+      \strng{authorfullhash}{62d4994f2d14250fa92070ce5fd615fe}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Lifelong Education}
+      \field{title}{Learning in the workplace and the significance of school-based education: a study of learning in a {D}anish vocational education and training programme}
+      \field{year}{2005}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{137\bibrangedash 147}
+      \range{pages}{11}
+      \field{volume}{24}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1080/02601370500056268
+      \endverb
+    \endentry
+    \entry{Aria2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4599cb424b680cbdfa6e49c2871fe4db}{%
+           family={Aria},
+           familyi={A\bibinitperiod},
+           given={Massimo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f3a1a421ea97da0529627848dc9fb581}{%
+           family={Cuccurullo},
+           familyi={C\bibinitperiod},
+           given={Corrado},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{4adece3cf5f096d51eb5b63872348a1a}
+      \strng{fullhash}{4adece3cf5f096d51eb5b63872348a1a}
+      \strng{bibnamehash}{4adece3cf5f096d51eb5b63872348a1a}
+      \strng{authorbibnamehash}{4adece3cf5f096d51eb5b63872348a1a}
+      \strng{authornamehash}{4adece3cf5f096d51eb5b63872348a1a}
+      \strng{authorfullhash}{4adece3cf5f096d51eb5b63872348a1a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informetrics}
+      \field{title}{bibliometrix: An {R}-tool for comprehensive science mapping analysis}
+      \field{year}{2017}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{959\bibrangedash 975}
+      \range{pages}{17}
+      \field{volume}{11}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.joi.2017.08.007
+      \endverb
+    \endentry
+    \entry{Billett2011}{book}{}
+      \name{author}{1}{}{%
+        {{hash=65f3ddd8d319cfb21353ddd2d88a62e8}{%
+           family={Billett},
+           familyi={B\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \strng{fullhash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \strng{bibnamehash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \strng{authorbibnamehash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \strng{authornamehash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \strng{authorfullhash}{65f3ddd8d319cfb21353ddd2d88a62e8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vocational Education: Purposes, Traditions and Prospects}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1007/978-94-007-1954-5
+      \endverb
+    \endentry
+    \entry{Bosch2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7d2203a6895ba5c9b81535af3c776789}{%
+           family={Bosch},
+           familyi={B\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6e87f225e8c0f3edd32161f120d3f087}{%
+           family={Charest},
+           familyi={C\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1fca99e09110de6e4e5c493977b207e4}
+      \strng{fullhash}{1fca99e09110de6e4e5c493977b207e4}
+      \strng{bibnamehash}{1fca99e09110de6e4e5c493977b207e4}
+      \strng{authorbibnamehash}{1fca99e09110de6e4e5c493977b207e4}
+      \strng{authornamehash}{1fca99e09110de6e4e5c493977b207e4}
+      \strng{authorfullhash}{1fca99e09110de6e4e5c493977b207e4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial Relations Journal}
+      \field{title}{Vocational training and the labour market in liberal and coordinated economies}
+      \field{year}{2008}
+      \field{number}{5}
+      \range{number}{1}
+      \field{pages}{428\bibrangedash 447}
+      \range{pages}{20}
+      \field{volume}{39}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1111/j.1468-2338.2008.00497.x
+      \endverb
+    \endentry
+    \entry{Busemeyer2012}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=5674758b1362c76d0fef10c1c5eb89d8}{%
+           family={Busemeyer},
+           familyi={B\bibinitperiod},
+           given={Marius\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=eda9a393416953289238f76ad1a04b4e}{%
+           family={Trampusch},
+           familyi={T\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \strng{fullhash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \strng{bibnamehash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \strng{authorbibnamehash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \strng{authornamehash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \strng{authorfullhash}{ba1572a1fc34cf4dfe69b97d463eb7e7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Political Economy of Collective Skill Formation}
+      \field{title}{The comparative political economy of collective skill formation}
+      \field{year}{2012}
+      \field{pages}{3\bibrangedash 38}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199599431.003.0001
+      \endverb
+    \endentry
+    \entry{CedefopReport2017}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e504e652f3a711a049fd03f11fc4a7d7}{%
+           family={{Cedefop}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Cedefop}%
+      }
+      \list{location}{1}{%
+        {Luxembourg}%
+      }
+      \list{publisher}{1}{%
+        {Publications Office of the European Union}%
+      }
+      \strng{namehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{fullhash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{bibnamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authorbibnamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authornamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authorfullhash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the way to 2020: data for vocational education and training policies}
+      \field{type}{Cedefop reference series}
+      \field{year}{2017}
+      \field{number}{107}
+      \range{number}{1}
+    \endentry
+    \entry{Cedefop2020}{report}{}
+      \name{author}{1}{}{%
+        {{hash=e504e652f3a711a049fd03f11fc4a7d7}{%
+           family={{Cedefop}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Cedefop}%
+      }
+      \list{location}{1}{%
+        {Luxembourg}%
+      }
+      \list{publisher}{1}{%
+        {Publications Office of the European Union}%
+      }
+      \strng{namehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{fullhash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{bibnamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authorbibnamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authornamehash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \strng{authorfullhash}{e504e652f3a711a049fd03f11fc4a7d7}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vocational education and training in {Europe}, 1995--2035: Scenarios for {European} vocational education and training in the 21st century}
+      \field{type}{Cedefop reference series}
+      \field{year}{2020}
+      \field{number}{114}
+      \range{number}{1}
+    \endentry
+    \entry{vanEck2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=994b93c88bd25e51c7ed58e11eb69f12}{%
+           family={Eck},
+           familyi={E\bibinitperiod},
+           given={Nees\bibnamedelima Jan},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{%
+           family={Waltman},
+           familyi={W\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{fullhash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{bibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorbibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authornamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorfullhash}{914f4b705c14de24c87ad45fb523d677}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{title}{Software survey: {VOSviewer}, a computer program for bibliometric mapping}
+      \field{year}{2010}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{523\bibrangedash 538}
+      \range{pages}{16}
+      \field{volume}{84}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/s11192-009-0146-3
+      \endverb
+    \endentry
+    \entry{vanEck2014}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=994b93c88bd25e51c7ed58e11eb69f12}{%
+           family={Eck},
+           familyi={E\bibinitperiod},
+           given={Nees\bibnamedelima Jan},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{%
+           family={Waltman},
+           familyi={W\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{fullhash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{bibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorbibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authornamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorfullhash}{914f4b705c14de24c87ad45fb523d677}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Measuring Scholarly Impact}
+      \field{title}{Visualizing bibliometric networks}
+      \field{year}{2014}
+      \field{pages}{285\bibrangedash 320}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/978-3-319-10377-8_13
+      \endverb
+    \endentry
+    \entry{vanEck2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=994b93c88bd25e51c7ed58e11eb69f12}{%
+           family={Eck},
+           familyi={E\bibinitperiod},
+           given={Nees\bibnamedelima Jan},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=783af1eb97144feb275a9c50368af326}{%
+           family={Waltman},
+           familyi={W\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{fullhash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{bibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorbibnamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authornamehash}{914f4b705c14de24c87ad45fb523d677}
+      \strng{authorfullhash}{914f4b705c14de24c87ad45fb523d677}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientometrics}
+      \field{title}{Citation-based clustering of publications using {CitNetExplorer} and {VOSviewer}}
+      \field{year}{2017}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{1053\bibrangedash 1070}
+      \range{pages}{18}
+      \field{volume}{111}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/s11192-017-2300-7
+      \endverb
+    \endentry
+    \entry{Euler2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f2c915bc553005b94adae47d074d7230}{%
+           family={Euler},
+           familyi={E\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Gütersloh}%
+      }
+      \list{publisher}{1}{%
+        {Bertelsmann Stiftung}%
+      }
+      \strng{namehash}{f2c915bc553005b94adae47d074d7230}
+      \strng{fullhash}{f2c915bc553005b94adae47d074d7230}
+      \strng{bibnamehash}{f2c915bc553005b94adae47d074d7230}
+      \strng{authorbibnamehash}{f2c915bc553005b94adae47d074d7230}
+      \strng{authornamehash}{f2c915bc553005b94adae47d074d7230}
+      \strng{authorfullhash}{f2c915bc553005b94adae47d074d7230}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Germany's dual vocational training system: a model for other countries?}
+      \field{year}{2013}
+    \endentry
+    \entry{Blondel2008}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=7c4ebd50451e5b718eb3d5ad6cfbad71}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Vincent\bibnamedelima D.},
+           giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=6b6e1859f5b4504b6f852c6112880f18}{%
+           family={Guillaume},
+           familyi={G\bibinitperiod},
+           given={Jean-Loup},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=a0bc3d83c54bda6a078936b2d87d6c9f}{%
+           family={Lambiotte},
+           familyi={L\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod}}}%
+        {{hash=78c7291a964edd655c49fdec8099ab3e}{%
+           family={Lefebvre},
+           familyi={L\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{authornamehash}{9f3235a1f0c5640347922a746d86f9f3}
+      \strng{authorfullhash}{6ef1b75c96dd583dc19da75ac0cb7d23}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{title}{Fast unfolding of communities in large networks}
+      \field{year}{2008}
+      \field{number}{10}
+      \range{number}{1}
+      \field{pages}{P10008}
+      \range{pages}{-1}
+      \field{volume}{2008}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/2008/10/P10008
+      \endverb
+    \endentry
+    \entry{Callon1983}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=140e34346a8422446f6d52d48450a77e}{%
+           family={Callon},
+           familyi={C\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffcdac596af2faf947c79ba21fdf5339}{%
+           family={Courtial},
+           familyi={C\bibinitperiod},
+           given={Jean-Pierre},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=088dfd3c5aaa2611da0b47ea04af6620}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ed7a1ce2d9767961244e5a1677730c1}{%
+           family={Bauin},
+           familyi={B\bibinitperiod},
+           given={Serge},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{66f4e47f6c131d7f77a6bdadf7574e67}
+      \strng{authornamehash}{66f4e47f6c131d7f77a6bdadf7574e67}
+      \strng{authorfullhash}{680a219ff689f4e983b9caf65ed23966}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Science Information}
+      \field{title}{From translations to problematic networks: An introduction to co-word analysis}
+      \field{year}{1983}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{191\bibrangedash 235}
+      \range{pages}{45}
+      \field{volume}{22}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1177/053901883022002003
+      \endverb
+    \endentry
+    \entry{Hanushek2017}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=ab739a255c8b5c754c14f9fa8eefafdf}{%
+           family={Hanushek},
+           familyi={H\bibinitperiod},
+           given={Eric\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a2724bdbeb3f4a95a45ccaccc8df8df0}{%
+           family={Schwerdt},
+           familyi={S\bibinitperiod},
+           given={Guido},
+           giveni={G\bibinitperiod}}}%
+        {{hash=361a596c6528809c0f2d27d34ff3ec42}{%
+           family={Woessmann},
+           familyi={W\bibinitperiod},
+           given={Ludger},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f4a4cbf770add19c206827116c68732e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{41d13de65199d7cd3dd7066e5e463e2d}
+      \strng{authornamehash}{41d13de65199d7cd3dd7066e5e463e2d}
+      \strng{authorfullhash}{a9b8c97b8cc3dd61a20648d21afae98c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Human Resources}
+      \field{title}{General education, vocational education, and labor-market outcomes over the lifecycle}
+      \field{year}{2017}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{48\bibrangedash 87}
+      \range{pages}{40}
+      \field{volume}{52}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.3368/jhr.52.1.0415-7074R
+      \endverb
+    \endentry
+    \entry{Gonon2014}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=cdb73142b1c90046d7df57fb3e785e43}{%
+           family={Gonon},
+           familyi={G\bibinitperiod},
+           given={Philipp},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=65f3ddd8d319cfb21353ddd2d88a62e8}{%
+           family={Billett},
+           familyi={B\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0c5188e6b76c7d71c0fc7377fb617d68}{%
+           family={Harteis},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=70802614574383162dd9ed443f8c4968}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{fullhash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{bibnamehash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{authorbibnamehash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{authornamehash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{authorfullhash}{cdb73142b1c90046d7df57fb3e785e43}
+      \strng{editorbibnamehash}{875008e9b7bbe60ab0cd794da86308dc}
+      \strng{editornamehash}{875008e9b7bbe60ab0cd794da86308dc}
+      \strng{editorfullhash}{875008e9b7bbe60ab0cd794da86308dc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Handbook of Research in Professional and Practice-based Learning}
+      \field{title}{Development cooperation in the field of vocational education and training --- the dual system as a global role model?}
+      \field{year}{2014}
+      \field{pages}{1437\bibrangedash 1459}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1007/978-94-017-8902-8_53
+      \endverb
+    \endentry
+    \entry{Hagberg2008}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=94707ad079516150870c2f9a2932df46}{%
+           family={Hagberg},
+           familyi={H\bibinitperiod},
+           given={Aric\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=12f80aa3aca50b90f024775e52dde170}{%
+           family={Schult},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=58fb3a96810da0d56606677a3ce7e677}{%
+           family={Swart},
+           familyi={S\bibinitperiod},
+           given={Pieter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{fullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{bibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorbibnamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authornamehash}{3a1b2e51fcffd45628935c7b6334f944}
+      \strng{authorfullhash}{3a1b2e51fcffd45628935c7b6334f944}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 7th Python in Science Conference ({SciPy} 2008)}
+      \field{title}{Exploring network structure, dynamics, and function using {NetworkX}}
+      \field{year}{2008}
+      \field{pages}{11\bibrangedash 15}
+      \range{pages}{5}
+    \endentry
+    \entry{Donthu2021}{article}{useauthor=false}
+      \name{author}{5}{}{%
+        {{hash=f7fb182557d9cb1eae3c66ed8c84498f}{%
+           family={Donthu},
+           familyi={D\bibinitperiod},
+           given={Naveen},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8344c73f9bd0bc983573bb610dfa5ed2}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Satish},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a718a9df0b6eeece773e8c59ddc6cf71}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Debmalya},
+           giveni={D\bibinitperiod}}}%
+        {{hash=840fd2e37df9612ca42f23e35828cd7a}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={Nitesh},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2722a9383e31774f9486649ab02f2915}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Weng\bibnamedelima Marc},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{780a3ad7cf70970707f56529b056c080}
+      \strng{authornamehash}{780a3ad7cf70970707f56529b056c080}
+      \strng{authorfullhash}{ed192258e4b72e75cb04b20cdde2c4b5}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Business Research}
+      \field{title}{How to conduct a bibliometric analysis: An overview and guidelines}
+      \field{year}{2021}
+      \field{pages}{285\bibrangedash 296}
+      \range{pages}{12}
+      \field{volume}{133}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.jbusres.2021.04.070
+      \endverb
+    \endentry
+    \entry{Hubert1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d5d1d02dd8d174f83c61ea441c89cba6}{%
+           family={Hubert},
+           familyi={H\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=baebbb2356b9e79fc400b332e197f628}{%
+           family={Arabie},
+           familyi={A\bibinitperiod},
+           given={Phipps},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa62d725515e6d56c25bb670992fc030}
+      \strng{fullhash}{fa62d725515e6d56c25bb670992fc030}
+      \strng{bibnamehash}{fa62d725515e6d56c25bb670992fc030}
+      \strng{authorbibnamehash}{fa62d725515e6d56c25bb670992fc030}
+      \strng{authornamehash}{fa62d725515e6d56c25bb670992fc030}
+      \strng{authorfullhash}{fa62d725515e6d56c25bb670992fc030}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Classification}
+      \field{title}{Comparing partitions}
+      \field{year}{1985}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{193\bibrangedash 218}
+      \range{pages}{26}
+      \field{volume}{2}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1007/BF01908075
+      \endverb
+    \endentry
+    \entry{Hunter2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{title}{Matplotlib: A {2D} graphics environment}
+      \field{year}{2007}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \field{volume}{9}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1109/MCSE.2007.55
+      \endverb
+    \endentry
+    \entry{McKinney2010}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
+           family={McKinney},
+           familyi={M\bibinitperiod},
+           given={Wes},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{fullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{bibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorbibnamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authornamehash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \strng{authorfullhash}{27ca77940a5e8c07c5d89d0f3fb11d75}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 9th Python in Science Conference ({SciPy} 2010)}
+      \field{title}{Data structures for statistical computing in {Python}}
+      \field{year}{2010}
+      \field{pages}{56\bibrangedash 61}
+      \range{pages}{6}
+    \endentry
+    \entry{Mulder2014}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=ea287ec8643c6b561a9e6615d825e06f}{%
+           family={Mulder},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=65f3ddd8d319cfb21353ddd2d88a62e8}{%
+           family={Billett},
+           familyi={B\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0c5188e6b76c7d71c0fc7377fb617d68}{%
+           family={Harteis},
+           familyi={H\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=70802614574383162dd9ed443f8c4968}{%
+           family={Gruber},
+           familyi={G\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{fullhash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{bibnamehash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{authorbibnamehash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{authornamehash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{authorfullhash}{ea287ec8643c6b561a9e6615d825e06f}
+      \strng{editorbibnamehash}{875008e9b7bbe60ab0cd794da86308dc}
+      \strng{editornamehash}{875008e9b7bbe60ab0cd794da86308dc}
+      \strng{editorfullhash}{875008e9b7bbe60ab0cd794da86308dc}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Handbook of Research in Professional and Practice-based Learning}
+      \field{title}{Conceptions of professional competence}
+      \field{year}{2014}
+      \field{pages}{107\bibrangedash 137}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1007/978-94-017-8902-8_5
+      \endverb
+    \endentry
+    \entry{Newman2006}{article}{}
+      \name{author}{1}{}{%
+        {{hash=214f45e2823b5430ca6f11c0fb3b6552}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Mark\bibnamedelimb E.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \strng{fullhash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \strng{bibnamehash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \strng{authorbibnamehash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \strng{authornamehash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \strng{authorfullhash}{214f45e2823b5430ca6f11c0fb3b6552}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{title}{Modularity and community structure in networks}
+      \field{year}{2006}
+      \field{number}{23}
+      \range{number}{1}
+      \field{pages}{8577\bibrangedash 8582}
+      \range{pages}{6}
+      \field{volume}{103}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1073/pnas.0601602103
+      \endverb
+    \endentry
+    \entry{OECD2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bdbed435a416a918aa494017fda4c7fb}{%
+           family={{OECD}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
+      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{OECD Reviews of Vocational Education and Training}
+      \field{title}{Learning for Jobs}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1787/9789264087460-en
+      \endverb
+    \endentry
+    \entry{Pilz2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ff642326ed7be254f23aab2d0572dca9}{%
+           family={Pilz},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff642326ed7be254f23aab2d0572dca9}
+      \strng{fullhash}{ff642326ed7be254f23aab2d0572dca9}
+      \strng{bibnamehash}{ff642326ed7be254f23aab2d0572dca9}
+      \strng{authorbibnamehash}{ff642326ed7be254f23aab2d0572dca9}
+      \strng{authornamehash}{ff642326ed7be254f23aab2d0572dca9}
+      \strng{authorfullhash}{ff642326ed7be254f23aab2d0572dca9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vocational Education \& Training}
+      \field{title}{Policy borrowing in vocational education and training ({VET}) --- {B}ounds of transfer}
+      \field{year}{2017}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{222\bibrangedash 238}
+      \range{pages}{17}
+      \field{volume}{69}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1080/13636820.2017.1303785
+      \endverb
+    \endentry
+    \entry{Pritchard1969}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a74345ef6cbc69f28bba49baadde4285}{%
+           family={Pritchard},
+           familyi={P\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a74345ef6cbc69f28bba49baadde4285}
+      \strng{fullhash}{a74345ef6cbc69f28bba49baadde4285}
+      \strng{bibnamehash}{a74345ef6cbc69f28bba49baadde4285}
+      \strng{authorbibnamehash}{a74345ef6cbc69f28bba49baadde4285}
+      \strng{authornamehash}{a74345ef6cbc69f28bba49baadde4285}
+      \strng{authorfullhash}{a74345ef6cbc69f28bba49baadde4285}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Documentation}
+      \field{title}{Statistical bibliography or bibliometrics}
+      \field{year}{1969}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{348\bibrangedash 349}
+      \range{pages}{2}
+      \field{volume}{25}
+      \range{volume}{1}
+    \endentry
+    \entry{Rauner2008}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6dfaed1c80af502529de174b20ff3867}{%
+           family={Rauner},
+           familyi={R\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b9cd2a5aa47bcec079e0733cd6e65a2d}{%
+           family={Maclean},
+           familyi={M\bibinitperiod},
+           given={Rupert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Dordrecht}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c1107552f17cf40bbaa6a461021655d8}
+      \strng{fullhash}{c1107552f17cf40bbaa6a461021655d8}
+      \strng{bibnamehash}{c1107552f17cf40bbaa6a461021655d8}
+      \strng{authorbibnamehash}{c1107552f17cf40bbaa6a461021655d8}
+      \strng{authornamehash}{c1107552f17cf40bbaa6a461021655d8}
+      \strng{authorfullhash}{c1107552f17cf40bbaa6a461021655d8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Technical and Vocational Education and Training Research}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.1007/978-1-4020-8347-1
+      \endverb
+    \endentry
+    \entry{Ryan2001}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a6b15fb384812e5947b4f53868143bb6}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6b15fb384812e5947b4f53868143bb6}
+      \strng{fullhash}{a6b15fb384812e5947b4f53868143bb6}
+      \strng{bibnamehash}{a6b15fb384812e5947b4f53868143bb6}
+      \strng{authorbibnamehash}{a6b15fb384812e5947b4f53868143bb6}
+      \strng{authornamehash}{a6b15fb384812e5947b4f53868143bb6}
+      \strng{authorfullhash}{a6b15fb384812e5947b4f53868143bb6}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Economic Literature}
+      \field{title}{The school-to-work transition: a cross-national perspective}
+      \field{year}{2001}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{34\bibrangedash 92}
+      \range{pages}{59}
+      \field{volume}{39}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1257/jel.39.1.34
+      \endverb
+    \endentry
+    \entry{Cobo2011}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=b283eef71843b456698ed6a2ce325327}{%
+           family={Cobo},
+           familyi={C\bibinitperiod},
+           given={Manuel\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=b25d1d8c77d931fd5d2a715fa4c2c0ff}{%
+           family={López-Herrera},
+           familyi={L\bibinithyphendelim H\bibinitperiod},
+           given={Antonio\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=dbe83c77d4d1617e41f3bf6ca6b4a24a}{%
+           family={Herrera-Viedma},
+           familyi={H\bibinithyphendelim V\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=9f81f46436ba77791311a5db20ff5c25}{%
+           family={Herrera},
+           familyi={H\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{cc2b691a330340d9f99569560dff4d7b}
+      \strng{authornamehash}{cc2b691a330340d9f99569560dff4d7b}
+      \strng{authorfullhash}{b0f1e633eac21a0766c7dd89ce51697a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Society for Information Science and Technology}
+      \field{title}{Science mapping software tools: Review, analysis, and cooperative study among tools}
+      \field{year}{2011}
+      \field{number}{7}
+      \range{number}{1}
+      \field{pages}{1382\bibrangedash 1402}
+      \range{pages}{21}
+      \field{volume}{62}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1002/asi.21525
+      \endverb
+    \endentry
+    \entry{Pedregosa2011}{article}{useauthor=false}
+      \name{author}{16}{}{%
+        {{hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=cfa3239dded54488f9a82a5718d5b927}{%
+           family={Varoquaux},
+           familyi={V\bibinitperiod},
+           given={Gaël},
+           giveni={G\bibinitperiod}}}%
+        {{hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=504ea1986689f1047a6f0beda2cb3822}{%
+           family={Michel},
+           familyi={M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0f3fc06fb9fcbb01b9cc0985eaf0a71c}{%
+           family={Thirion},
+           familyi={T\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod}}}%
+        {{hash=721be0317527f44db425f7a97dcab15e}{%
+           family={Grisel},
+           familyi={G\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d3b6c8582cea4e8b6576137b6a72cadc}{%
+           family={Blondel},
+           familyi={B\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=86e647e5c801f3ce733927f75f029463}{%
+           family={Prettenhofer},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=89d698773eaf2fae761ff0008031c7be}{%
+           family={Weiss},
+           familyi={W\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b255e99d411f28c789a231829f765c64}{%
+           family={Dubourg},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a08a00cf90823600b731a138afc28949}{%
+           family={Vanderplas},
+           familyi={V\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod}}}%
+        {{hash=afb9a37bec11b531f1f0f33793a7f1fe}{%
+           family={Passos},
+           familyi={P\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=281ac3097ec8447c2d26e9f3cfde6082}{%
+           family={Brucher},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23403cde972dddbdb48efe2bcc07dc3c}{%
+           family={Perrot},
+           familyi={P\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2f7a458c7c1f0d13cbcaad5c415ad54}{%
+           family={Duchesnay},
+           familyi={D\bibinitperiod},
+           given={Édouard},
+           giveni={É\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authornamehash}{9ec95d747bac3417f92265a9a44f8bb4}
+      \strng{authorfullhash}{490c08d091505100c571bcba89f8c65d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Scikit-learn: Machine learning in {Python}}
+      \field{year}{2011}
+      \field{pages}{2825\bibrangedash 2830}
+      \range{pages}{6}
+      \field{volume}{12}
+      \range{volume}{1}
+    \endentry
+    \entry{Small1973}{article}{}
+      \name{author}{1}{}{%
+        {{hash=22447fb9ce52d44b5bcb3b3fdfc2e72f}{%
+           family={Small},
+           familyi={S\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \strng{fullhash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \strng{bibnamehash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \strng{authorbibnamehash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \strng{authornamehash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \strng{authorfullhash}{22447fb9ce52d44b5bcb3b3fdfc2e72f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Society for Information Science}
+      \field{title}{Co-citation in the scientific literature: A new measure of the relationship between two documents}
+      \field{year}{1973}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{265\bibrangedash 269}
+      \range{pages}{5}
+      \field{volume}{24}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1002/asi.4630240406
+      \endverb
+    \endentry
+    \entry{Tynjala2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12c1ca710ac3384f6d46afedd2043c00}{%
+           family={Tynjälä},
+           familyi={T\bibinitperiod},
+           given={Päivi},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{12c1ca710ac3384f6d46afedd2043c00}
+      \strng{fullhash}{12c1ca710ac3384f6d46afedd2043c00}
+      \strng{bibnamehash}{12c1ca710ac3384f6d46afedd2043c00}
+      \strng{authorbibnamehash}{12c1ca710ac3384f6d46afedd2043c00}
+      \strng{authornamehash}{12c1ca710ac3384f6d46afedd2043c00}
+      \strng{authorfullhash}{12c1ca710ac3384f6d46afedd2043c00}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Research Review}
+      \field{title}{Perspectives into learning at the workplace}
+      \field{year}{2008}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{130\bibrangedash 154}
+      \range{pages}{25}
+      \field{volume}{3}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.edurev.2007.12.001
+      \endverb
+    \endentry
+    \entry{UNEScounevoc2013}{report}{}
+      \name{author}{1}{}{%
+        {{hash=90ca80dd08e838395a95f75bbd4924cb}{%
+           family={{UNESCO-UNEVOC}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{3}{%
+        {UNESCO-UNEVOC International Centre for Technical}%
+        {Vocational Education}%
+        {Training}%
+      }
+      \list{location}{1}{%
+        {Bonn}%
+      }
+      \strng{namehash}{90ca80dd08e838395a95f75bbd4924cb}
+      \strng{fullhash}{90ca80dd08e838395a95f75bbd4924cb}
+      \strng{bibnamehash}{90ca80dd08e838395a95f75bbd4924cb}
+      \strng{authorbibnamehash}{90ca80dd08e838395a95f75bbd4924cb}
+      \strng{authornamehash}{90ca80dd08e838395a95f75bbd4924cb}
+      \strng{authorfullhash}{90ca80dd08e838395a95f75bbd4924cb}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revisiting global trends in {TVET}: Reflections on theory and practice}
+      \field{type}{techreport}
+      \field{year}{2013}
+    \endentry
+    \entry{AkademichnaDobrochesnist2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4b51e056c660afdb794244f4e28580fc}{%
+           family={{Verkhovna Rada of Ukraine}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b51e056c660afdb794244f4e28580fc}
+      \strng{fullhash}{4b51e056c660afdb794244f4e28580fc}
+      \strng{bibnamehash}{4b51e056c660afdb794244f4e28580fc}
+      \strng{authorbibnamehash}{4b51e056c660afdb794244f4e28580fc}
+      \strng{authornamehash}{4b51e056c660afdb794244f4e28580fc}
+      \strng{authorfullhash}{4b51e056c660afdb794244f4e28580fc}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Law of Ukraine No. 4742-IX}
+      \field{note}{Enacted 19 August 2024; effective 1 February 2026}
+      \field{title}{Pro akademichnu dobrochesnist [On Academic Integrity]}
+      \field{year}{2024}
+    \endentry
+    \entry{Waltman2010}{article}{}
+      \name{author}{3}{}{%
+        {{hash=783af1eb97144feb275a9c50368af326}{%
+           family={Waltman},
+           familyi={W\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=994b93c88bd25e51c7ed58e11eb69f12}{%
+           family={Eck},
+           familyi={E\bibinitperiod},
+           given={Nees\bibnamedelima Jan},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=739d2b788560fa29ac42f8776194c15d}{%
+           family={Noyons},
+           familyi={N\bibinitperiod},
+           given={Ed\bibnamedelima C.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \strng{fullhash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \strng{bibnamehash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \strng{authorbibnamehash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \strng{authornamehash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \strng{authorfullhash}{ecfbd6d2650a466605f95ed26b2485a5}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Informetrics}
+      \field{title}{A unified approach to mapping and clustering of bibliometric networks}
+      \field{year}{2010}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{629\bibrangedash 635}
+      \range{pages}{7}
+      \field{volume}{4}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1016/j.joi.2010.07.002
+      \endverb
+    \endentry
+    \entry{Birkle2020}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=b4cc5d329b701f249d7ced1442b10d1b}{%
+           family={Birkle},
+           familyi={B\bibinitperiod},
+           given={Caroline},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bf634556b0356609f9c854a9641748bb}{%
+           family={Pendlebury},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=aa2d27ecb231d19d8afc4464efd74742}{%
+           family={Schnell},
+           familyi={S\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0ceea111e5b829a03bbfa0c8a6ec3b3d}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{2154b52df63d89c7ea740e76b93da046}
+      \strng{authornamehash}{2154b52df63d89c7ea740e76b93da046}
+      \strng{authorfullhash}{16c4a599582ff146caa0c010115d1a70}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quantitative Science Studies}
+      \field{title}{{Web of Science} as a data source for research on scientific and scholarly activity}
+      \field{year}{2020}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{363\bibrangedash 376}
+      \range{pages}{14}
+      \field{volume}{1}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1162/qss_a_00018
+      \endverb
+    \endentry
+    \entry{Wheelahan2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d5b6a8c4fb74d98f32b8961255e517a3}{%
+           family={Wheelahan},
+           familyi={W\bibinitperiod},
+           given={Leesa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \strng{fullhash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \strng{bibnamehash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \strng{authorbibnamehash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \strng{authornamehash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \strng{authorfullhash}{d5b6a8c4fb74d98f32b8961255e517a3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Knowledge Matters in Curriculum: A Social Realist Argument}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.4324/9780203860236
+      \endverb
+    \endentry
+    \entry{Winch2010}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f87c205f0dcf4e92adea32fc10a4bb78}{%
+           family={Winch},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Continuum}%
+      }
+      \strng{namehash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \strng{fullhash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \strng{bibnamehash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \strng{authorbibnamehash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \strng{authornamehash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \strng{authorfullhash}{f87c205f0dcf4e92adea32fc10a4bb78}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dimensions of Expertise: A Conceptual Exploration of Vocational Knowledge}
+      \field{year}{2010}
+    \endentry
+    \entry{Zupic2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=7dbcfeee0b81d5e3aa705b93a31ccbce}{%
+           family={Zupic},
+           familyi={Z\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=667ba2c51fea026f0a8a69ae9fcfc61e}{%
+           family={Čater},
+           familyi={Č\bibinitperiod},
+           given={Tomaž},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{63388be997af686f38608980fe092b62}
+      \strng{fullhash}{63388be997af686f38608980fe092b62}
+      \strng{bibnamehash}{63388be997af686f38608980fe092b62}
+      \strng{authorbibnamehash}{63388be997af686f38608980fe092b62}
+      \strng{authornamehash}{63388be997af686f38608980fe092b62}
+      \strng{authorfullhash}{63388be997af686f38608980fe092b62}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organizational Research Methods}
+      \field{title}{Bibliometric methods in management and organization}
+      \field{year}{2015}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{429\bibrangedash 472}
+      \range{pages}{44}
+      \field{volume}{18}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1177/1094428114562629
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

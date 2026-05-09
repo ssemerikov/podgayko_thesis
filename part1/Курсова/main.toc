@@ -1,0 +1,48 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ukrainian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ВСТУП}{3}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.}\MakeUppercase {Методика дослідження}}{5}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.}Стратегія пошуку та формування вибірки}{5}{subsection.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.}Аналіз засобами VOSViewer}{6}{subsection.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.}Аналітична система Python}{7}{subsection.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.4.}Використання генеративного штучного інтелекту}{8}{subsection.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.}\MakeUppercase {Результати бібліометричного аналізу}}{10}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.}Описова статистика вибірки}{10}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.}Аналіз мережі ключових слів VOSViewer}{11}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.}Мережеві візуалізації}{17}{subsection.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.}\MakeUppercase {Порівняльний аналіз результатів}}{21}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.}Відтворення текстового аналізу}{21}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.}Порівняння ко-входжень та Total Link Strength}{21}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.}Порівняння кластеризації}{22}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.}Порівняння мережевих візуалізацій}{22}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.}Підсумок порівняння}{25}{subsection.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ВИСНОВКИ}{29}{section*.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{31}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{ДОДАТКИ}{35}{section*.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRA .}Матриця ко-входжень ключових слів}{35}{appendix.Alph1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRB .}Повна таблиця порівняння метрик}{37}{appendix.Alph2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRV .}Опис кластерів VOSViewer}{39}{appendix.Alph3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRG .}Декларація про використання генеративного ШІ}{40}{appendix.Alph4}%

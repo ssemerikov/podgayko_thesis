@@ -1,0 +1,137 @@
+\documentclass[a4paper,14pt]{extarticle}
+
+\usepackage{setup}
+
+
+\usepackage[
+sorting=abyrvalg,
+%sorting=none,
+style=gost-numeric, 
+%style=chicago-authordate, 
+language=auto, 
+autolang=other,
+backend=biber]{biblatex}
+\DeclareSortingTemplate{abyrvalg}{
+	\sort{
+		\field{presort}
+	}
+	\sort[final]{
+		\field{sortkey}
+	}
+	\sort{
+		\field{sortname}
+		\field{author}
+		\field{editor}
+		%\field{translator}
+		\field{sorttitle}
+		\field{title}
+		\field{journaltitle}
+	}
+	\sort{
+		\field{sortyear}
+		\field{year}
+	}
+	\sort{
+		\field{sorttitle}
+		\field{author}
+		\field{editor}
+		\field{title}
+		\field{booktitle}
+		\field{journaltitle}
+	}
+%	\sort{
+%		\field{volume}
+%	}
+%	\sort{
+%		\field{number}
+%	}       
+%	\sort{
+%		\field{pages}
+%	}
+}
+
+\usepackage{totcount}
+\usepackage[figure,table]{totalcount}
+\newtotcounter{citenum}
+\AtEveryBibitem{\stepcounter{citenum}}
+
+
+\addbibresource{scopus.bib}
+\addbibresource{capstone.bib}
+
+\usepackage{totcount}
+
+
+\newcommand*{\citet}[1]{\citeauthor{#1}~\cite{#1}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,chains}
+
+\pgfplotsset{compat=1.18}
+
+\usepackage{hyperref} 
+\hypersetup{hidelinks}
+
+\usepackage[normalem]{ulem}
+
+
+\begin{document}
+
+% \input{chapters/printpratsi}
+
+\input{chapters/title-page}
+\clearpage
+
+\input{chapters/summary}
+\clearpage
+
+% \input{chapters/swear}
+% \clearpage
+
+\renewcommand{\contentsname}{\hspace*{\fill}\bfseries\Large ЗМІСТ\hspace*{\fill}}   
+
+
+\tableofcontents
+
+\clearpage
+
+
+\input{chapters/vstup}
+
+\clearpage
+
+\input{chapters/chapter1}
+% \input{chapters/chapter1.2}
+% \input{chapters/chapter1.3}
+% \input{chapters/chapter1.c}
+
+\clearpage
+
+\input{chapters/chapter2}
+
+\clearpage
+
+\input{chapters/chapter3}
+
+\clearpage
+
+\input{chapters/vysnovky}
+
+ \clearpage
+% \printbibliography[heading=bibintoc,title={СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}]
+
+% \addcontentsline{toc}{section}{СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}
+% \section*{СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}
+% % \begin{otherlanguage}{english}
+%     \printbibliography[heading=none]
+% % \end{otherlanguage}
+
+\printbibliography[heading=bibintoc,title={\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}]
+
+
+\clearpage
+\input{chapters/appendix}
+
+\label{last_page}
+
+\end{document}

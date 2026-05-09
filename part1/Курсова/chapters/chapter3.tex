@@ -1,0 +1,117 @@
+\section{\MakeUppercase{Порівняльний аналіз результатів}}
+\label{sec:chapter3}
+
+\subsection{Відтворення текстового аналізу}
+\label{sec:text_mining}
+
+Для відтворення текстового аналізу VOSViewer засобами Python було реалізовано алгоритм, описаний у підрозділі~\ref{sec:python_system}: токенізація абстрактів та заголовків, бінарний підрахунок термінів, фільтрація за порогом $\geq$100, застосування тезаурусу для об'єднання синонімів та морфологічних варіантів.
+
+Порівняння частот входжень 28 ключових слів показало високу кореляцію між результатами VOSViewer та Python: коефіцієнт Пірсона $r = 0{,}923$ ($p < 0{,}001$). Відмінності в абсолютних значеннях пояснюються тим, що VOSViewer аналізував 1000 записів (файл \texttt{savedrecs.txt}), тоді як Python --- 1998 записів (\texttt{merged\_data.txt}), а також можливими розбіжностями в алгоритмах токенізації та обробки n-грам (наприклад, <<higher education>> як один термін).
+
+Критичним фактором підвищення кореляції стало розширення тезаурусу: додавання морфологічних варіантів (skills$\to$skill, teaching$\to$teacher, students$\to$student, training$\to$training тощо) підвищило коефіцієнт кореляції з $r = 0{,}90$ до $r = 0{,}923$.
+
+\subsection{Порівняння ко-входжень та Total Link Strength}
+\label{sec:cooccurrence}
+
+Матрицю ко-входжень побудовано для 28 ключових слів: елемент $c_{ij}$ дорівнює кількості документів, у яких одночасно зустрічаються терміни $i$ та $j$. Повна матриця наведена в Додатку~А. Мережа виявилась майже повністю зв'язною: 378 із 378 можливих пар мають ненульові ко-входження, що характерно для семантично однорідного дослідницького поля.
+
+Total Link Strength (TLS) --- сума ко-входжень терміна з усіма іншими термінами --- є ключовою мережевою метрикою VOSViewer. Порівняння значень TLS показало високу кореляцію: $r = 0{,}919$ ($p < 0{,}001$). Різниця в абсолютних значеннях (Python-значення систематично нижчі) пояснюється різним обсягом вибірок, але ранговий порядок термінів за TLS зберігається: \textit{vet}, \textit{study}, \textit{student}, \textit{training}, \textit{teacher} --- п'ять найцентральніших термінів в обох аналізах.
+
+\subsection{Порівняння кластеризації}
+\label{sec:clustering}
+
+Для кластеризації мережі ключових слів у Python використано алгоритм Лувена~\cite{Blondel2008}, що максимізує модулярність мережі~\cite{Newman2006}, з перебором параметра resolution від 0,5 до 2,0 з кроком 0,1. Оптимальна кількість кластерів оцінювалась за метриками ARI (Adjusted Rand Index)~\cite{Hubert1985} та NMI (Normalized Mutual Information) порівняно з 4-кластерним розбиттям VOSViewer.
+
+Результати показали, що найкращу відповідність забезпечує розбиття на 3 кластери (ARI\,=\,0,47; NMI\,=\,0,61). При спробі отримати 4 кластери метрики знижуються (ARI\,=\,0,30--0,35), що пояснюється злиттям кластерів~3 (Педагогічна практика) та 4 (Когнітивні результати) VOSViewer в один кластер Python. Це зумовлено майже повною зв'язністю мережі (378/378 пар), що ускладнює виявлення тонких структурних відмінностей алгоритмом Лувена.
+
+Порівняння кластерної належності (рис.~\ref{fig:cluster_comparison}) демонструє, що:
+\begin{itemize}
+    \item Кластер~1 (Системи та політика ПТО) відтворюється найточніше: 9 з 11 термінів збігаються.
+    \item Кластер~2 (Результати навчання) також відтворюється добре: 7 з 8 термінів збігаються. Термін \textit{vet} у Python потрапляє до цього кластера замість кластера~1.
+    \item Кластери~3 і 4 VOSViewer об'єднуються в один кластер Python, що включає всі 9 термінів (6 з кластера~3 та 3 з кластера~4).
+\end{itemize}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{media/fig_cluster_comparison.png}
+    \caption{Порівняння кластерів Python та VOSViewer.}
+    \label{fig:cluster_comparison}
+\end{figure}
+
+\subsection{Порівняння мережевих візуалізацій}
+\label{sec:network_comparison}
+
+Мережу ключових слів побудовано в Python за допомогою бібліотеки NetworkX~\cite{Hagberg2008} із використанням алгоритму spring layout (Fruchterman--Reingold) для автоматичного розташування вузлів (рис.~\ref{fig:network_python}).
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{media/fig_network_python.png}
+    \caption{Мережа ключових слів, побудована засобами Python (spring layout).}
+    \label{fig:network_python}
+\end{figure}
+
+Порівняння мережевих візуалізацій <<пліч-о-пліч>> (рис.~\ref{fig:network_comparison}) показує, що загальна топологія мережі зберігається: центральне положення термінів \textit{vet}, \textit{training}, \textit{student}, \textit{study}; периферійне розташування термінів \textit{germany}, \textit{order}, \textit{company}. Відмінності полягають у точному просторовому розташуванні вузлів, що зумовлено різними алгоритмами (VOS у VOSViewer vs.\ Fruchterman--Reingold у NetworkX).
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{media/fig_network_comparison.png}
+    \caption{Порівняння мережевих візуалізацій VOSViewer та Python.}
+    \label{fig:network_comparison}
+\end{figure}
+
+Накладна карта нормалізованої цитованості (рис.~\ref{fig:overlay_norm_citations}) дозволяє оцінити відносний науковий вплив термінів з урахуванням року публікації. Порівняння з відповідною картою VOSViewer показало кореляцію $r = 0{,}79$.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{media/fig_overlay_norm_citations.png}
+    \caption{Карта нормалізованої цитованості ключових слів (Python).}
+    \label{fig:overlay_norm_citations}
+\end{figure}
+
+\subsection{Підсумок порівняння}
+\label{sec:comparison_summary}
+
+Зведені результати порівняння метрик VOSViewer та Python для всіх 28 ключових слів наведено в табл.~\ref{tab:comparison}.
+
+\begin{table}[htbp]
+\centering
+\caption{Порівняння метрик VOSViewer та Python.}
+\label{tab:comparison}
+\scriptsize
+\input{media/table_comparison.tex}
+\end{table}
+
+Підсумок кореляцій між результатами VOSViewer та Python (табл.~\ref{tab:correlations}) свідчить про високий рівень відтворюваності для кількісних метрик та помірну відповідність для кластеризації.
+
+\begin{table}[htbp]
+\centering
+\caption{Зведена таблиця кореляцій VOSViewer -- Python.}
+\label{tab:correlations}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Метрика} & \textbf{Значення} \\
+\hline
+Частоти входжень (Pearson $r$) & 0,923 \\
+\hline
+Total Link Strength (Pearson $r$) & 0,919 \\
+\hline
+Середній рік публікації (Pearson $r$) & 0,74 \\
+\hline
+Середня цитованість (Pearson $r$) & 0,74 \\
+\hline
+Середня норм. цитованість (Pearson $r$) & 0,79 \\
+\hline
+Кластеризація (ARI) & 0,47 \\
+\hline
+Кластеризація (NMI) & 0,61 \\
+\hline
+\end{tabular}
+\end{table}
+
+Таким чином, аналітична система Python успішно відтворює основні результати VOSViewer для кількісних метрик (кореляції $r > 0{,}9$ для частот та TLS), але має обмеження у точності кластеризації. Головні причини розбіжностей:
+\begin{enumerate}
+    \item \textbf{Різний обсяг вибірок:} VOSViewer --- 1000 записів, Python --- 1998 записів.
+    \item \textbf{Майже повна зв'язність мережі:} 378 із 378 пар мають ненульові ко-входження, що ускладнює виявлення кластерної структури.
+    \item \textbf{Різні алгоритми кластеризації:} VOSViewer використовує власну модифікацію алгоритму Лувена з функцією модулярності~\cite{Waltman2010}, яка відрізняється від стандартної реалізації python-louvain.
+    \item \textbf{Семантична близькість кластерів~3 та 4:} терміни <<Педагогічної практики>> та <<Когнітивних результатів>> мають сильні взаємні зв'язки, що призводить до їх злиття при автоматичній кластеризації.
+\end{enumerate}
