@@ -1,0 +1,161 @@
+\documentclass[a4paper,14pt]{extarticle}
+\usepackage{soul}
+
+\usepackage{setup}
+
+\usepackage[T2A]{fontenc} % додав, що застосовувати правильні лапки
+\usepackage[utf8]{inputenc} % додав, що застосовувати правильні лапки
+\usepackage[ukrainian]{babel} % додав, що застосовувати правильні лапки
+
+
+
+\usepackage[
+sorting=abyrvalg,
+%sorting=none,
+style=gost-numeric, 
+%style=chicago-authordate, 
+language=auto, 
+autolang=other,
+backend=biber]{biblatex}
+\DeclareSortingTemplate{abyrvalg}{
+	\sort{
+		\field{presort}
+	}
+	\sort[final]{
+		\field{sortkey}
+	}
+	\sort{
+		\field{sortname}
+		\field{author}
+		\field{editor}
+		%\field{translator}
+		\field{sorttitle}
+		\field{title}
+		\field{journaltitle}
+	}
+	\sort{
+		\field{sortyear}
+		\field{year}
+	}
+	\sort{
+		\field{sorttitle}
+		\field{author}
+		\field{editor}
+		\field{title}
+		\field{booktitle}
+		\field{journaltitle}
+	}
+%	\sort{
+%		\field{volume}
+%	}
+%	\sort{
+%		\field{number}
+%	}       
+%	\sort{
+%		\field{pages}
+%	}
+}
+
+\usepackage{totcount}
+\usepackage[figure,table]{totalcount}
+\usepackage{longtable}
+\usepackage{caption}
+\captionsetup[longtable]{justification=centering}
+
+\newtotcounter{citenum}
+\AtEveryBibitem{\stepcounter{citenum}}
+
+
+\addbibresource{mybibfile.bib}
+% \addbibresource{scopus.bib}
+
+
+\usepackage{totcount}
+
+
+\newcommand*{\citet}[1]{\citeauthor{#1}~\cite{#1}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,chains}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning}
+\usetikzlibrary{shapes,arrows,positioning,shadows,decorations.pathmorphing}
+
+
+\usepackage[table]{xcolor} % Для кольорових комірок
+\usepackage{array} % Для гнучких колонок p{}
+\usepackage{enumitem} % Для налаштування списків
+\usepackage{booktabs} % Для кращих горизонтальних ліній (альтернатива \hline)
+\usepackage{etoolbox} % Обов'язково для цього методу (назва ДОДАТОК)
+
+\usepackage{listings}
+%\usepackage[title]{appendix}
+
+
+\pgfplotsset{compat=1.18}
+
+
+\begin{document}
+
+% \input{chapters/printpratsi}
+
+\input{chapters/title-page}
+\clearpage
+% \input{chapters/summary}
+% \clearpage
+
+\input{chapters/swear}
+\clearpage
+
+\renewcommand{\contentsname}{\hspace*{\fill}\bfseries\Large ЗМІСТ\hspace*{\fill}}   
+
+
+\tableofcontents
+\clearpage
+
+
+\input{chapters/vstup}
+\clearpage
+
+\input{chapters/chapter1}
+\clearpage
+
+\input{chapters/chapter2}
+\clearpage
+
+%\input{chapters/chapter3}
+%\clearpage
+% \input{chapters/chapter1.c}
+% \clearpage
+
+% \input{chapters/chapter2}
+
+% \clearpage
+
+% \input{chapters/chapter3}
+
+% \clearpage
+
+\input{chapters/vysnovky}
+
+\clearpage
+
+
+%\printbibliography[heading=bibintoc,title={СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}]
+
+%\addcontentsline{toc}{section}{СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}
+%\section*{СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}
+%\begin{otherlanguage}{english}
+%%\printbibliography[heading=none]
+%\end{otherlanguage}
+
+
+\printbibliography[heading=bibintoc,title={\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}]
+
+\clearpage
+
+\input{chapters/appendix}
+
+\label{last_page}
+
+
+\end{document}

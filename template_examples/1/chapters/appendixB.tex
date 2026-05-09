@@ -1,0 +1,534 @@
+
+%\addcontentsline{toc}{section}{Б.\,Дидактичні матеріали до практичної роботи №2}
+
+% \addtocontents{toc}{\protect\setcounter{tocdepth}{-1}}
+
+
+\section {\centering Дидактичні матеріали до практичної роботи №2}
+
+% Налаштування для коду Python
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    commentstyle=\color{gray},
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{white},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    rulecolor=\color{black},
+    tabsize=4,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=false,
+    escapeinside={(*@}{@*)},
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={а}{{\cyra}}1 {б}{{\cyrb}}1 {в}{{\cyrv}}1 {г}{{\cyrg}}1 {д}{{\cyrd}}1
+             {е}{{\cyre}}1 {є}{{\cyrie}}1 {ж}{{\cyrzh}}1 {з}{{\cyrz}}1 {и}{{\cyri}}1
+             {і}{{\cyrii}}1 {ї}{{\cyryi}}1 {й}{{\cyrishrt}}1 {к}{{\cyrk}}1 {л}{{\cyrl}}1
+             {м}{{\cyrm}}1 {н}{{\cyrn}}1 {о}{{\cyro}}1 {п}{{\cyrp}}1 {р}{{\cyrr}}1
+             {с}{{\cyrs}}1 {т}{{\cyrt}}1 {у}{{\cyru}}1 {ф}{{\cyrf}}1 {х}{{\cyrh}}1
+             {ц}{{\cyrc}}1 {ч}{{\cyrch}}1 {ш}{{\cyrsh}}1 {щ}{{\cyrshch}}1 {ь}{{\cyrsftsn}}1
+             {ю}{{\cyryu}}1 {я}{{\cyrya}}1
+}
+
+
+
+\section*{\centering Академічний напрямок}
+
+\subsection*{\centering ЛАБОРАТОРНИЙ ЖУРНАЛ\\Дослідження криптографічних алгоритмів}
+
+\noindent
+\textbf{ПІБ учня:} \rule{6cm}{0.5pt}\\
+\textbf{Дата проведення:} \rule{5cm}{0.5pt}\\
+\textbf{Обрані інструменти:} \rule{5cm}{0.5pt}
+
+\subsubsection*{Експеримент 1. Порівняння хеш-функцій}
+
+\noindent
+\textbf{Вхідні дані:} \rule{10cm}{0.5pt}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{5cm}|p{2cm}|p{1.5cm}|p{2.5cm}|}
+\hline
+\textbf{Алгоритм} & \textbf{Результат хешування} & \textbf{Довжина (біт)} & \textbf{Час виконання (мс)} & \textbf{Примітки} \\
+\hline
+MD5 & & 128 & & \\
+\hline
+SHA-1 & & 160 & & \\
+\hline
+SHA-256 & & 256 & & \\
+\hline
+\end{tabular}
+\end{table}
+
+\noindent
+\textbf{Спостереження:} \rule{12cm}{0.5pt}\\
+\rule{16cm}{0.5pt}\\
+\rule{16cm}{0.5pt}\\
+\rule{16cm}{0.5pt}
+
+\subsubsection*{Експеримент 2. Лавинний ефект}
+
+\noindent
+\textbf{Оригінальний текст:} \rule{6cm}{0.5pt}\\
+\textbf{Модифікований текст (зміна 1 символу):} \rule{6cm}{0.5pt}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|p{3cm}|p{3cm}|c|}
+\hline
+\textbf{Алгоритм} & \textbf{Хеш оригіналу} & \textbf{Хеш модифікованого} & \textbf{Змінених біт (\%)} \\
+\hline
+MD5 & & & \\
+\hline
+SHA-256 & & & \\
+\hline
+\end{tabular}
+\end{table}
+
+\noindent
+\textbf{Висновок про лавинний ефект:} \rule{10cm}{0.5pt}\\
+\rule{15cm}{0.5pt}
+
+\subsubsection*{Експеримент 3. Криптоаналіз (для достатнього рівня)}
+
+\textbf{Тестові хеші для злому:}
+\begin{enumerate}
+    \item 5f4dcc3b5aa765d61d8327deb882cf99 (MD5)
+    \item 25d55ad283aa400af464c76d713c07ad (MD5)
+    \item 827ccb0eea8a706c4c34a16891f84e7b (MD5)
+\end{enumerate}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|l|l|c|}
+\hline
+\textbf{Хеш} & \textbf{Знайдений пароль} & \textbf{Метод злому} & \textbf{Час на злом} \\
+\hline
+1 & & & \\
+\hline
+2 & & & \\
+\hline
+3 & & & \\
+\hline
+\end{tabular}
+\end{table}
+
+\noindent
+\textbf{Рекомендації щодо захисту паролів:} \rule{9cm}{0.5pt}\\
+\rule{15cm}{0.5pt}
+
+\subsubsection*{Експеримент 4. Частотний аналіз шифру Цезаря}
+
+\noindent
+\textbf{Зашифроване повідомлення:} \rule{10cm}{0.5pt}\\
+\rule{15cm}{0.5pt}
+
+\textbf{Частотна таблиця символів:}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Символ} & \textbf{Кількість} & \textbf{Частота (\%)} & \textbf{Ймовірна заміна} \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+ & & & \\
+\hline
+\end{tabular}
+\end{table}
+
+\noindent
+\textbf{Визначений зсув:} \rule{2cm}{0.5pt}\\
+\textbf{Розшифроване повідомлення:} \rule{9cm}{0.5pt}\\
+\rule{15cm}{0.5pt}
+
+\subsubsection*{Загальні висновки з лабораторної роботи:}
+\begin{enumerate}
+    \item \textbf{Порівняння стійкості алгоритмів:} \rule{8cm}{0.5pt}
+    \item \textbf{Практична небезпека слабких паролів:} \rule{7cm}{0.5pt}
+    \item \textbf{Рекомендації для закладу освіти:} \rule{7.5cm}{0.5pt}
+\end{enumerate}
+
+\newpage
+\section*{\centering Технічний напрямок}
+
+\subsection*{Шаблон 1. Базове шифрування файлів (Python)}
+
+\begin{lstlisting}[caption={Шаблон для симетричного шифрування файлів}]
+----
+шаблон для симетричного шифрування файлів
+використовує бібліотеку cryptography
+----
+
+from cryptography.hazmat.primitives import hashes
+from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.backends import default_backend
+import os
+
+def generate_key_from_password(password: str, salt: bytes) -> bytes:
+    """
+    генерує криптографічний ключ з пароля
+    
+    параметри:
+    - password: пароль користувача
+    - salt: випадкова сіль для унікальності ключа
+    
+    повертає: 32-байтний ключ для AES-256
+    """
+    # TODO: використати PBKDF2 для генерації ключа
+    # підказка: iterations=100000, length=32
+    kdf = PBKDF2(
+        algorithm=hashes.SHA256(),
+        length=32,
+        salt=salt,
+        iterations=100000,
+        backend=default_backend()
+    )
+    key = # ваш код тут
+    return key
+
+def encrypt_file(input_file: str, output_file: str, password: str):
+    """
+    шифрує файл за допомогою AES в режимі CBC
+    
+    параметри:
+    - input_file: шлях до вихідного файлу
+    - output_file: шлях для збереження зашифрованого файлу
+    - password: пароль для шифрування
+    """
+    # генеруємо випадкову сіль та вектор ініціалізації
+    salt = os.urandom(16)  # 16 байт випадкових даних
+    iv = os.urandom(16)    # вектор ініціалізації для CBC
+    
+    # генеруємо ключ з пароля
+    key = generate_key_from_password(password, salt)
+    
+    # читаємо дані з файлу
+    with open(input_file, 'rb') as f:
+        plaintext = f.read()
+    
+    # додаємо padding до даних (AES вимагає блоки по 16 байт)
+    padding_length = 16 - (len(plaintext) % 16)
+    padded_data = plaintext + bytes([padding_length] * padding_length)
+    
+    # TODO: створити об'єкт Cipher з AES та режимом CBC
+    cipher = # ваш код тут
+    encryptor = cipher.encryptor()
+    
+    # шифруємо дані
+    ciphertext = # ваш код тут
+    
+    # зберігаємо зашифровані дані разом з salt та IV
+    with open(output_file, 'wb') as f:
+        f.write(salt)        # перші 16 байт - сіль
+        f.write(iv)          # наступні 16 байт - IV
+        f.write(ciphertext)  # решта - зашифровані дані
+    
+    print(f"файл зашифровано: {output_file}")
+
+def decrypt_file(input_file: str, output_file: str, password: str):
+    """
+    розшифровує файл
+    
+    TODO: реалізувати зворотній процес до encrypt_file
+    """
+    # ваш код тут
+    pass
+\end{lstlisting}
+
+\subsection*{Шаблон 2. Менеджер паролів (Python)}
+
+\begin{lstlisting}[caption={Простий менеджер паролів з хешуванням}]
+"""
+простий менеджер паролів з хешуванням
+демонстрація безпечного зберігання паролів
+"""
+
+import hashlib
+import json
+import getpass
+from typing import Dict, Optional
+
+class PasswordManager:
+    """Kлас для безпечного управління паролями"""
+    
+    def __init__(self, master_password: str):
+        """
+        Iніціалізація менеджера з мастер-паролем
+        
+        master_password: головний пароль для доступу
+        """
+        # хешуємо мастер-пароль для перевірки
+        self.master_hash = self._hash_password(master_password)
+        self.storage: Dict[str, Dict] = {}
+        self.authenticated = False
+    
+    def _hash_password(self, password: str, salt: str = "") -> str:
+        """
+        хешує пароль за допомогою SHA-256
+        
+        TODO: додати сіль для підвищення безпеки
+        """
+        # базова реалізація (потребує покращення)
+        data = password + salt
+        # ваш код тут: використати hashlib.sha256
+        return hashlib.sha256(data.encode()).hexdigest()
+    
+    def authenticate(self, password: str) -> bool:
+        """
+        перевірка мастер-пароля
+        
+        повертає True якщо пароль правильний
+        """
+        # TODO: порівняти хеш введеного пароля з збереженим
+        input_hash = # ваш код тут
+        if input_hash == self.master_hash:
+            self.authenticated = True
+            return True
+        return False
+\end{lstlisting}
+
+\subsection*{Шаблон 3. Secure Messenger (для високого рівня)}
+
+\begin{lstlisting}[caption={Прототип захищеного месенджера}]
+"""
+прототип захищеного месенджера
+використовує гібридне шифрування (RSA + AES)
+"""
+
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
+from cryptography.hazmat.primitives import serialization, hashes
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+import os
+import json
+from datetime import datetime
+
+class SecureMessenger:
+    """клас для безпечного обміну повідомленнями"""
+    
+    def __init__(self, user_name: str):
+        """
+        ініціалізація месенджера для користувача
+        
+        user_name: ім'я користувача
+        """
+        self.user_name = user_name
+        self.private_key = None
+        self.public_key = None
+        self.contacts = {}  # словник публічних ключів контактів
+        self.message_history = []
+        
+        # генеруємо ключову пару RSA
+        self._generate_key_pair()
+    
+    def _generate_key_pair(self):
+        """
+        генерує пару ключів RSA (2048 біт)
+        
+        TODO: реалізувати генерацію та збереження ключів
+        """
+        # генеруємо приватний ключ
+        self.private_key = rsa.generate_private_key(
+            public_exponent=65537,
+            key_size=2048
+        )
+        
+        # отримуємо публічний ключ
+        self.public_key = # ваш код тут
+        
+        print(f"згенеровано ключі для {self.user_name}")
+\end{lstlisting}
+
+\newpage
+\section*{\centering Управлінський напрямок}
+
+\subsection*{КРИПТОГРАФІЧНА ПОЛІТИКА ОРГАНІЗАЦІЇ}
+\textit{[Назва організації]}
+
+\noindent
+\textbf{Версія 1.0 | Дата затвердження:} \rule{4cm}{0.5pt}
+
+\subsection*{1. ЗАГАЛЬНІ ПОЛОЖЕННЯ}
+
+\subsubsection*{1.1. Мета документа}
+Дана політика визначає стандарти та процедури використання криптографічних засобів захисту інформації в організації для забезпечення конфіденційності, цілісності та автентичності даних.
+
+\subsubsection*{1.2. Сфера застосування}
+Політика поширюється на всі інформаційні системи організації, включаючи:
+\begin{itemize}
+    \item Корпоративну електронну пошту
+    \item Системи зберігання файлів та документів
+    \item Бази даних з персональними та фінансовими даними
+    \item Канали передачі даних між філіями
+    \item Мобільні пристрої співробітників
+\end{itemize}
+
+\subsubsection*{1.3. Відповідальні особи}
+\begin{itemize}
+    \item \textbf{Власник політики:} Директор з інформаційної безпеки
+    \item \textbf{Адміністратор криптографічних систем:} [ПІБ]
+    \item \textbf{Контролюючий орган:} Комітет з інформаційної безпеки
+\end{itemize}
+
+\subsection*{2. КРИПТОГРАФІЧНІ СТАНДАРТИ}
+
+\subsubsection*{2.1. Алгоритми шифрування}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Призначення} & \textbf{Мінімальний} & \textbf{Рекомендований} & \textbf{Заборонені} \\
+& \textbf{стандарт} & \textbf{стандарт} & \textbf{алгоритми} \\
+\hline
+Симетричне шифрування & AES-128 & AES-256 & DES, 3DES \\
+\hline
+Асиметричне шифрування & RSA-2048 & RSA-4096, ECC-384 & RSA < 2048 біт \\
+\hline
+Хешування & SHA-256 & SHA-512, SHA3-512 & MD5, SHA-1 \\
+\hline
+Цифровий підпис & RSA-2048 + SHA-256 & ECDSA з P-384 & DSA < 2048 біт \\
+\hline
+Обмін ключами & Diffie-Hellman 2048 & ECDH з P-384 & DH < 2048 біт \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection*{2.2. Генерація випадкових чисел}
+Для генерації криптографічних ключів використовувати виключно апаратні або програмні генератори, сертифіковані за стандартом ДСТУ 4145-2002 або FIPS 140-2.
+
+\subsection*{3. УПРАВЛІННЯ КЛЮЧАМИ}
+
+\subsubsection*{3.1. Життєвий цикл ключів}
+
+\begin{longtable}{|l|p{4cm}|l|l|}
+\hline
+\textbf{Етап} & \textbf{Процедура} & \textbf{Відповідальний} & \textbf{Термін} \\
+\hline
+\endfirsthead
+\hline
+\textbf{Етап} & \textbf{Процедура} & \textbf{Відповідальний} & \textbf{Термін} \\
+\hline
+\endhead
+Генерація & Автоматизована через HSM або KMS & Адміністратор безпеки & За запитом \\
+\hline
+Розповсюдження & Захищені канали (TLS 1.2+) & Адміністратор безпеки & 24 години \\
+\hline
+Зберігання & Зашифроване сховище ключів & Система KMS & Постійно \\
+\hline
+Ротація & Планова заміна & Автоматизовано & Щорічно \\
+\hline
+Знищення & Безпечне видалення & Адміністратор безпеки & Після закінчення терміну \\
+\hline
+\end{longtable}
+
+\subsubsection*{3.2. Захист ключів}
+\begin{itemize}
+    \item Майстер-ключі зберігаються в апаратному модулі безпеки (HSM)
+    \item Робочі ключі шифруються майстер-ключами
+    \item Резервні копії ключів зберігаються в окремому захищеному сховищі
+    \item Доступ до ключів надається за принципом мінімальних привілеїв
+\end{itemize}
+
+\subsection*{4. СЦЕНАРІЇ ВИКОРИСТАННЯ}
+
+\subsubsection*{4.1. Електронна пошта}
+\begin{itemize}
+    \item Обов'язкове використання S/MIME або PGP для листів з грифом ``Конфіденційно''
+    \item Автоматичне шифрування вкладень понад 1 МБ
+    \item Цифровий підпис для всіх зовнішніх комунікацій
+\end{itemize}
+
+\subsubsection*{4.2. Зберігання даних}
+\begin{itemize}
+    \item Повнодискове шифрування для ноутбуків (BitLocker, FileVault)
+    \item Шифрування баз даних на рівні таблиць для критичних даних
+    \item Шифрування резервних копій перед архівуванням
+\end{itemize}
+
+\subsubsection*{4.3. Передача даних}
+\begin{itemize}
+    \item TLS 1.2+ для всіх веб-сервісів
+    \item VPN з IPSec для з'єднань між офісами
+    \item SFTP/FTPS для передачі файлів
+\end{itemize}
+
+\subsection*{5. ПРОЦЕДУРИ РЕАГУВАННЯ}
+
+\subsubsection*{5.1. Компрометація ключів}
+
+Етапи реагування при підозрі на компрометацію:
+\begin{enumerate}
+    \item \textbf{Негайно} - блокування скомпрометованого ключа
+    \item \textbf{1 година} - оповіщення всіх користувачів системи
+    \item \textbf{4 години} - генерація та розповсюдження нових ключів
+    \item \textbf{24 години} - повна заміна ключів у системі
+    \item \textbf{48 годин} - аудит інцидента та звіт керівництву
+\end{enumerate}
+
+\subsubsection*{5.2. Втрата ключів}
+\begin{itemize}
+    \item Використання резервних копій з безпечного сховища
+    \item Процедура аварійного розшифрування через ключі відновлення
+    \item Документування інциденту в журналі безпеки
+\end{itemize}
+
+\subsection*{6. НАВЧАННЯ ТА АУДИТ}
+
+\subsubsection*{6.1. Навчання персоналу}
+\begin{itemize}
+    \item Базовий курс криптографічної безпеки для всіх співробітників (щорічно)
+    \item Спеціалізоване навчання для ІТ-персоналу (щопівроку)
+    \item Тестування знань після навчання
+\end{itemize}
+
+\subsubsection*{6.2. Аудит}
+\begin{itemize}
+    \item Щоквартальна перевірка налаштувань криптографічних систем
+    \item Щорічний зовнішній аудит криптографічної інфраструктури
+    \item Моніторинг використання застарілих алгоритмів
+\end{itemize}
+
+\subsection*{7. КЛЮЧОВІ ПОКАЗНИКИ ЕФЕКТИВНОСТІ (KPI)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{6cm}|c|c|}
+\hline
+\textbf{Показник} & \textbf{Цільове значення} & \textbf{Частота вимірювання} \\
+\hline
+Відсоток зашифрованих критичних даних & $\geq$ 99\% & Щомісяця \\
+\hline
+Час реакції на компрометацію ключа & < 1 години & За інцидентом \\
+\hline
+Успішність ротації ключів & 100\% & Щорічно \\
+\hline
+Кількість інцидентів через слабку криптографію & 0 & Щоквартально \\
+\hline
+Проходження навчання персоналом & $\geq$ 95\% & Щорічно \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{8. НОРМАТИВНІ ПОСИЛАННЯ}
+
+\begin{itemize}
+    \item Закон України ``Про захист інформації в інформаційно-телекомунікаційних системах''
+    \item ДСТУ 7624:2014 (Калина)
+    \item ISO/IEC 27001:2013
+    \item NIST SP 800-57 (Key Management)
+\end{itemize}
