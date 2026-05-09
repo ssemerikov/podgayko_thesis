@@ -1,0 +1,53 @@
+[
+  {
+    "cluster_id": 1,
+    "answer": {
+      "_latency_s": 47.2,
+      "name": "Німецька модель професійної освіти",
+      "description": "Кластер об’єднує дослідження, що моделюють розвиток професійної освіти та навчання, з особливим акцентом на дуальну систему Німеччини, роль компаній і зв’язок із вищою освітою.",
+      "methodology": "порівняльний аналіз кейсів",
+      "schools": [
+        "German dual system research",
+        "Comparative VET policy analysis",
+        "Company-based training studies"
+      ],
+      "rationale": "Ключові слова germany, company, vet, higher education та model вказують на центральне місце німецької моделі навчання на підприємствах і порівняльного підходу."
+    }
+  },
+  {
+    "cluster_id": 2,
+    "answer": {
+      "_latency_s": 18.65,
+      "name": "Оцінювання результатів навчання учнів",
+      "description": "Кластер зосереджений на вимірюванні академічної успішності, порівняльному аналізі групових відмінностей та впливі оцінювання на освітній процес. Значну увагу приділено валідності й ефектам тестування.",
+      "methodology": "експериментальні та квазіекспериментальні плани",
+      "schools": [
+        "Anglo-American educational measurement",
+        "German empirical educational research",
+        "Australian standards-based assessment"
+      ],
+      "rationale": "Ключові слова 'assessment', 'performance', 'effect', 'group', 'difference' вказують на порівняльні дослідження ефектів оцінювання в різних освітніх контекстах. Домінування англо-американської та німецької емпіричних традицій підтверджується типовими термінами й методологією."
+    }
+  },
+  {
+    "cluster_id": 3,
+    "answer": {
+      "_error": "ResponseError: Server overloaded, please retry shortly (ref: 8f7125b0-bc49-4684-b578-47b2db1fad1a) (status code: 503)"
+    }
+  },
+  {
+    "cluster_id": 4,
+    "answer": {
+      "_latency_s": 32.04,
+      "name": "Вимірювання навчальних результатів",
+      "description": "Кластер об'єднує дослідження, зосереджені на оцінюванні знань, умінь та проблемно-орієнтованих компетентностей у професійній освіті. Основна увага приділяється моніторингу результатів навчання для забезпечення якості підготовки.",
+      "methodology": "тестування та опитування",
+      "schools": [
+        "German-speaking dual system research",
+        "Australian competency-based training assessment",
+        "Nordic skills monitoring studies"
+      ],
+      "rationale": "Ключові слова 'skill', 'knowledge', 'problem' безпосередньо вказують на вивчення навчальних результатів та їх вимірювання. Високий загальний TLS та середній рік публікацій 2017 свідчать про стійкий інтерес до компетентнісного підходу в моніторингу ПТО."
+    }
+  }
+]

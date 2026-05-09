@@ -128,6 +128,61 @@
       \verb 10.1016/j.joi.2017.08.007
       \endverb
     \endentry
+    \entry{Barabash2024Decentralisation}{article}{}
+      \name{author}{2}{}{%
+        {{hash=25bf7aecb756605fcbcd8657fa591cf9}{%
+           family={Barabash},
+           familyi={B\bibinitperiod},
+           given={Olena},
+           giveni={O\bibinitperiod}}}%
+        {{hash=d56bbcee34ac4db16739c308a721212d}{%
+           family={Khaniuk},
+           familyi={K\bibinitperiod},
+           given={Tetiana},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \strng{fullhash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \strng{bibnamehash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \strng{authorbibnamehash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \strng{authornamehash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \strng{authorfullhash}{c93ac5ef62aa3af8e6a5f005cfad821e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Analytics of Ukraine}
+      \field{title}{Decentralisation reform in terms of transferring the property of vocational education and training institutions to the management of local authorities}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.32987/2617-8532-2024-5-105-115
+      \endverb
+    \endentry
+    \entry{Bazhan2025PPTERisks}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fc4136a09ab0618cbbd387b56297a9ea}{%
+           family={Bazhan},
+           familyi={B\bibinitperiod},
+           given={Serhii},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \strng{fullhash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \strng{bibnamehash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \strng{authorbibnamehash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \strng{authornamehash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \strng{authorfullhash}{fc4136a09ab0618cbbd387b56297a9ea}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Postgraduate education (Series Pedagogical Sciences)}
+      \field{title}{Major risks for institutions of professional pre-tertiary education in the context of vocational education reform in Ukraine}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.58442/3041-1831-2025-33(62)-44-75
+      \endverb
+    \endentry
     \entry{Billett2011}{book}{}
       \name{author}{1}{}{%
         {{hash=65f3ddd8d319cfb21353ddd2d88a62e8}{%
@@ -292,6 +347,210 @@
       \field{year}{2020}
       \field{number}{114}
       \range{number}{1}
+    \endentry
+    \entry{Chen2024TeachersLA}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b5822bba4dd0429d06ec000a7ccedf8a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Mu-Sheng},
+           giveni={M\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=2ac517a0fe82a42c46329954816a831e}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Ting-Chia},
+           giveni={T\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=2a1068dcc1ebca9a9aac50b597b57a0a}{%
+           family={Tu},
+           familyi={T\bibinitperiod},
+           given={Yun-Fang},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \strng{fullhash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \strng{bibnamehash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \strng{authorbibnamehash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \strng{authornamehash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \strng{authorfullhash}{1a0f02238e57a99bf013bfa2b9ea2c8b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Interactive Learning Environments}
+      \field{title}{The use of learning analytics and educational data mining to analyze teachers' teaching in online environments: a systematic literature review}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1080/10494820.2024.2443070
+      \endverb
+    \endentry
+    \entry{Cherniakova2025WomenVET}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0a738470dc70ffe52eb14b4823d21b2e}{%
+           family={Cherniakova},
+           familyi={C\bibinitperiod},
+           given={Olha},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \strng{fullhash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \strng{bibnamehash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \strng{authorbibnamehash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \strng{authornamehash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \strng{authorfullhash}{0a738470dc70ffe52eb14b4823d21b2e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Postgraduate education (Series Social and Behavioral Sciences)}
+      \field{title}{Formation of state educational policy on the transformation of vocational training and professional activity of women in Ukraine in the conditions of war and the post-war period}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.58442/3041-1858-2025-34(63)-307-330
+      \endverb
+    \endentry
+    \entry{Ciantar2025VETPolicy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9b23d8f43e84cd2f7eac585b6f317a12}{%
+           family={Ciantar},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \strng{fullhash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \strng{bibnamehash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \strng{authorbibnamehash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \strng{authornamehash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \strng{authorfullhash}{9b23d8f43e84cd2f7eac585b6f317a12}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vocational Education \& Training}
+      \field{title}{Researching policy transfer of vocational education and training across the European Union: a systematic literature review}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1080/13636820.2024.2442030
+      \endverb
+    \endentry
+    \entry{DeLone2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=156d2f8c6d5940f7c153038df1e3cdd8}{%
+           family={DeLone},
+           familyi={D\bibinitperiod},
+           given={William\bibnamedelima H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=080c328b971c5d1e88a5515519f06bb2}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={Ephraim\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{fullhash}{931395b6fa2060343187d2644441ff4b}
+      \strng{bibnamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authorbibnamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authornamehash}{931395b6fa2060343187d2644441ff4b}
+      \strng{authorfullhash}{931395b6fa2060343187d2644441ff4b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Information Systems}
+      \field{title}{The DeLone and McLean Model of Information Systems Success: A Ten-Year Update}
+      \field{year}{2003}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{9\bibrangedash 30}
+      \range{pages}{22}
+      \field{volume}{19}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1080/07421222.2003.11045748
+      \endverb
+    \endentry
+    \entry{Derman2025FashionWar}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2efecb6f1c0dce5b0d8c135ff32fbca6}{%
+           family={Derman},
+           familyi={D\bibinitperiod},
+           given={Liliia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c95b01b35f6635a89e04d27106ea480e}{%
+           family={Dyogtyev},
+           familyi={D\bibinitperiod},
+           given={Andriy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3aa7070720079bcc3a41d437050d29a5}{%
+           family={Okhman},
+           familyi={O\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \strng{fullhash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \strng{bibnamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \strng{authorbibnamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \strng{authornamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \strng{authorfullhash}{91e1d432ea6564e2ad75c2d2040e10ce}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Baltic Journal of Economic Studies}
+      \field{title}{The impact of the Russian-Ukrainian war on the training of fashion industry specialists in Ukraine}
+      \field{year}{2025}
+      \field{number}{4}
+      \range{number}{1}
+      \field{pages}{69\bibrangedash 78}
+      \range{pages}{10}
+      \field{volume}{11}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.30525/2256-0742/2025-11-4-69-78
+      \endverb
+    \endentry
+    \entry{Hevner2004DSR}{article}{useauthor=false}
+      \name{author}{4}{}{%
+        {{hash=e054261c7f1739e1ba1db0a45e385c1b}{%
+           family={Hevner},
+           familyi={H\bibinitperiod},
+           given={Alan\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5aec260b5b1381edc4b8ff6755f2d543}{%
+           family={March},
+           familyi={M\bibinitperiod},
+           given={Salvatore\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c518c214dc9e77148493e9ea47f505ab}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Jinsoo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=65565df90d4793da7a2f20e5e1b07345}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Sudha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{authorbibnamehash}{77b3350005135e016e7a83431f326d8f}
+      \strng{authornamehash}{77b3350005135e016e7a83431f326d8f}
+      \strng{authorfullhash}{b163bef761d9a2c79a3d232595321775}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MIS Quarterly}
+      \field{title}{Design Science in Information Systems Research}
+      \field{year}{2004}
+      \field{number}{1}
+      \range{number}{1}
+      \field{pages}{75\bibrangedash 105}
+      \range{pages}{31}
+      \field{volume}{28}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.2307/25148625
+      \endverb
     \endentry
     \entry{vanEck2010}{article}{}
       \name{author}{2}{}{%
@@ -612,6 +871,71 @@
       \verb 10.1007/978-94-017-8902-8_53
       \endverb
     \endentry
+    \entry{GonzalezPerez2025}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b1a4ac32313e44d2ab57003d19eaad3e}{%
+           family={González-Pérez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Laura\bibnamedelima Icela},
+           giveni={L\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=7ea5c6bf98bba0da34aa6872fa414880}{%
+           family={García-Peñalvo},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Francisco\bibnamedelima José},
+           giveni={F\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6072a3876eea13520ec0461cf794f56b}{%
+           family={Argüelles-Cruz},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Amadeo\bibnamedelima José},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \strng{fullhash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \strng{bibnamehash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \strng{authorbibnamehash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \strng{authornamehash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \strng{authorfullhash}{d1e55cbbf6fd7af1205c3c36bc82b9c6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Revista Iberoamericana de Tecnologías del Aprendizaje}
+      \field{title}{Data-Driven Learning Analytics and Artificial Intelligence in Higher Education: A Systematic Review}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1109/RITA.2025.3615512
+      \endverb
+    \endentry
+    \entry{Gunasekara2025XAI}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eae37a23caf877103275f4bcb4631814}{%
+           family={Gunasekara},
+           familyi={G\bibinitperiod},
+           given={Sachini},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fcea55e0d2a6c6c191b9b66b79f4bc75}{%
+           family={Saarela},
+           familyi={S\bibinitperiod},
+           given={Mirka},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{969534285724ec3bd251fd5aeeff3a8d}
+      \strng{fullhash}{969534285724ec3bd251fd5aeeff3a8d}
+      \strng{bibnamehash}{969534285724ec3bd251fd5aeeff3a8d}
+      \strng{authorbibnamehash}{969534285724ec3bd251fd5aeeff3a8d}
+      \strng{authornamehash}{969534285724ec3bd251fd5aeeff3a8d}
+      \strng{authorfullhash}{969534285724ec3bd251fd5aeeff3a8d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Systematic Literature Review on Explainable Learning Analytics and Educational Data Mining}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2025.3643645
+      \endverb
+    \endentry
     \entry{Hagberg2008}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=94707ad079516150870c2f9a2932df46}{%
@@ -758,6 +1082,132 @@
       \verb 10.1109/MCSE.2007.55
       \endverb
     \endentry
+    \entry{Kostrytsia2025VETRecovery}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9248dd25edf899f83695909b8be97450}{%
+           family={Kostrytsia},
+           familyi={K\bibinitperiod},
+           given={Vasyl},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e19f54de0c2fedf66f7623065fd67f99}{%
+           family={Blyzniuk},
+           familyi={B\bibinitperiod},
+           given={Viktoriia},
+           giveni={V\bibinitperiod}}}%
+        {{hash=02ab02e7b395b2df719a3b409659eb0d}{%
+           family={Burlai},
+           familyi={B\bibinitperiod},
+           given={Tetiana},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b994cba02c7a60a9663600879fc3b69}
+      \strng{fullhash}{9b994cba02c7a60a9663600879fc3b69}
+      \strng{bibnamehash}{9b994cba02c7a60a9663600879fc3b69}
+      \strng{authorbibnamehash}{9b994cba02c7a60a9663600879fc3b69}
+      \strng{authornamehash}{9b994cba02c7a60a9663600879fc3b69}
+      \strng{authorfullhash}{9b994cba02c7a60a9663600879fc3b69}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ekonomichna teoriia}
+      \field{title}{The contribution of Ukraine's higher and vocational education systems to the recovery of the national labor market in the (post-)war period}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.15407/etet2025.04.065
+      \endverb
+    \endentry
+    \entry{Kryshchenko2024PPP}{article}{}
+      \name{author}{1}{}{%
+        {{hash=0ee1f5e3a3520ccae9fbdfe9e1d51f33}{%
+           family={Kryshchenko},
+           familyi={K\bibinitperiod},
+           given={Kyrylo},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \strng{fullhash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \strng{bibnamehash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \strng{authorbibnamehash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \strng{authornamehash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \strng{authorfullhash}{0ee1f5e3a3520ccae9fbdfe9e1d51f33}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Analytics of Ukraine}
+      \field{title}{Public-private partnership as an instrument of extra-budgetary financing of vocational education and training in Ukraine}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.32987/2617-8532-2024-5-149-159
+      \endverb
+    \endentry
+    \entry{Kulachynskyi2024EU4Skills}{article}{}
+      \name{author}{2}{}{%
+        {{hash=eb491dd9de28faeb881ebab3a50a07d2}{%
+           family={Kulachynskyi},
+           familyi={K\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a38f6ca7140f686d35013a935f903d58}{%
+           family={Kamenchuk},
+           familyi={K\bibinitperiod},
+           given={Nika},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \strng{fullhash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \strng{bibnamehash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \strng{authorbibnamehash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \strng{authornamehash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \strng{authorfullhash}{4e56fba1d7e7bf9584753226f17e24bd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Educational Analytics of Ukraine}
+      \field{title}{Reform of vocational education and training in Ukraine: ways towards integration into the European education area}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.32987/2617-8532-2024-5-27-39
+      \endverb
+    \endentry
+    \entry{Lampropoulos2025XR}{article}{}
+      \name{author}{2}{}{%
+        {{hash=15f4a76efc6ca7c2948b950019c56ec5}{%
+           family={Lampropoulos},
+           familyi={L\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+        {{hash=86a24736f4ba6917e39f8b88bb920aa2}{%
+           family={Evangelidis},
+           familyi={E\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \strng{fullhash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \strng{bibnamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \strng{authorbibnamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \strng{authornamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \strng{authorfullhash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{title}{Learning Analytics and Educational Data Mining in Augmented Reality, Virtual Reality, and the Metaverse: A Systematic Literature Review, Content Analysis, and Bibliometric Analysis}
+      \field{year}{2025}
+      \field{number}{2}
+      \range{number}{1}
+      \field{pages}{971}
+      \range{pages}{1}
+      \field{volume}{15}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.3390/app15020971
+      \endverb
+    \endentry
     \entry{McKinney2010}{inproceedings}{}
       \name{author}{1}{}{%
         {{hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
@@ -863,6 +1313,45 @@
       \verb 10.1073/pnas.0601602103
       \endverb
     \endentry
+    \entry{Nuankaew2025AISDG4}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0f50230b9f01e8609ae7a23093a1d381}{%
+           family={Nuankaew},
+           familyi={N\bibinitperiod},
+           given={Pratya},
+           giveni={P\bibinitperiod}}}%
+        {{hash=284e834425811d57afb7ea5da2e1ae43}{%
+           family={Nasa-Ngium},
+           familyi={N\bibinithyphendelim N\bibinitperiod},
+           given={Patchara},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4fbcdaa6bea59a881743e6617a191bc1}{%
+           family={Nuankaew},
+           familyi={N\bibinitperiod},
+           given={Wongpanya\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{42782f455dd27df71f1c6251e42f9f3c}
+      \strng{fullhash}{42782f455dd27df71f1c6251e42f9f3c}
+      \strng{bibnamehash}{42782f455dd27df71f1c6251e42f9f3c}
+      \strng{authorbibnamehash}{42782f455dd27df71f1c6251e42f9f3c}
+      \strng{authornamehash}{42782f455dd27df71f1c6251e42f9f3c}
+      \strng{authorfullhash}{42782f455dd27df71f1c6251e42f9f3c}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Innovative Research and Scientific Studies}
+      \field{title}{Artificial intelligence and educational data mining technologies for the 4th SDG quality education: A systematic review}
+      \field{year}{2025}
+      \field{number}{3}
+      \range{number}{1}
+      \field{volume}{8}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.53894/ijirss.v8i3.7468
+      \endverb
+    \endentry
     \entry{OECD2010}{book}{}
       \name{author}{1}{}{%
         {{hash=bdbed435a416a918aa494017fda4c7fb}{%
@@ -890,6 +1379,36 @@
       \field{year}{2010}
       \verb{doi}
       \verb 10.1787/9789264087460-en
+      \endverb
+    \endentry
+    \entry{Penkin2025QAWar}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e358bba476f8f1dcc79eca16462d4d56}{%
+           family={Penkin},
+           familyi={P\bibinitperiod},
+           given={Andrii},
+           giveni={A\bibinitperiod}}}%
+        {{hash=99c65ebff75c94bc811eaee558c4b8ac}{%
+           family={Kolisnyk},
+           familyi={K\bibinitperiod},
+           given={Larysa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \strng{fullhash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \strng{bibnamehash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \strng{authorbibnamehash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \strng{authornamehash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \strng{authorfullhash}{cce023e8c4007e9f48b0f52642e6ba8e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Actual problems of innovative economy and law}
+      \field{title}{Management of the quality assurance system in higher education in Ukraine during the period of digital transformation and martial law}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.36887/2524-0455-2025-5-17
       \endverb
     \endentry
     \entry{Pilz2017}{article}{}
@@ -951,6 +1470,101 @@
       \field{volume}{25}
       \range{volume}{1}
     \endentry
+    \entry{Radkevych2022Renewables}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1f7da5453327987e7d2403144c5c65f8}{%
+           family={Radkevych},
+           familyi={R\bibinitperiod},
+           given={Valentyna},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4740cf6f79e0c923a2ebbd2a62ae5f79}{%
+           family={Pryhodii},
+           familyi={P\bibinitperiod},
+           given={Mykola},
+           giveni={M\bibinitperiod}}}%
+        {{hash=81992eab66838a91d009fb6531cc5266}{%
+           family={Radkevych},
+           familyi={R\bibinitperiod},
+           given={Oleksandr},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f340305136e7236739d7007657d096f7}
+      \strng{fullhash}{f340305136e7236739d7007657d096f7}
+      \strng{bibnamehash}{f340305136e7236739d7007657d096f7}
+      \strng{authorbibnamehash}{f340305136e7236739d7007657d096f7}
+      \strng{authornamehash}{f340305136e7236739d7007657d096f7}
+      \strng{authorfullhash}{f340305136e7236739d7007657d096f7}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Problems of Engineering Pedagogic Education}
+      \field{title}{Practice-oriented training of vocational teachers in renewable energy for post-war reconstruction of Ukraine}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.32820/2074-8922-2022-76-29-40
+      \endverb
+    \endentry
+    \entry{Rajamaki2022DSR}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=1f98937eae22c1caf17fe0def5ae2b40}{%
+           family={Rajamäki},
+           familyi={R\bibinitperiod},
+           given={Jyri},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b530ce3ef37885094bed97d69afab2c1}{%
+           family={Lahdenperä},
+           familyi={L\bibinitperiod},
+           given={Janne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=799aac208776c905354d583e86851ba6}{%
+           family={Shalamanov},
+           familyi={S\bibinitperiod},
+           given={Velizar},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{efba4efe31a80674407fd18bbbfc64bb}
+      \strng{fullhash}{efba4efe31a80674407fd18bbbfc64bb}
+      \strng{bibnamehash}{efba4efe31a80674407fd18bbbfc64bb}
+      \strng{authorbibnamehash}{efba4efe31a80674407fd18bbbfc64bb}
+      \strng{authornamehash}{efba4efe31a80674407fd18bbbfc64bb}
+      \strng{authorfullhash}{efba4efe31a80674407fd18bbbfc64bb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2022 IEEE 12th International Conference on Dependable Systems, Services and Technologies (DESSERT)}
+      \field{title}{Design Science Research towards ECHO Governance and Management Information System}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1109/DESSERT58054.2022.10018802
+      \endverb
+    \endentry
+    \entry{Rauner2024EuropeanVET}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=6dfaed1c80af502529de174b20ff3867}{%
+           family={Rauner},
+           familyi={R\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6dfaed1c80af502529de174b20ff3867}
+      \strng{fullhash}{6dfaed1c80af502529de174b20ff3867}
+      \strng{bibnamehash}{6dfaed1c80af502529de174b20ff3867}
+      \strng{authorbibnamehash}{6dfaed1c80af502529de174b20ff3867}
+      \strng{authornamehash}{6dfaed1c80af502529de174b20ff3867}
+      \strng{authorfullhash}{6dfaed1c80af502529de174b20ff3867}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Handbook of Vocational Education and Training Research}
+      \field{title}{European Vocational Education and Training}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1007/978-981-97-0987-8_6
+      \endverb
+    \endentry
     \entry{Rauner2008}{book}{}
       \name{author}{2}{}{%
         {{hash=6dfaed1c80af502529de174b20ff3867}{%
@@ -984,6 +1598,42 @@
       \field{year}{2008}
       \verb{doi}
       \verb 10.1007/978-1-4020-8347-1
+      \endverb
+    \endentry
+    \entry{Romero2020EDM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ac7f540e550afe7c4c72c3b6370f59bf}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Cristóbal},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e023d2410adba40dc741193f0b109c02}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \strng{fullhash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \strng{bibnamehash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \strng{authorbibnamehash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \strng{authornamehash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \strng{authorfullhash}{a10a97a4f7013fa10b6eabca9b8a5f61}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WIREs Data Mining and Knowledge Discovery}
+      \field{title}{Educational data mining and learning analytics: An updated survey}
+      \field{year}{2020}
+      \field{number}{3}
+      \range{number}{1}
+      \field{pages}{e1355}
+      \range{pages}{-1}
+      \field{volume}{10}
+      \range{volume}{1}
+      \verb{doi}
+      \verb 10.1002/widm.1355
       \endverb
     \endentry
     \entry{Ryan2001}{article}{}
@@ -1156,6 +1806,71 @@
       \field{volume}{12}
       \range{volume}{1}
     \endentry
+    \entry{Semenenko2023DisplacedHEI}{article}{}
+      \name{author}{2}{}{%
+        {{hash=4033a881ea8f2390944d761ac7d9d112}{%
+           family={Semenenko},
+           familyi={S\bibinitperiod},
+           given={Inna},
+           giveni={I\bibinitperiod}}}%
+        {{hash=6ee2ba224d3f063a3a2ca0254d2ef303}{%
+           family={Bilous},
+           familyi={B\bibinitperiod},
+           given={Yana},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{58feb4a3f99c128315bd541b3a093c03}
+      \strng{fullhash}{58feb4a3f99c128315bd541b3a093c03}
+      \strng{bibnamehash}{58feb4a3f99c128315bd541b3a093c03}
+      \strng{authorbibnamehash}{58feb4a3f99c128315bd541b3a093c03}
+      \strng{authornamehash}{58feb4a3f99c128315bd541b3a093c03}
+      \strng{authorfullhash}{58feb4a3f99c128315bd541b3a093c03}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Scientific Journal of Universities and Leadership}
+      \field{title}{The role of displaced higher education institutions in recovery processes of war and post-war period: the case of Volodymyr Dahl East Ukrainian National University}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.31874/2520-6702-2023-16-32-47
+      \endverb
+    \endentry
+    \entry{Sharma2025EthicalLA}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bed1557e1bc08a8f9053b8aab4e73551}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3432f1a130215f6373729a611d43f5a4}{%
+           family={Kapoor},
+           familyi={K\bibinitperiod},
+           given={Govind},
+           giveni={G\bibinitperiod}}}%
+        {{hash=068b8c712c9b0af737aea506121c7724}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Anita},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \strng{fullhash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \strng{bibnamehash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \strng{authorbibnamehash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \strng{authornamehash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \strng{authorfullhash}{f3d0435875632ce5ed6b1ceb25891d16}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bulletin of Computational Data Sciences}
+      \field{title}{The Ethical Gap in Educational Data Mining and Learning Analytics: A Systematic Review of Privacy, Bias, and Governance (2020--2024)}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.71448/bcds2563-2
+      \endverb
+    \endentry
     \entry{Small1973}{article}{}
       \name{author}{1}{}{%
         {{hash=22447fb9ce52d44b5bcb3b3fdfc2e72f}{%
@@ -1185,6 +1900,71 @@
       \range{volume}{1}
       \verb{doi}
       \verb 10.1002/asi.4630240406
+      \endverb
+    \endentry
+    \entry{Soloviov2025UkraineVET}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=5f7030be6473eba9b14bb36fc668cf3d}{%
+           family={Soloviov},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi O.},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=d615163fb73cb07276c95caf11777b85}{%
+           family={Sofishchenko},
+           familyi={S\bibinitperiod},
+           given={I.\bibnamedelimi Ya.},
+           giveni={I\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \strng{fullhash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \strng{bibnamehash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \strng{authorbibnamehash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \strng{authornamehash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \strng{authorfullhash}{2ad604c5ed5f8694436e89b8db6178a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Modern Trends in Education, Science and Practice}
+      \field{title}{International cooperation with European partners in the process of reforming vocational education in Ukraine}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.30525/978-9934-26-522-8-47
+      \endverb
+    \endentry
+    \entry{Storonyanska2025EuVET}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8797f50b4d426b88ab2addbed413c23f}{%
+           family={Storonyanska},
+           familyi={S\bibinitperiod},
+           given={Iryna\bibnamedelima Z.},
+           giveni={I\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=69adf2bc89a3e95deae286e978b51425}{%
+           family={Benovska},
+           familyi={B\bibinitperiod},
+           given={Liliya\bibnamedelima Ya.},
+           giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=a1111042c866a7525ae194a786898824}{%
+           family={Patytska},
+           familyi={P\bibinitperiod},
+           given={Khrystyna\bibnamedelima O.},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f95052e166353405d901bb275e94289b}
+      \strng{fullhash}{f95052e166353405d901bb275e94289b}
+      \strng{bibnamehash}{f95052e166353405d901bb275e94289b}
+      \strng{authorbibnamehash}{f95052e166353405d901bb275e94289b}
+      \strng{authornamehash}{f95052e166353405d901bb275e94289b}
+      \strng{authorfullhash}{f95052e166353405d901bb275e94289b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Socio-Economic Problems of the Modern Period of Ukraine}
+      \field{title}{European policy of vocational education transformation in the context of innovative development}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.36818/2071-4653-2025-3-6
       \endverb
     \endentry
     \entry{Tynjala2008}{article}{}
@@ -1245,6 +2025,36 @@
       \field{title}{Revisiting global trends in {TVET}: Reflections on theory and practice}
       \field{type}{techreport}
       \field{year}{2013}
+    \endentry
+    \entry{Wafudu2024QAVET}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3b2e08db6f90b60358d5c3fd5a3003f4}{%
+           family={Wafudu},
+           familyi={W\bibinitperiod},
+           given={Satumari\bibnamedelima John},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4fd2dd118939a3f5b91e72327bbdff14}{%
+           family={Kamin},
+           familyi={K\bibinitperiod},
+           given={Yusri\bibnamedelima Bin},
+           giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{97150acd024b1007dd6442d100963c01}
+      \strng{fullhash}{97150acd024b1007dd6442d100963c01}
+      \strng{bibnamehash}{97150acd024b1007dd6442d100963c01}
+      \strng{authorbibnamehash}{97150acd024b1007dd6442d100963c01}
+      \strng{authornamehash}{97150acd024b1007dd6442d100963c01}
+      \strng{authorfullhash}{97150acd024b1007dd6442d100963c01}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quality Assurance in Education}
+      \field{title}{Quality assurance: a conceptual framework for teaching and learning standards in vocational and technical education programs}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1108/qae-11-2023-0184
+      \endverb
     \endentry
     \entry{Waltman2010}{article}{}
       \name{author}{3}{}{%
@@ -1387,6 +2197,76 @@
       \field{labeltitlesource}{title}
       \field{title}{Dimensions of Expertise: A Conceptual Exploration of Vocational Knowledge}
       \field{year}{2010}
+    \endentry
+    \entry{Yang2025VETQA}{article}{}
+      \name{author}{3}{}{%
+        {{hash=999681ecbc5259313b029d7942c6fb17}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jingjing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b52caf65054a3e027ca75b5994e2efd4}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Jingwei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b56468702323beb34bab22e60c572fbf}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Kuiye},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{690834b30a4d82d610ae61d17f920b7c}
+      \strng{fullhash}{690834b30a4d82d610ae61d17f920b7c}
+      \strng{bibnamehash}{690834b30a4d82d610ae61d17f920b7c}
+      \strng{authorbibnamehash}{690834b30a4d82d610ae61d17f920b7c}
+      \strng{authornamehash}{690834b30a4d82d610ae61d17f920b7c}
+      \strng{authorfullhash}{690834b30a4d82d610ae61d17f920b7c}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vocational and Technical Education}
+      \field{title}{Models and Pathways for Establishing Quality Assurance Systems for Vocational Education}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1515/wvte-2025-2007
+      \endverb
+    \endentry
+    \entry{Zlenko2024DigitalHR}{article}{}
+      \name{author}{3}{}{%
+        {{hash=385400d8f79480a271a48665f51094ea}{%
+           family={Zlenko},
+           familyi={Z\bibinitperiod},
+           given={Alla},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6ce47e615c4fc164c2833f7246d45eb2}{%
+           family={Kotsur},
+           familyi={K\bibinitperiod},
+           given={Dmytro},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c3e6c14f30a1ad6d3a1e0da0f2405943}{%
+           family={Zlenko},
+           familyi={Z\bibinitperiod},
+           given={Yana},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \strng{fullhash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \strng{bibnamehash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \strng{authorbibnamehash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \strng{authornamehash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \strng{authorfullhash}{38a0bc8cb3e245c51ef7958493b8567c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Professional Education: Methodology, Theory and Technologies}
+      \field{title}{Digital transformation in human resource management within the vocational education system}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.69587/pemtt/2.2024.90
+      \endverb
     \endentry
     \entry{Zupic2015}{article}{}
       \name{author}{2}{}{%

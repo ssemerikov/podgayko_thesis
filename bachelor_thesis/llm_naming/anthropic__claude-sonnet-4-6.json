@@ -1,0 +1,53 @@
+[
+  {
+    "cluster_id": 1,
+    "name": "Порівняльна системна політика ПТО",
+    "description": "Макрорівневий кластер, що охоплює порівняльний аналіз національних систем професійної освіти, зокрема дуальної моделі Німеччини, ролі підприємств та зв'язку ПТО з вищою освітою. Дослідження зосереджені на моделях державного регулювання та міжнародних порівняннях.",
+    "methodology": "Порівняльний міжкраїновий аналіз",
+    "schools": [
+      "Germany (dual system)",
+      "EU comparative VET policy",
+      "Switzerland (apprenticeship)",
+      "OECD systems research"
+    ],
+    "rationale": "Ключовий термін vet (TLS=17 857) з co-appearing country та germany вказують на порівняльно-системну орієнтацію; company та higher education фіксують подвійне фокусування на ринку праці та траєкторіях переходу."
+  },
+  {
+    "cluster_id": 2,
+    "name": "Емпіричне оцінювання навчальних результатів",
+    "description": "Кількісні мікрорівневі дослідження учнів, що вимірюють ефекти навчання через контрольовані порівняння груп і стандартизоване оцінювання успішності. Кластер утворює методологічне ядро вимірювальних досліджень у ПТО.",
+    "methodology": "Квазіексперимент / тестування",
+    "schools": [
+      "US empirical education research",
+      "OECD PIAAC assessment",
+      "East Asian VET measurement",
+      "European large-scale assessment"
+    ],
+    "rationale": "Пара study/student як найсильніші вузли (TLS > 14 000 кожен) у поєднанні з assessment, effect та difference визначає класичний дизайн «вимірювання – порівняння – ефект»."
+  },
+  {
+    "cluster_id": 3,
+    "name": "Педагогічна компетентність і контекстне навчання",
+    "description": "Мезорівневий кластер, що досліджує роль викладача, розвиток професійної компетентності та контекстуалізоване навчання на робочому місці. Теоретичне підґрунтя — соціокультурні та situated learning концепції.",
+    "methodology": "Якісний контекстний аналіз",
+    "schools": [
+      "Workplace learning (Billett/Tynjälä)",
+      "Competence-based VET (Mulder)",
+      "Teacher professional development (European)",
+      "Sociocultural learning theory"
+    ],
+    "rationale": "Центральні терміни teacher та competence разом із work і context сигналізують про situated підхід; practice та learning підкреслюють орієнтацію на реальні педагогічні практики."
+  },
+  {
+    "cluster_id": 4,
+    "name": "Когнітивні навички та проблемне навчання",
+    "description": "Найменший семантично щільний кластер, що концентрується на цільових когнітивних результатах ПТО: декларативних знаннях, практичних навичках та проблемно-орієнтованому мисленні. Виступає як «вектор виходу» системи.",
+    "methodology": "Когнітивне тестування / PBL",
+    "schools": [
+      "Skills and competence research (Rauner)",
+      "Problem-based learning (PBL tradition)",
+      "Cognitive apprenticeship theory"
+    ],
+    "rationale": "Три ключові терміни skill, knowledge, problem утворюють компактне семантичне ядро результатів навчання; низький TLS (13 886) відображає самостійну, але вузькоспеціалізовану дослідницьку нішу."
+  }
+]

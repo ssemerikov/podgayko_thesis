@@ -1,0 +1,94 @@
+model,cluster_id,metric,value,lat_s,model_name
+anthropic__claude-haiku-4-5,1,cosine_to_expert,0.5193,,Модельно-компаративні дослідження ПОВ
+anthropic__claude-haiku-4-5,2,cosine_to_expert,0.7482,,Оцінювання результатів у школах
+anthropic__claude-haiku-4-5,3,cosine_to_expert,0.8361,,Компетентність педагогів і виробничої практики
+anthropic__claude-haiku-4-5,4,cosine_to_expert,0.6371,,Проблемна грамотність і навички
+anthropic__claude-opus-4-7,1,cosine_to_expert,0.7548,,Системи ПОН та країнові моделі
+anthropic__claude-opus-4-7,2,cosine_to_expert,0.8811,,Оцінювання навчальних досягнень
+anthropic__claude-opus-4-7,3,cosine_to_expert,0.8114,,Професійні компетентності викладачів
+anthropic__claude-opus-4-7,4,cosine_to_expert,0.7018,,"Навички, знання, розв'язання проблем"
+anthropic__claude-sonnet-4-6,1,cosine_to_expert,0.9245,,Порівняльна системна політика ПТО
+anthropic__claude-sonnet-4-6,2,cosine_to_expert,0.9004,,Емпіричне оцінювання навчальних результатів
+anthropic__claude-sonnet-4-6,3,cosine_to_expert,0.8124,,Педагогічна компетентність і контекстне навчання
+anthropic__claude-sonnet-4-6,4,cosine_to_expert,0.8584,,Когнітивні навички та проблемне навчання
+deepseek__deepseek-v4-flash_cloud,1,cosine_to_expert,0.2382,24.27,Моделі та розвиток професійної освіти
+deepseek__deepseek-v4-flash_cloud,2,cosine_to_expert,0.7971,17.05,Оцінювання успішності учнів
+deepseek__deepseek-v4-flash_cloud,3,cosine_to_expert,0.8534,15.63,Компетентність вчителя та практичне навчання
+deepseek__deepseek-v4-flash_cloud,4,cosine_to_expert,0.7199,20.03,Моніторинг навичок і знань
+deepseek__deepseek-v4-pro_cloud,1,cosine_to_expert,0.1522,47.2,Німецька модель професійної освіти
+deepseek__deepseek-v4-pro_cloud,2,cosine_to_expert,0.8623,18.65,Оцінювання результатів навчання учнів
+deepseek__deepseek-v4-pro_cloud,3,cosine_to_expert,0.2923,,
+deepseek__deepseek-v4-pro_cloud,4,cosine_to_expert,0.7542,32.04,Вимірювання навчальних результатів
+google__gemma4_31b-cloud,1,cosine_to_expert,0.2165,7.27,Моделі розвитку професійної освіти
+google__gemma4_31b-cloud,2,cosine_to_expert,0.8786,7.82,Оцінка успішності та результатів навчання
+google__gemma4_31b-cloud,3,cosine_to_expert,0.7249,1.55,Компетенції та практика викладачів ПТО
+google__gemma4_31b-cloud,4,cosine_to_expert,0.8253,4.25,Когнітивний розвиток та компетенції
+minimax__minimax-m2.7_cloud,1,cosine_to_expert,0.5371,25.11,Моделі та система ВЕТ
+minimax__minimax-m2.7_cloud,2,cosine_to_expert,0.7156,18.55,Оцінювання учнів і продуктивність
+minimax__minimax-m2.7_cloud,3,cosine_to_expert,0.7712,53.62,Компетентність учителів у ВЕТ
+minimax__minimax-m2.7_cloud,4,cosine_to_expert,0.7414,17.13,"Навички, знання та проблеми"
+moonshot__kimi-k2.6_cloud,1,cosine_to_expert,0.5741,66.44,Системи ВПО та дуальна модель
+moonshot__kimi-k2.6_cloud,2,cosine_to_expert,0.5802,73.97,Оцінювання успішності та групові відмінності
+moonshot__kimi-k2.6_cloud,3,cosine_to_expert,0.8336,92.04,Компетентність педагога та робоче навчання
+moonshot__kimi-k2.6_cloud,4,cosine_to_expert,0.6885,194.97,"Компетенції, знання та проблеми"
+qwen__qwen3-coder-next_cloud,1,cosine_to_expert,0.3152,3.19,Моделі розвитку VET
+qwen__qwen3-coder-next_cloud,2,cosine_to_expert,0.7788,6.48,Оцінювання виконання учнів
+qwen__qwen3-coder-next_cloud,3,cosine_to_expert,0.8324,4.51,Практики та компетенції викладачів
+qwen__qwen3-coder-next_cloud,4,cosine_to_expert,0.3831,4.58,
+qwen__qwen3.5_397b-cloud,1,cosine_to_expert,0.2433,24.8,Моделі розвитку професійної освіти та компанії
+qwen__qwen3.5_397b-cloud,2,cosine_to_expert,0.7329,17.2,Оцінювання успішності та ефективності студентів
+qwen__qwen3.5_397b-cloud,3,cosine_to_expert,0.8572,22.9,Компетентність викладачів та практичне навчання
+qwen__qwen3.5_397b-cloud,4,cosine_to_expert,0.4839,14.76,Компетентнісний підхід та вирішення проблем
+zhipu__glm-5.1_cloud,1,cosine_to_expert,0.5993,144.01,Моделі та системи моніторингу ПФО
+zhipu__glm-5.1_cloud,2,cosine_to_expert,0.7974,94.89,Оцінка результатів учнів
+zhipu__glm-5.1_cloud,3,cosine_to_expert,0.8788,135.04,Компетентність та практика викладачів
+zhipu__glm-5.1_cloud,4,cosine_to_expert,0.8214,106.76,Оцінка навичок і знань
+_aggregate,1,method_modal_agreement,0.9091,,
+_aggregate,2,method_modal_agreement,1.0,,
+_aggregate,3,method_modal_agreement,0.5455,,
+_aggregate,4,method_modal_agreement,0.6364,,
+_aggregate,,method_krippendorff_alpha,0.5311,,
+anthropic__claude-haiku-4-5,1,schools_jaccard_vs_expert,0.25,,Модельно-компаративні дослідження ПОВ
+anthropic__claude-haiku-4-5,2,schools_jaccard_vs_expert,0.0,,Оцінювання результатів у школах
+anthropic__claude-haiku-4-5,3,schools_jaccard_vs_expert,0.3333,,Компетентність педагогів і виробничої практики
+anthropic__claude-haiku-4-5,4,schools_jaccard_vs_expert,0.5,,Проблемна грамотність і навички
+anthropic__claude-opus-4-7,1,schools_jaccard_vs_expert,0.3333,,Системи ПОН та країнові моделі
+anthropic__claude-opus-4-7,2,schools_jaccard_vs_expert,0.2,,Оцінювання навчальних досягнень
+anthropic__claude-opus-4-7,3,schools_jaccard_vs_expert,0.6667,,Професійні компетентності викладачів
+anthropic__claude-opus-4-7,4,schools_jaccard_vs_expert,0.5,,"Навички, знання, розв'язання проблем"
+anthropic__claude-sonnet-4-6,1,schools_jaccard_vs_expert,0.625,,Порівняльна системна політика ПТО
+anthropic__claude-sonnet-4-6,2,schools_jaccard_vs_expert,0.5,,Емпіричне оцінювання навчальних результатів
+anthropic__claude-sonnet-4-6,3,schools_jaccard_vs_expert,0.6667,,Педагогічна компетентність і контекстне навчання
+anthropic__claude-sonnet-4-6,4,schools_jaccard_vs_expert,0.5,,Когнітивні навички та проблемне навчання
+deepseek__deepseek-v4-flash_cloud,1,schools_jaccard_vs_expert,0.3333,,Моделі та розвиток професійної освіти
+deepseek__deepseek-v4-flash_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання успішності учнів
+deepseek__deepseek-v4-flash_cloud,3,schools_jaccard_vs_expert,0.1111,,Компетентність вчителя та практичне навчання
+deepseek__deepseek-v4-flash_cloud,4,schools_jaccard_vs_expert,0.0,,Моніторинг навичок і знань
+deepseek__deepseek-v4-pro_cloud,1,schools_jaccard_vs_expert,0.3333,,Німецька модель професійної освіти
+deepseek__deepseek-v4-pro_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання результатів навчання учнів
+deepseek__deepseek-v4-pro_cloud,3,schools_jaccard_vs_expert,0.0,,
+deepseek__deepseek-v4-pro_cloud,4,schools_jaccard_vs_expert,0.2,,Вимірювання навчальних результатів
+google__gemma4_31b-cloud,1,schools_jaccard_vs_expert,0.5,,Моделі розвитку професійної освіти
+google__gemma4_31b-cloud,2,schools_jaccard_vs_expert,0.0,,Оцінка успішності та результатів навчання
+google__gemma4_31b-cloud,3,schools_jaccard_vs_expert,0.0,,Компетенції та практика викладачів ПТО
+google__gemma4_31b-cloud,4,schools_jaccard_vs_expert,0.0,,Когнітивний розвиток та компетенції
+minimax__minimax-m2.7_cloud,1,schools_jaccard_vs_expert,0.25,,Моделі та система ВЕТ
+minimax__minimax-m2.7_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання учнів і продуктивність
+minimax__minimax-m2.7_cloud,3,schools_jaccard_vs_expert,0.0,,Компетентність учителів у ВЕТ
+minimax__minimax-m2.7_cloud,4,schools_jaccard_vs_expert,0.0,,"Навички, знання та проблеми"
+moonshot__kimi-k2.6_cloud,1,schools_jaccard_vs_expert,0.1429,,Системи ВПО та дуальна модель
+moonshot__kimi-k2.6_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання успішності та групові відмінності
+moonshot__kimi-k2.6_cloud,3,schools_jaccard_vs_expert,0.125,,Компетентність педагога та робоче навчання
+moonshot__kimi-k2.6_cloud,4,schools_jaccard_vs_expert,0.0,,"Компетенції, знання та проблеми"
+qwen__qwen3-coder-next_cloud,1,schools_jaccard_vs_expert,0.5714,,Моделі розвитку VET
+qwen__qwen3-coder-next_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання виконання учнів
+qwen__qwen3-coder-next_cloud,3,schools_jaccard_vs_expert,0.0,,Практики та компетенції викладачів
+qwen__qwen3-coder-next_cloud,4,schools_jaccard_vs_expert,0.0,,
+qwen__qwen3.5_397b-cloud,1,schools_jaccard_vs_expert,0.2857,,Моделі розвитку професійної освіти та компанії
+qwen__qwen3.5_397b-cloud,2,schools_jaccard_vs_expert,0.0,,Оцінювання успішності та ефективності студентів
+qwen__qwen3.5_397b-cloud,3,schools_jaccard_vs_expert,0.0,,Компетентність викладачів та практичне навчання
+qwen__qwen3.5_397b-cloud,4,schools_jaccard_vs_expert,0.1667,,Компетентнісний підхід та вирішення проблем
+zhipu__glm-5.1_cloud,1,schools_jaccard_vs_expert,0.4,,Моделі та системи моніторингу ПФО
+zhipu__glm-5.1_cloud,2,schools_jaccard_vs_expert,0.0,,Оцінка результатів учнів
+zhipu__glm-5.1_cloud,3,schools_jaccard_vs_expert,0.1667,,Компетентність та практика викладачів
+zhipu__glm-5.1_cloud,4,schools_jaccard_vs_expert,0.125,,Оцінка навичок і знань

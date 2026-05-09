@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Системи ПОН та країнові моделі",
+    "description": "Кластер охоплює макрорівневі дослідження систем професійної освіти і навчання, моделей співпраці підприємств із закладами освіти та порівняння національних траєкторій розвитку ПОН. Домінують публікації про дуальну систему Німеччини, перехід «школа-робота» та інтеграцію ПОН із вищою освітою.",
+    "methodology": "Порівняльний аналіз систем",
+    "schools": ["German dual-system research (BIBB, Bonn)", "European VET policy studies (CEDEFOP)", "UK/Anglo-Saxon comparative VET", "OECD policy benchmarking"],
+    "rationale": "Терміни country, company, germany, higher education прямо вказують на крос-національну інституційну оптику. TLS=86 478 і провідна позиція vet підтверджують роль кластера як системно-політичного ядра карти."
+  },
+  {
+    "name": "Оцінювання навчальних досягнень",
+    "description": "Кластер фокусується на емпіричному вимірюванні результатів учнів і студентів у закладах ПОН та загальної освіти, включно з тестуваннями, ефектами втручань та порівнянням груп. Превалюють квантитативні дослідження ефективності та диференціації досягнень.",
+    "methodology": "Кількісне квазіекспериментальне",
+    "schools": ["Educational psychometrics (US, IEA)", "Large-scale assessment research (PISA/PIAAC)", "German empirische Bildungsforschung", "School effectiveness research"],
+    "rationale": "Поєднання assessment, performance, effect, group, difference є канонічним маркером парадигми вимірювання навчальних досягнень. Орієнтація на учня/школу відрізняє цей кластер від системного аналізу #1."
+  },
+  {
+    "name": "Професійні компетентності викладачів",
+    "description": "Кластер досліджує формування та розвиток компетентностей педагогів і майстрів виробничого навчання, інтеграцію навчання з робочою практикою та контекстуалізоване професійне зростання. Переважають якісні і змішані дизайни workplace learning.",
+    "methodology": "Якісні кейс-дослідження",
+    "schools": ["Workplace learning (Billett, Tynjala, Eraut)", "Nordic vocational didactics", "Dutch competence-based VET research", "Activity theory / CHAT (Engestrom)"],
+    "rationale": "Тріада teacher-competence-practice разом із learning, work, context однозначно конституює галузь професійної дидактики та workplace learning. Менший TLS (33 895) відображає вужчу мікрорівневу спрямованість."
+  },
+  {
+    "name": "Навички, знання, розв'язання проблем",
+    "description": "Невеликий кластер концентрується на когнітивних результатах ПОН: формуванні професійних навичок, передачі знань і здатності до розв'язання прикладних проблем. Це епістемічне ядро, що зв'язує системний, оцінювальний і дидактичний рівні карти.",
+    "methodology": "Концептуально-теоретичний аналіз",
+    "schools": ["Skills formation theory (Busemeyer, Trampusch)", "Cognitive expertise research (Ericsson)", "OECD skills agenda", "Problem-based learning tradition"],
+    "rationale": "Триплет skill-knowledge-problem є наскрізним для дискусій про результати ПОН, тому кластер має найнижчий TLS (13 886) — терміни функціонують як міст до інших спільнот, а не як окрема школа."
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "model": "deepseek-v4-pro:cloud",
+    "status": "cached"
+  },
+  {
+    "model": "deepseek-v4-flash:cloud",
+    "status": "cached"
+  },
+  {
+    "model": "qwen3.5:397b-cloud",
+    "status": "cached"
+  },
+  {
+    "model": "qwen3-coder-next:cloud",
+    "status": "cached"
+  },
+  {
+    "model": "gemma4:31b-cloud",
+    "status": "cached"
+  },
+  {
+    "model": "glm-5.1:cloud",
+    "status": "cached"
+  },
+  {
+    "model": "minimax-m2.7:cloud",
+    "status": "cached"
+  },
+  {
+    "model": "kimi-k2.6:cloud",
+    "ok": 4,
+    "total": 4
+  }
+]
