@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  10 MAY 2026 07:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  10 MAY 2026 13:46
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -3292,64 +3292,64 @@ Overfull \hbox (55.41333pt too wide) in paragraph at lines 130--131
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 203.
  [24]
-<media/fig_pub_years.pdf, id=611, 857.69745pt x 351.78966pt>
+<media/fig_pub_years.pdf, id=617, 857.69745pt x 351.78966pt>
 File: media/fig_pub_years.pdf Graphic file (type pdf)
 <use media/fig_pub_years.pdf>
 Package pdftex.def Info: media/fig_pub_years.pdf  used on input line 224.
 (pdftex.def)             Requested size: 483.69687pt x 198.39113pt.
-<media/fig_doc_types.pdf, id=613, 713.49312pt x 351.576pt>
+<media/fig_doc_types.pdf, id=619, 713.49312pt x 351.576pt>
 File: media/fig_doc_types.pdf Graphic file (type pdf)
 <use media/fig_doc_types.pdf>
 Package pdftex.def Info: media/fig_doc_types.pdf  used on input line 233.
 (pdftex.def)             Requested size: 483.69687pt x 238.34966pt.
  [25 <./media/fig_pub_years.pdf>]
-<media/fig_top_sources.pdf, id=641, 857.9754pt x 496.02628pt>
+<media/fig_top_sources.pdf, id=647, 857.9754pt x 496.02628pt>
 File: media/fig_top_sources.pdf Graphic file (type pdf)
 <use media/fig_top_sources.pdf>
 Package pdftex.def Info: media/fig_top_sources.pdf  used on input line 242.
 (pdftex.def)             Requested size: 483.69687pt x 279.64229pt.
-<media/fig_top_countries.pdf, id=643, 713.27478pt x 496.16054pt>
+<media/fig_top_countries.pdf, id=649, 713.27478pt x 496.16054pt>
 File: media/fig_top_countries.pdf Graphic file (type pdf)
 <use media/fig_top_countries.pdf>
 Package pdftex.def Info: media/fig_top_countries.pdf  used on input line 251.
 (pdftex.def)             Requested size: 483.69687pt x 336.46863pt.
-<media/fig_top_authors.pdf, id=645, 713.37518pt x 496.02628pt>
+<media/fig_top_authors.pdf, id=651, 713.37518pt x 496.02628pt>
 File: media/fig_top_authors.pdf Graphic file (type pdf)
 <use media/fig_top_authors.pdf>
 Package pdftex.def Info: media/fig_top_authors.pdf  used on input line 260.
 (pdftex.def)             Requested size: 483.69687pt x 336.33217pt.
-<media/fig_keywords_de.pdf, id=648, 857.86182pt x 640.58763pt>
+<media/fig_keywords_de.pdf, id=654, 857.86182pt x 640.58763pt>
 File: media/fig_keywords_de.pdf Graphic file (type pdf)
 <use media/fig_keywords_de.pdf>
 Package pdftex.def Info: media/fig_keywords_de.pdf  used on input line 269.
 (pdftex.def)             Requested size: 483.69687pt x 361.18982pt.
  [26 <./media/fig_doc_types.pdf>] [27 <./media/fig_top_sources.pdf> <./media/fi
 g_top_countries.pdf>]
-<media/fig_keywords_id.pdf, id=706, 857.90948pt x 640.58763pt>
+<media/fig_keywords_id.pdf, id=712, 857.90948pt x 640.58763pt>
 File: media/fig_keywords_id.pdf Graphic file (type pdf)
 <use media/fig_keywords_id.pdf>
 Package pdftex.def Info: media/fig_keywords_id.pdf  used on input line 276.
 (pdftex.def)             Requested size: 483.69687pt x 361.16049pt.
  [28 <./media/fig_top_authors.pdf>] [29 <./media/fig_keywords_de.pdf>]
 [30 <./media/fig_keywords_id.pdf>] [31]
-<media/fig_network_vosviewer.pdf, id=807, 713.30492pt x 568.5886pt>
+<media/fig_network_vosviewer.pdf, id=813, 713.30492pt x 568.5886pt>
 File: media/fig_network_vosviewer.pdf Graphic file (type pdf)
 <use media/fig_network_vosviewer.pdf>
 Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 32
 7.
 (pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
-<media/fig_overlay_year.pdf, id=809, 937.88441pt x 712.64804pt>
+<media/fig_overlay_year.pdf, id=815, 937.88441pt x 712.64804pt>
 File: media/fig_overlay_year.pdf Graphic file (type pdf)
 <use media/fig_overlay_year.pdf>
 Package pdftex.def Info: media/fig_overlay_year.pdf  used on input line 336.
 (pdftex.def)             Requested size: 483.69687pt x 367.53436pt.
-<media/fig_overlay_citations.pdf, id=811, 918.26425pt x 712.64804pt>
+<media/fig_overlay_citations.pdf, id=817, 918.26425pt x 712.64804pt>
 File: media/fig_overlay_citations.pdf Graphic file (type pdf)
 <use media/fig_overlay_citations.pdf>
 Package pdftex.def Info: media/fig_overlay_citations.pdf  used on input line 34
 5.
 (pdftex.def)             Requested size: 483.69687pt x 375.38547pt.
-<media/fig_density.pdf, id=813, 672.66493pt x 568.88408pt>
+<media/fig_density.pdf, id=819, 672.66493pt x 568.88408pt>
 File: media/fig_density.pdf Graphic file (type pdf)
 <use media/fig_density.pdf>
 Package pdftex.def Info: media/fig_density.pdf  used on input line 354.
@@ -3357,18 +3357,18 @@ Package pdftex.def Info: media/fig_density.pdf  used on input line 354.
  [32] [33 <./media/fig_network_vosviewer.pdf>] [34 <./media/fig_overlay_year.pd
 f>] [35 <./media/fig_overlay_citations.pdf>] [36 <./media/fig_density.pdf>] [37
 ] [38]
-<media/fig_cluster_comparison.pdf, id=923, 543.54257pt x 423.55992pt>
+<media/fig_cluster_comparison.pdf, id=929, 543.54257pt x 423.55992pt>
 File: media/fig_cluster_comparison.pdf Graphic file (type pdf)
 <use media/fig_cluster_comparison.pdf>
 Package pdftex.def Info: media/fig_cluster_comparison.pdf  used on input line 4
 18.
 (pdftex.def)             Requested size: 483.69687pt x 376.92834pt.
-<media/fig_network_python.pdf, id=926, 713.30492pt x 568.5886pt>
+<media/fig_network_python.pdf, id=932, 713.30492pt x 568.5886pt>
 File: media/fig_network_python.pdf Graphic file (type pdf)
 <use media/fig_network_python.pdf>
 Package pdftex.def Info: media/fig_network_python.pdf  used on input line 429.
 (pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
-<media/fig_network_comparison.pdf, id=928, 1291.46492pt x 569.12625pt>
+<media/fig_network_comparison.pdf, id=934, 1291.46492pt x 569.12625pt>
 File: media/fig_network_comparison.pdf Graphic file (type pdf)
 <use media/fig_network_comparison.pdf>
 Package pdftex.def Info: media/fig_network_comparison.pdf  used on input line 4
@@ -3376,7 +3376,7 @@ Package pdftex.def Info: media/fig_network_comparison.pdf  used on input line 4
 (pdftex.def)             Requested size: 483.69687pt x 213.1526pt.
  [39] [40 <./media/fig_cluster_comparison.pdf>] [41 <./media/fig_network_python
 .pdf>]
-<media/fig_overlay_norm_citations.pdf, id=980, 921.02455pt x 712.64804pt>
+<media/fig_overlay_norm_citations.pdf, id=986, 921.02455pt x 712.64804pt>
 File: media/fig_overlay_norm_citations.pdf Graphic file (type pdf)
 <use media/fig_overlay_norm_citations.pdf>
 Package pdftex.def Info: media/fig_overlay_norm_citations.pdf  used on input li
@@ -3576,17 +3576,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 390.
 
-[73] [74] [75] [76] [77] [78] [79] [80] [81]) [82] (./chapters/vysnovky.tex
-[83
+[73] [74] (./expert_eval/results_table.tex
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 8.
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 11.
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \end{table}
+                ) [75] [76] [77] [78] [79] [80] [81] [82]) [83]
+(./chapters/vysnovky.tex [84
 
-] [84]) [85]
+] [85]) [86]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfil' on input line 106.
 
-[86
+[87
 
-] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
 (./chapters/appendix.tex
 
 ! LaTeX Error: Environment landscape undefined.
@@ -3620,7 +3630,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[99
+[101
 
 ]
 
@@ -3655,35 +3665,328 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[100
+[102
 
-] [101
+] [103
 
-] [102]pdfTeX warning (ext4): destination with the same identifier (name{table.
+] [104]pdfTeX warning (ext4): destination with the same identifier (name{table.
 1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.187 \end{table}
-                 ) 
-AED: lastpage setting LastPage
-[103
+                  [105
 
-] (./main.aux)
+]
+Overfull \hbox (36.59174pt too wide) in paragraph at lines 218--218
+[]|\T2A/cmtt/m/n/12 04_demo_credentials_template.md| 
+ []
+
+
+Overfull \hbox (42.76523pt too wide) in paragraph at lines 232--232
+[]|\T2A/cmtt/m/n/12 templates/responses_template.csv| 
+ []
+
+
+Overfull \hbox (67.4592pt too wide) in paragraph at lines 234--234
+[]|\T2A/cmtt/m/n/12 templates/results_table_template.tex| 
+ []
+
+
+Overfull \hbox (24.24475pt too wide) in paragraph at lines 236--236
+[]|\T2A/cmtt/m/n/12 templates/summary_template.md| 
+ []
+
+
+Overfull \hbox (92.15317pt too wide) in paragraph at lines 238--238
+[]|\T2A/cmtt/m/n/12 templates/deep_session_NOTES_TEMPLATE.md| 
+ []
+
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 240.
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.247 \end{table}
+                  [106
+
+] [107]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294     \item D
+                 .1 Поточна позиція (директор / мет...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294     \item D
+                 .1 Поточна позиція (директор / мет...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294     \item D
+                 .1 Поточна позиція (директор / мет...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295     \item D
+                 .2 Регіон установи (Центральна / З...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295     \item D
+                 .2 Регіон установи (Центральна / З...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.295     \item D
+                 .2 Регіон установи (Центральна / З...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296     \item D
+                 .3 Стаж у~сфері (менше~3 / 3--5 / 6--10 / 11...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296     \item D
+                 .3 Стаж у~сфері (менше~3 / 3--5 / 6--10 / 11...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296     \item D
+                 .3 Стаж у~сфері (менше~3 / 3--5 / 6--10 / 11...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297     \item D
+                 .4 Чи~представляє переміщений за�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297     \item D
+                 .4 Чи~представляє переміщений за�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297     \item D
+                 .4 Чи~представляє переміщений за�...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298     \item D
+                 .5 Технологічний рівень робочого...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298     \item D
+                 .5 Технологічний рівень робочого...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298     \item D
+                 .5 Технологічний рівень робочого...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299     \item D
+                 .6 Згода на~half-day сесію (так / можли...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299     \item D
+                 .6 Згода на~half-day сесію (так / можли...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299     \item D
+                 .6 Згода на~half-day сесію (так / можли...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[108]
+Overfull \hbox (71.2639pt too wide) in paragraph at lines 324--324
+[]|\T2A/Tempora-TLF/m/n/12 ��������$\OMS/Tempora-TLF/m/up/12 !$[]\T2A/Tempora-T
+LF/m/n/12 I[]��������$\OMS/Tempora-TLF/m/up/12 !$\T2A/Tempora-TLF/m/n/12 Audit|
+ 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.327 \end{table}
+                  [109] [110]) 
+AED: lastpage setting LastPage
+[111] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 19917EA823C9C54440CDA1F6DD363CC1;23868.
+(rerunfilecheck)             Checksum: 51329FAF5533A46476CFE2858300F63A;24261.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52420 strings out of 478754
- 1146915 string characters out of 5854204
- 2330371 words of memory out of 5000000
- 68778 multiletter control sequences out of 15000+600000
- 456960 words of font info for 94 fonts, out of 8000000 for 9000
+ 52486 strings out of 478754
+ 1147951 string characters out of 5854204
+ 2331066 words of memory out of 5000000
+ 68811 multiletter control sequences out of 15000+600000
+ 461882 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,131p,2657b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
@@ -3704,11 +4007,12 @@ sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (104 pages, 1386703 bytes).
+l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on main.pdf (112 pages, 1451019 bytes).
 PDF statistics:
- 1742 PDF objects out of 2073 (max. 8388607)
- 1495 compressed objects within 15 object streams
- 355 named destinations out of 1000 (max. 500000)
- 600 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1826 PDF objects out of 2073 (max. 8388607)
+ 1569 compressed objects within 16 object streams
+ 384 named destinations out of 1000 (max. 500000)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 

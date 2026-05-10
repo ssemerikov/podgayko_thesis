@@ -125,24 +125,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.7}Сценарний walkthrough та~кейс переміщеного закладу}{75}{subsubsection.2.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Рекомендації щодо впровадження та дорожня карта}{75}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}Рекомендації щодо впровадження та дорожня карта}{76}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}Дорожня карта 6/12/24 місяців}{75}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.1}Дорожня карта 6/12/24 місяців}{76}{subsubsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}Адресні рекомендації за~стейкхолдерами}{77}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2}Адресні рекомендації за~стейкхолдерами}{78}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Висновки до розділу 2}{79}{subsubsection.2.5.2}%
+\contentsline {section}{Висновки до розділу 2}{80}{subsubsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ВИСНОВКИ}{83}{Item.61}%
+\contentsline {section}{ВИСНОВКИ}{84}{Item.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{86}{Item.67}%
+\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{87}{Item.67}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftsecpresnum }{ДОДАТОК~}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{99}{appendix.Alph1}%
+\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{101}{appendix.Alph1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{100}{appendix.Alph2}%
+\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{102}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{101}{appendix.Alph3}%
+\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{103}{appendix.Alph3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRG }PRISMA 2020 чек-лист}{103}{appendix.Alph4}%
+\contentsline {section}{\numberline {\CYRG }PRISMA 2020 чек-лист}{105}{appendix.Alph4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRD }Комплект експертного оцінювання прототипу}{106}{appendix.Alph5}%

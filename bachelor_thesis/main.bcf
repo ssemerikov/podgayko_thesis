@@ -3632,19 +3632,21 @@
     <bcf:citekey order="128">Semenenko2023DisplacedHEI</bcf:citekey>
     <bcf:citekey order="129">Oliinyk2025IDP</bcf:citekey>
     <bcf:citekey order="130">Hevner2004DSR</bcf:citekey>
-    <bcf:citekey order="131">Penkin2025QAWar</bcf:citekey>
-    <bcf:citekey order="132">Khozhylo2024PublicMgmt</bcf:citekey>
-    <bcf:citekey order="133">Radkevych2023PPP</bcf:citekey>
-    <bcf:citekey order="133">Kryshchenko2024PPP</bcf:citekey>
-    <bcf:citekey order="134">Ciantar2025VETPolicy</bcf:citekey>
-    <bcf:citekey order="134">Storonyanska2025EuVET</bcf:citekey>
-    <bcf:citekey order="135">Gunasekara2025XAI</bcf:citekey>
-    <bcf:citekey order="135">Sharma2025EthicalLA</bcf:citekey>
-    <bcf:citekey order="136">Yang2025VETQA</bcf:citekey>
-    <bcf:citekey order="137">Semenenko2023DisplacedHEI</bcf:citekey>
-    <bcf:citekey order="138">Radkevych2023Monograph</bcf:citekey>
-    <bcf:citekey order="139">Semenenko2023DisplacedHEI</bcf:citekey>
-    <bcf:citekey order="140">Page2021PRISMA</bcf:citekey>
+    <bcf:citekey order="131">SauroLewis2016</bcf:citekey>
+    <bcf:citekey order="132">Penkin2025QAWar</bcf:citekey>
+    <bcf:citekey order="133">Khozhylo2024PublicMgmt</bcf:citekey>
+    <bcf:citekey order="134">Radkevych2023PPP</bcf:citekey>
+    <bcf:citekey order="134">Kryshchenko2024PPP</bcf:citekey>
+    <bcf:citekey order="135">Ciantar2025VETPolicy</bcf:citekey>
+    <bcf:citekey order="135">Storonyanska2025EuVET</bcf:citekey>
+    <bcf:citekey order="136">Gunasekara2025XAI</bcf:citekey>
+    <bcf:citekey order="136">Sharma2025EthicalLA</bcf:citekey>
+    <bcf:citekey order="137">Yang2025VETQA</bcf:citekey>
+    <bcf:citekey order="138">Semenenko2023DisplacedHEI</bcf:citekey>
+    <bcf:citekey order="139">Radkevych2023Monograph</bcf:citekey>
+    <bcf:citekey order="140">Semenenko2023DisplacedHEI</bcf:citekey>
+    <bcf:citekey order="141">Page2021PRISMA</bcf:citekey>
+    <bcf:citekey order="142">SauroLewis2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="abyrvalg">

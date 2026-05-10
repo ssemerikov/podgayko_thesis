@@ -1,0 +1,83 @@
+{
+  "n_total": 0,
+  "sus": {
+    "n": 0,
+    "mean": NaN,
+    "sd": NaN,
+    "min": NaN,
+    "max": NaN
+  },
+  "sus_interpretation": "TBD",
+  "b": {
+    "b1_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b2_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b3_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b4_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b5_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b6_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b7_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    },
+    "b8_score": {
+      "n": 0,
+      "mean": NaN,
+      "sd": NaN,
+      "min": NaN,
+      "max": NaN
+    }
+  },
+  "b_avg": {
+    "n": 0,
+    "mean": NaN,
+    "sd": NaN,
+    "min": NaN,
+    "max": NaN
+  },
+  "trl": {
+    "n": 0,
+    "mean": NaN,
+    "sd": NaN,
+    "min": NaN,
+    "max": NaN
+  }
+}
