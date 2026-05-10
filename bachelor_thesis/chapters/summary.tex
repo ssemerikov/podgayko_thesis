@@ -1,11 +1,38 @@
+% =============================================================
+% chapters/summary.tex — АНОТАЦІЯ (укр. + англ.)
+% За п. 4 Положення КДПУ: 200--250 слів кожна.
+% =============================================================
+
 \section*{\centering \MakeUppercase{Анотація}}
 
-\textit{Вступ.} Моніторинг освітньої діяльності закладів професійно-технічної освіти (ПТО) є актуальним завданням управління якістю освіти. Зростання кількості наукових публікацій із цієї тематики потребує систематичного бібліометричного аналізу для виявлення тематичної структури, ключових тенденцій та динаміки дослідницького поля. Метою роботи є порівняльний бібліометричний аналіз досліджень моніторингу ПТО засобами VOSViewer та Python.
+\textit{Тема:} Розробка інформаційно-аналітичної системи моніторингу й~аналізу освітньої діяльності закладів професійної освіти.
 
-\textit{Методи.} Проаналізовано 1998 публікацій бази Web of Science Core Collection (1997--2025). У VOSViewer проведено текстовий аналіз з бінарним підрахунком (поріг $\geq$100, тезаурус, 28 ключових слів). Для порівняння розроблено аналітичну систему з 9 Python-скриптів (NetworkX, scikit-learn, matplotlib), що відтворює аналіз частот, ко-входжень, кластеризації (алгоритм Лувена) та мережевих візуалізацій. Порівняння виконано за кореляцією Пірсона, ARI та NMI.
+\textit{Актуальність.} Реформа професійної освіти України, ініційована Законом~України «Про~професійну освіту»~№~4574-IX, потребами воєнного часу, повоєнного відновлення та~гармонізацією з~ЄС (EU4Skills, EQAVET), вимагає цифрового інструментарію обласного моніторингу. Особливої гостроти ця~потреба набуває для~переміщених закладів П(ПТ)О Луганщини. Чинні системи (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ) не~закривають регіонального рівня моніторингу ПТО.
 
-\textit{Результати.} VOSViewer виявив 4 тематичні кластери: <<Системи та політика ПТО>> (11 термінів), <<Результати навчання>> (8), <<Педагогічна практика>> (6), <<Когнітивні результати>> (3). Центральними термінами є vet (TLS\,=\,17\,857), study, student, training. Порівняльний аналіз показав високу кореляцію частот ($r = 0{,}923$) та TLS ($r = 0{,}919$). Кластеризація Python оптимально дає 3 кластери (ARI\,=\,0,47; NMI\,=\,0,61), об'єднуючи кластери 3 та 4.
+\textit{Мета.} Розробити інформаційно-аналітичну систему моніторингу, теоретично обґрунтовану через бібліометричний аналіз глобальної літератури та~практично орієнтовану на~потреби обласного моніторингу ПТО України.
 
-\textit{Висновки.} Аналітична система Python успішно відтворює кількісні метрики VOSViewer ($r > 0{,}9$), проте має обмеження в точності кластеризації через різницю алгоритмів та повну зв'язність мережі. Результати створюють методичну основу для розробки інформаційно-аналітичної системи моніторингу ПТО.
+\textit{Методи.} У~Розділі~1 виконано бібліометричний аналіз 1998~публікацій бази Web~of~Science (1997--2025) за~стандартом PRISMA~2020. Застосовано VOSViewer (28~ключових слів, поріг~$\geq$\,100) і~власний Python-конвеєр з~9~скриптів (NetworkX, scikit-learn, алгоритм Лувена). Проведено multi-LLM експеримент із~11~моделей з~7~родин (Claude Haiku/Sonnet/Opus, DeepSeek, Qwen, Gemma, GLM, MiniMax, Kimi) для~незалежної інтерпретації кластерів. У~Розділі~2~-- design~science~research артефакт у~формі модульного моноліта з~ABAC-моделлю доступу та~SHA-256 хеш-ланцюгом аудиту, що~реалізує всі~24~форми Specifikatsiya~v2.0; емпірична евалюація через експертне оцінювання $n\geq 3$.
 
-\textbf{Ключові слова:} професійно-технічна освіта, бібліометричний аналіз, моніторинг, VOSViewer, Python, мережа ключових слів, кластерний аналіз, ко-входження.
+\textit{Результати Розділу~1.} Виявлено 4~тематичні кластери: «Системи та~політика ПТО» (11~термінів), «Результати навчання» (8), «Педагогічна практика» (6), «Когнітивні результати» (3). Python-конвеєр відтворює кількісні метрики VOSViewer з~кореляцією Пірсона~$r=0{,}923$ (частоти) та~$r=0{,}919$ (TLS); кластеризація Лувена~-- ARI\,=\,0,47, NMI\,=\,0,61. Multi-LLM ансамбль показав $\alpha$~Кріппендорфа~$=0{,}531$; виявлено систематичний термінологічний дрейф ПТО$\to$ПОН$\to$ВПО як~побічний ефект Закону~№~4574-IX. Опус~4.7 sub-агент задокументував артефакт degree-attraction Лувена як~пояснення переприсвоєння \textit{vet} між~кластерами.
+
+\textit{Висновки.} Глобальна структура досліджень моніторингу ПТО мапується на~7~блоків Specifikatsiya~v2.0 і~забезпечує методичну основу для~системи Розділу~2. Ансамблевий підхід (multi-LLM~+ алгоритмічна кластеризація~+ експертна інтерпретація) є~необхідним за~умов термінологічного переходу та~смислової неоднозначності.
+
+\textbf{Ключові слова:} професійно-технічна освіта, бібліометричний аналіз, моніторинг, VOSViewer, Python, multi-LLM, design~science~research, переміщені заклади, ABAC, EQAVET, Закон №~4574-IX.
+
+\clearpage
+
+\section*{\centering ABSTRACT}
+
+\textit{Topic:} Development of an information-analytical system for monitoring and analysis of educational activities of vocational education institutions.
+
+\textit{Relevance.} The reform of vocational education in~Ukraine, initiated by~the~Law «On~Vocational Education» No.~4574-IX, the~needs of~wartime, post-war reconstruction, and~harmonisation with~the~EU (EU4Skills, EQAVET), requires digital instrumentation for~oblast-level monitoring. This need is~especially acute for~displaced institutions of~vocational and~vocational-technical education (V(VT)EI) of~Luhansk region. Existing systems (ISUO, EDEBO, DISO, UCEQA, AIKOM) do~not address the~regional monitoring of~vocational education.
+
+\textit{Aim.} To~develop an~information-analytical monitoring system, theoretically grounded through a~bibliometric analysis of~the~global literature and~practically oriented toward the~needs of~oblast-level VET monitoring in~Ukraine.
+
+\textit{Methods.} Chapter~1 performs a~bibliometric analysis of~1\,998 publications from~the~Web~of~Science Core Collection (1997--2025) under the~PRISMA~2020 standard. VOSViewer (28~keywords, threshold~$\geq$\,100) and~a~custom Python pipeline of~9~scripts (NetworkX, scikit-learn, Louvain algorithm) are~applied. A~multi-LLM experiment is~conducted with~11~models from~7~families (Claude Haiku/Sonnet/Opus, DeepSeek, Qwen, Gemma, GLM, MiniMax, Kimi) for~independent cluster interpretation. Chapter~2 presents a~design science research artefact in~the~form of~a~modular monolith with~an~ABAC access model and~an~SHA-256 hash-chained audit log, implementing all~24~forms of~Specifikatsiya~v2.0; empirical evaluation is~carried out through expert assessment with~$n\geq 3$.
+
+\textit{Chapter~1 Results.} Four thematic clusters are~identified: «VET systems and~policy» (11~terms), «Learning outcomes» (8), «Pedagogical practice» (6), «Cognitive outcomes» (3). The~Python pipeline reproduces VOSViewer's quantitative metrics with~Pearson correlation $r=0.923$ (occurrences) and~$r=0.919$ (total~link~strength); Louvain clustering yields ARI\,=\,0.47, NMI\,=\,0.61. The~multi-LLM ensemble shows Krippendorff's $\alpha=0.531$; a~systematic terminological drift PTO$\to$PON$\to$VPO is~observed as~a~side-effect of~Law No.~4574-IX. The~Opus~4.7 subagent documents Louvain's degree-attraction artefact as~the~explanation for~reassignment of~the~term \textit{vet}.
+
+\textit{Conclusions.} The~global structure of~research on~VET monitoring maps onto the~seven blocks of~Specifikatsiya~v2.0 and~provides a~methodological foundation for~the~system of~Chapter~2. An~ensemble approach (multi-LLM~+ algorithmic clustering~+ expert interpretation) is~necessary under conditions of~terminological transition and~semantic ambiguity.
+
+\textbf{Keywords:} vocational education and~training, bibliometric analysis, monitoring, VOSViewer, Python, multi-LLM, design~science~research, displaced institutions, ABAC, EQAVET, Law No.~4574-IX.

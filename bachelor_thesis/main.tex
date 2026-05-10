@@ -10,9 +10,18 @@
 
 \usepackage{setup}
 
+% Бібліографічний стиль: DSTU 8302:2015 («Бібліографічне посилання. Загальні
+% положення та правила складання») формально відсутній у пакеті TeX Live 2021;
+% biblatex-dstu не входить до дистрибутива. Використано gost-numeric як
+% найближчий технічний еквівалент: алфавітне сортування, нумерована
+% бібліографія, формат «Прізвище І.Б. Заголовок: тип. Місто: Видавництво,
+% рік. Cтор. doi». Структурні відмінності DSTU 8302 vs gost-2008 (Russian
+% origin, який є предком gost-numeric.bbx) є мінімальними і ручно
+% коректуються в окремих записах. Альтернатива — встановлення biblatex-dstu
+% з GitHub поза TeX Live 2021 — залишена як post-defense backlog.
 \usepackage[
 sorting=abyrvalg,
-style=gost-numeric,        % DSTU 8302:2015 (gost-numeric — найближчий доступний еквівалент)
+style=gost-numeric,
 language=auto,
 autolang=other,
 backend=biber]{biblatex}
@@ -49,12 +58,13 @@ backend=biber]{biblatex}
 
 \newcommand*{\citet}[1]{\citeauthor{#1}~\cite{#1}}
 
-\usepackage{tikz}
-\usetikzlibrary{shapes,arrows,positioning,chains}
+% tikz уже завантажено через setup.sty; тут лише додаткові libraries.
+\usetikzlibrary{shapes,arrows,positioning,chains,arrows.meta,fit,calc,backgrounds}
 
 \pgfplotsset{compat=1.18}
 
-\usepackage{hyperref}
+% hyperref завантажується через setup.sty з опцією [unicode]; \hypersetup
+% викликається там~же. Тут лише доналаштування для~цього документа.
 \hypersetup{hidelinks}
 
 \usepackage[normalem]{ulem}

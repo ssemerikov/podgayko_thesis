@@ -12,7 +12,8 @@
 \renewcommand{\thesection}{\Asbuk{section}}
 % Дотримуємось «А, Б, В, Г, Ґ, Д, Е, Є, Ж, З, И» (Asbuk — старий укр. алфавіт без Ґ)
 
-\addcontentsline{toc}{section}{ДОДАТКИ}
+% «ДОДАТКИ» загальний заголовок не~додається у~ToC — кожен Додаток
+% автоматично вписується через \section з~префіксом «ДОДАТОК».
 
 \section{Матриця ко-входжень ключових слів}
 \label{app:cooccurrence}
@@ -57,6 +58,7 @@ model & 169 & 147 & 140 & 109 & 83 & 124 & 70 & 81 & 89 & --- \\
 Повна матриця~28$\times$28 збережена у~файлі \texttt{media/cooccurrence\_matrix.csv}.
 
 
+\clearpage
 \section{Повна таблиця порівняння метрик}
 \label{app:comparison}
 
@@ -73,6 +75,7 @@ model & 169 & 147 & 140 & 109 & 83 & 124 & 70 & 81 & 89 & --- \\
 \end{landscape}
 
 
+\clearpage
 \section{Опис кластерів VOSViewer}
 \label{app:clusters}
 
@@ -93,3 +96,92 @@ model & 169 & 147 & 140 & 109 & 83 & 124 & 70 & 81 & 89 & --- \\
 \subsection*{Кластер~4: Когнітивні результати та~навички (Cognitive Outcomes and~Skills)}
 
 Найменший, але~семантично щільний кластер з~3~термінів. \textit{Skill} (TLS\,=\,5\,910, входження\,=\,375)~-- центральний результат ПТО. \textit{Knowledge} (TLS\,=\,4\,652, входження\,=\,312)~-- когнітивна основа. \textit{Problem} (TLS\,=\,3\,324, входження\,=\,198)~-- проблемно-орієнтований підхід. Середній рік~-- 2017,40 (найкласичніший). Це~<<результатний>> кластер, що~описує цільові компетенції ПТО.
+
+
+\clearpage
+\section{PRISMA 2020 чек-лист}
+\label{app:prisma}
+
+Цей чек-лист відображає відповідність бібліометричного огляду стандарту PRISMA~2020~\cite{Page2021PRISMA}. Кожен пункт містить покликання на~відповідний підрозділ Розділу~1 або~цього додатку, де~виконано вимогу.
+
+\begin{table}[htbp]
+\centering
+\caption{Заповнений PRISMA~2020 чек-лист для~бібліометричного огляду літератури з~моніторингу професійної освіти.}
+\label{tab:prisma_checklist}
+\scriptsize
+\setlength\tabcolsep{3pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{|c|p{0.36\linewidth}|p{0.45\linewidth}|}
+\hline
+\textbf{№} & \textbf{Пункт PRISMA~2020} & \textbf{Реалізація у~цій роботі} \\
+\hline
+1 & TITLE: Identify as a~systematic review & Назва Розділу~1 та~підрозділу~1.2 явно вказують на~бібліометричний аналіз; використано стандарт PRISMA для~strategy reporting. \\
+\hline
+2 & ABSTRACT: PRISMA-A items & Анотація укр./англ.\ містить мету, метод, результати, висновки. \\
+\hline
+3 & RATIONALE & Підрозділ~1.1 (теоретичні засади) обґрунтовує необхідність огляду. \\
+\hline
+4 & OBJECTIVES & Вступ: завдання дослідження~1--2 та~RQ1.1--RQ1.3. \\
+\hline
+5 & ELIGIBILITY CRITERIA & Підрозділ~1.2.2: англомовні публікації 1997--2025, типи документів та~поля WoS. \\
+\hline
+6 & INFORMATION SOURCES & Підрозділ~1.2.2: Web of~Science Core Collection. \\
+\hline
+7 & SEARCH STRATEGY & Підрозділ~1.2.2: повний пошуковий запит TS=(...) AND TS=(...). \\
+\hline
+8 & SELECTION PROCESS & Рисунок~\ref{fig:prisma_flow} (PRISMA flow); видалення дублікатів автоматизоване. \\
+\hline
+9 & DATA COLLECTION PROCESS & Скрипт \texttt{scripts/wos\_parser.py}; параметри парсингу WoS-формату. \\
+\hline
+10a & DATA ITEMS (outcomes) & Бібліометричні метрики: occurrences, TLS, avg pub year, avg citations, normalized citations. \\
+\hline
+10b & DATA ITEMS (other) & Текстові поля: TI, AB, DE, ID; метадані: AU, SO, PY, CR. \\
+\hline
+11 & STUDY RISK OF BIAS & Не~застосовується для~бібліометричного огляду; обмеження детальніше у~підрозділі «Висновки». \\
+\hline
+12 & EFFECT MEASURES & Не~застосовується (немає мета-аналізу ефектів); метрики мережі. \\
+\hline
+13a & SYNTHESIS METHODS (eligibility) & Підрозділ~1.2.2 та~рис.~\ref{fig:prisma_flow}. \\
+\hline
+13b & SYNTHESIS METHODS (data prep) & Підрозділ~1.2.4 (Python-конвеєр). \\
+\hline
+13c & SYNTHESIS METHODS (visualisation) & Підрозділ~1.4 (мережеві візуалізації, оверлей-карти). \\
+\hline
+13d & SYNTHESIS METHODS (synthesis) & Підрозділ~1.4 (інтерпретація 4~кластерів). \\
+\hline
+13e & SYNTHESIS METHODS (heterogeneity) & Підрозділ~1.5 (порівняння Python$\leftrightarrow$VOSViewer; ARI~$=0{,}47$). \\
+\hline
+13f & SYNTHESIS METHODS (sensitivity) & Підрозділ~1.5.3 (resolution~$\in$~[0.5, 2.0] для~алгоритму Лувена). \\
+\hline
+14 & REPORTING BIAS ASSESSMENT & Обмеження бібліометричного огляду наведено у~висновках до~розділу. \\
+\hline
+15 & CERTAINTY ASSESSMENT & Кореляції Пірсона з~p-значеннями (підрозділ~1.5.5). \\
+\hline
+16a & RESULTS (study selection) & Рис.~\ref{fig:prisma_flow}: $2\,154 \to 1\,998$. \\
+\hline
+16b & RESULTS (excluded) & Рис.~\ref{fig:prisma_flow}, праві бічні блоки. \\
+\hline
+17 & STUDY CHARACTERISTICS & Підрозділ~1.3 (описова статистика). \\
+\hline
+18 & RISK OF BIAS IN STUDIES & Не~застосовується для~бібліометричного огляду. \\
+\hline
+19 & RESULTS OF INDIVIDUAL STUDIES & Не~застосовується (агреговані метрики). \\
+\hline
+20a-d & RESULTS OF SYNTHESES & Підрозділи~1.3, 1.4, 1.5. \\
+\hline
+21 & REPORTING BIASES & Обговорення обмежень у~Розділі~«Висновки». \\
+\hline
+22 & CERTAINTY OF EVIDENCE & Підрозділ~1.5.5 (зведена таблиця кореляцій). \\
+\hline
+23a-d & DISCUSSION & Підрозділи~1.5--1.6. \\
+\hline
+24a-c & REGISTRATION AND PROTOCOL & Огляд незареєстрований у~PROSPERO; протокол наведений у~підрозділі~1.2. \\
+\hline
+25 & SUPPORT & Кваліфікаційна робота; зовнішнього фінансування не~передбачено. \\
+\hline
+26 & COMPETING INTERESTS & Автор~-- співробітник НМЦ ПТО Луганщини; задекларовано у~Запевненні. \\
+\hline
+27 & AVAILABILITY OF DATA & Скрипти у~\texttt{bachelor\_thesis/scripts/}; raw~дані WoS у~\texttt{part1/Дані/}. \\
+\hline
+\end{tabular}
+\end{table}

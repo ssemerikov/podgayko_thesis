@@ -127,7 +127,7 @@
 
 
 
-\linespread{1.5}  % Положення КДПУ: міжрядковий інтервал 1.5
+% \linespread оголошено нижче у DSTU-секції (line ~300).
 
 \usepackage{xcolor}
 \usepackage{mdframed}
@@ -240,15 +240,13 @@
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{upgreek} % Adds in support for greek letters in roman typeset
-\usepackage{gensymb}
+% gensymb та lineno вже завантажено вище.
 
 \usepackage{colortbl}
 
 \usepackage{ragged2e}
 \justifying
 
-
-\usepackage{lineno}  % for line numbering during review
 % \linenumbers
 
 \usepackage{ifthen}
@@ -280,24 +278,16 @@
 \usepackage{indentfirst}
 \usepackage{needspace} % prevent orphaned headings
 \usepackage{fancyhdr}  % custom page numbering
-
-% Нумерація сторінок у правому верхньому куті (рукописна правка #8 керівника).
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[R]{\thepage}
-\renewcommand{\headrulewidth}{0pt}
-\fancypagestyle{plain}{%
-  \fancyhf{}%
-  \fancyhead[R]{\thepage}%
-  \renewcommand{\headrulewidth}{0pt}%
-}
+% Налаштування fancyhdr нижче у DSTU-секції.
 
 % ============================================================
 % ДСТУ 3008:2015 — Styling
 % ============================================================
 
-% [1] Line spacing: 1.5 (Word-equivalent for 14pt = \linespread{1.25})
-\linespread{1.25}
+% [1] Line spacing: 1.5 per Положення КДПУ §6 (no Word equivalence factor —
+% Положення вимагає буквальний 1.5 інтервал, який tempora віддає при
+% \linespread{1.5}, не 1.25).
+\linespread{1.5}
 
 % [2] Page numbers: top-right corner, Arabic numerals
 \pagestyle{fancy}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  9 MAY 2026 21:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  10 MAY 2026 07:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2449,10 +2449,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip189
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 478.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 478.
+Package hyperref Info: Option `colorlinks' set `true' on input line 468.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 468.
 
-Package hyperref Info: Option `unicode' set `true' on input line 478.
+Package hyperref Info: Option `unicode' set `true' on input line 468.
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
@@ -2816,17 +2816,39 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 s/tikzlibrarychains.code.tex
 File: tikzlibrarychains.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen342
+\pgfarrowlength=\dimen343
+\pgfarrowwidth=\dimen344
+\pgfarrowlinewidth=\dimen345
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@layerbox@background=\box147
+\pgf@layerboxsaved@background=\box148
+)
 (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box147
-\UL@hyphenbox=\box148
+\UL@box=\box149
+\UL@hyphenbox=\box150
 \UL@skip=\skip268
 \UL@hook=\toks55
-\UL@height=\dimen342
+\UL@height=\dimen346
 \UL@pe=\count552
-\UL@pixel=\dimen343
-\ULC@box=\box149
+\UL@pixel=\dimen347
+\ULC@box=\box151
 Package: ulem 2019/11/18
-\ULdepth=\dimen344
+\ULdepth=\dimen348
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2835,75 +2857,75 @@ Package csquotes Info: Redefining alias 'default' -> 'ukrainian'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 6
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 7
 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for T2C+cmr on input line 6
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for T2C+cmr on input line 7
 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2ccmr.fd
 File: t2ccmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for T2B+cmr on input line 6
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for T2B+cmr on input line 7
 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2bcmr.fd
 File: t2bcmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 6
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 62.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 6
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 72.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count553
-\scratchdimen=\dimen345
-\scratchbox=\box150
+\scratchdimen=\dimen349
+\scratchbox=\box152
 \nofMPsegments=\count554
 \nofMParguments=\count555
 \everyMPshowfont=\toks56
 \MPscratchCnt=\count556
-\MPscratchDim=\dimen346
+\MPscratchDim=\dimen350
 \MPnumerator=\count557
 \makeMPintoPDFobject=\count558
 \everyMPtoPDFconversion=\toks57
@@ -2927,27 +2949,27 @@ e
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/Tempora-TLF/m/n --> TS1/Tempora-TLF/b/n on input li
-ne 62.
-Package gensymb Info: Math companion symbols declared on input line 62.
-LaTeX Info: Redefining \degree on input line 62.
-LaTeX Info: Redefining \celsius on input line 62.
+ne 72.
+Package gensymb Info: Math companion symbols declared on input line 72.
+LaTeX Info: Redefining \degree on input line 72.
+LaTeX Info: Redefining \celsius on input line 72.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 62.
-LaTeX Info: Redefining \ohm on input line 62.
-Package gensymb Info: Using \textohm for \ohm on input line 62.
-Package gensymb Info: Using \textmu for \micro on input line 62.
+erthousand on input line 72.
+LaTeX Info: Redefining \ohm on input line 72.
+Package gensymb Info: Using \textohm for \ohm on input line 72.
+Package gensymb Info: Using \textmu for \micro on input line 72.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 62.
+(lastpage)             ! on input line 72.
 \c@mv@tabular=\count559
 \c@mv@boldtabular=\count560
-LaTeX Info: Redefining \th on input line 62.
+LaTeX Info: Redefining \th on input line 72.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 62.
+LaTeX Info: Redefining \selectfont on input line 72.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2987,7 +3009,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 72.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -3000,9 +3022,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count561
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -3065,8 +3087,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
+Package biblatex Info: Reference section=0 on input line 72.
+Package biblatex Info: Reference segment=0 on input line 72.
  (./chapters/title-page.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 9.
@@ -3143,14 +3165,16 @@ l.26 \clearpage
 
 ]) (./chapters/summary.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 1.
+(Font)              scaled to size 20.74pt on input line 6.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 3.
-) [2
+(Font)              scaled to size 14.4pt on input line 8.
+ [2
 
-]
+] [3] [4
+
+]) [5]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 76.
+(Font)              scaled to size 20.74pt on input line 86.
  (./main.toc
 LaTeX Font Info:    Trying to load font information for T1+Tempora-TLF on input
  line 2.
@@ -3170,18 +3194,20 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 ...iewer~↔~Python}{28}{subsubsection.1.5.5}
+l.48 ...iewer~↔~Python}{42}{subsubsection.1.5.5}
                                                   %
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[3
+[6
 
-] [4])
+] [7])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [5] (./chapters/vstup.tex
+ [8] (./chapters/vstup.tex [9
+
+]
 
 ! Package inputenc Error: Unicode character ́ (U+0301)
 (inputenc)                not set up for use with LaTeX.
@@ -3210,9 +3236,7 @@ l.22 ...�: інтегральність ауді́
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[6
-
-] [7]) [8] [9] (./chapters/rozdil1.tex
+[10] [11] [12]) [13] (./chapters/rozdil1.tex
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
@@ -3224,116 +3248,139 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10
+[14
 
-] [11]
-
-LaTeX Warning: Reference `sec:p2-evaluation' on page 12 undefined on input line
- 46.
-
-
-LaTeX Warning: Reference `sec:p2-evaluation' on page 12 undefined on input line
- 46.
-
-[12]
+] [15] [16]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-59.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+66.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-[13]
+) [17]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 72.
+
+(./data/prior_reviews_table.tex
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 4.
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 4.
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 4.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 6.
+) [18]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 109.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 109.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 118.
+
+
+LaTeX Font Warning: Font shape `T2A/Tempora-TLF/b/sc' undefined
+(Font)              using `T2A/Tempora-TLF/b/n' instead on input line 118.
+
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/sc' will be
+(Font)              scaled to size 12.0pt on input line 119.
+
+Overfull \hbox (55.41333pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+[19] [20] [21] [22] [23]
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 99.
- [14]
-<media/fig_pub_years.pdf, id=487, 857.69745pt x 351.78966pt>
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 203.
+ [24]
+<media/fig_pub_years.pdf, id=611, 857.69745pt x 351.78966pt>
 File: media/fig_pub_years.pdf Graphic file (type pdf)
 <use media/fig_pub_years.pdf>
-Package pdftex.def Info: media/fig_pub_years.pdf  used on input line 120.
+Package pdftex.def Info: media/fig_pub_years.pdf  used on input line 224.
 (pdftex.def)             Requested size: 483.69687pt x 198.39113pt.
- [15]
-<media/fig_doc_types.pdf, id=508, 713.49312pt x 351.576pt>
+<media/fig_doc_types.pdf, id=613, 713.49312pt x 351.576pt>
 File: media/fig_doc_types.pdf Graphic file (type pdf)
 <use media/fig_doc_types.pdf>
-Package pdftex.def Info: media/fig_doc_types.pdf  used on input line 129.
+Package pdftex.def Info: media/fig_doc_types.pdf  used on input line 233.
 (pdftex.def)             Requested size: 483.69687pt x 238.34966pt.
-<media/fig_top_sources.pdf, id=510, 857.9754pt x 496.02628pt>
+ [25 <./media/fig_pub_years.pdf>]
+<media/fig_top_sources.pdf, id=641, 857.9754pt x 496.02628pt>
 File: media/fig_top_sources.pdf Graphic file (type pdf)
 <use media/fig_top_sources.pdf>
-Package pdftex.def Info: media/fig_top_sources.pdf  used on input line 138.
+Package pdftex.def Info: media/fig_top_sources.pdf  used on input line 242.
 (pdftex.def)             Requested size: 483.69687pt x 279.64229pt.
- [16 <./media/fig_pub_years.pdf> <./media/fig_doc_types.pdf>]
-<media/fig_top_countries.pdf, id=548, 713.27478pt x 496.16054pt>
+<media/fig_top_countries.pdf, id=643, 713.27478pt x 496.16054pt>
 File: media/fig_top_countries.pdf Graphic file (type pdf)
 <use media/fig_top_countries.pdf>
-Package pdftex.def Info: media/fig_top_countries.pdf  used on input line 147.
+Package pdftex.def Info: media/fig_top_countries.pdf  used on input line 251.
 (pdftex.def)             Requested size: 483.69687pt x 336.46863pt.
-<media/fig_top_authors.pdf, id=550, 713.37518pt x 496.02628pt>
+<media/fig_top_authors.pdf, id=645, 713.37518pt x 496.02628pt>
 File: media/fig_top_authors.pdf Graphic file (type pdf)
 <use media/fig_top_authors.pdf>
-Package pdftex.def Info: media/fig_top_authors.pdf  used on input line 156.
+Package pdftex.def Info: media/fig_top_authors.pdf  used on input line 260.
 (pdftex.def)             Requested size: 483.69687pt x 336.33217pt.
-<media/fig_keywords_de.pdf, id=553, 857.86182pt x 640.58763pt>
+<media/fig_keywords_de.pdf, id=648, 857.86182pt x 640.58763pt>
 File: media/fig_keywords_de.pdf Graphic file (type pdf)
 <use media/fig_keywords_de.pdf>
-Package pdftex.def Info: media/fig_keywords_de.pdf  used on input line 165.
+Package pdftex.def Info: media/fig_keywords_de.pdf  used on input line 269.
 (pdftex.def)             Requested size: 483.69687pt x 361.18982pt.
-<media/fig_keywords_id.pdf, id=554, 857.90948pt x 640.58763pt>
+ [26 <./media/fig_doc_types.pdf>] [27 <./media/fig_top_sources.pdf> <./media/fi
+g_top_countries.pdf>]
+<media/fig_keywords_id.pdf, id=706, 857.90948pt x 640.58763pt>
 File: media/fig_keywords_id.pdf Graphic file (type pdf)
 <use media/fig_keywords_id.pdf>
-Package pdftex.def Info: media/fig_keywords_id.pdf  used on input line 172.
+Package pdftex.def Info: media/fig_keywords_id.pdf  used on input line 276.
 (pdftex.def)             Requested size: 483.69687pt x 361.16049pt.
-
-[17 <./media/fig_top_sources.pdf>] [18 <./media/fig_top_countries.pdf>]
-[19 <./media/fig_top_authors.pdf>] [20 <./media/fig_keywords_de.pdf>] [21 <./me
-dia/fig_keywords_id.pdf>]
-<media/fig_network_vosviewer.pdf, id=680, 713.30492pt x 568.5886pt>
+ [28 <./media/fig_top_authors.pdf>] [29 <./media/fig_keywords_de.pdf>]
+[30 <./media/fig_keywords_id.pdf>] [31]
+<media/fig_network_vosviewer.pdf, id=807, 713.30492pt x 568.5886pt>
 File: media/fig_network_vosviewer.pdf Graphic file (type pdf)
 <use media/fig_network_vosviewer.pdf>
-Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 22
-3.
+Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 32
+7.
 (pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
- [22] [23 <./media/fig_network_vosviewer.pdf>]
-<media/fig_overlay_year.pdf, id=716, 937.88441pt x 712.64804pt>
+<media/fig_overlay_year.pdf, id=809, 937.88441pt x 712.64804pt>
 File: media/fig_overlay_year.pdf Graphic file (type pdf)
 <use media/fig_overlay_year.pdf>
-Package pdftex.def Info: media/fig_overlay_year.pdf  used on input line 232.
+Package pdftex.def Info: media/fig_overlay_year.pdf  used on input line 336.
 (pdftex.def)             Requested size: 483.69687pt x 367.53436pt.
-<media/fig_overlay_citations.pdf, id=718, 918.26425pt x 712.64804pt>
+<media/fig_overlay_citations.pdf, id=811, 918.26425pt x 712.64804pt>
 File: media/fig_overlay_citations.pdf Graphic file (type pdf)
 <use media/fig_overlay_citations.pdf>
-Package pdftex.def Info: media/fig_overlay_citations.pdf  used on input line 24
-1.
+Package pdftex.def Info: media/fig_overlay_citations.pdf  used on input line 34
+5.
 (pdftex.def)             Requested size: 483.69687pt x 375.38547pt.
-<media/fig_density.pdf, id=720, 672.66493pt x 568.88408pt>
+<media/fig_density.pdf, id=813, 672.66493pt x 568.88408pt>
 File: media/fig_density.pdf Graphic file (type pdf)
 <use media/fig_density.pdf>
-Package pdftex.def Info: media/fig_density.pdf  used on input line 250.
+Package pdftex.def Info: media/fig_density.pdf  used on input line 354.
 (pdftex.def)             Requested size: 483.69687pt x 409.06671pt.
-
-[24 <./media/fig_overlay_year.pdf>] [25 <./media/fig_overlay_citations.pdf>]
-[26 <./media/fig_density.pdf>] [27]
-<media/fig_cluster_comparison.pdf, id=797, 543.54257pt x 423.55992pt>
+ [32] [33 <./media/fig_network_vosviewer.pdf>] [34 <./media/fig_overlay_year.pd
+f>] [35 <./media/fig_overlay_citations.pdf>] [36 <./media/fig_density.pdf>] [37
+] [38]
+<media/fig_cluster_comparison.pdf, id=923, 543.54257pt x 423.55992pt>
 File: media/fig_cluster_comparison.pdf Graphic file (type pdf)
 <use media/fig_cluster_comparison.pdf>
-Package pdftex.def Info: media/fig_cluster_comparison.pdf  used on input line 2
-88.
+Package pdftex.def Info: media/fig_cluster_comparison.pdf  used on input line 4
+18.
 (pdftex.def)             Requested size: 483.69687pt x 376.92834pt.
-<media/fig_network_python.pdf, id=800, 713.30492pt x 568.5886pt>
+<media/fig_network_python.pdf, id=926, 713.30492pt x 568.5886pt>
 File: media/fig_network_python.pdf Graphic file (type pdf)
 <use media/fig_network_python.pdf>
-Package pdftex.def Info: media/fig_network_python.pdf  used on input line 299.
+Package pdftex.def Info: media/fig_network_python.pdf  used on input line 429.
 (pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
-<media/fig_network_comparison.pdf, id=802, 1291.46492pt x 569.12625pt>
+<media/fig_network_comparison.pdf, id=928, 1291.46492pt x 569.12625pt>
 File: media/fig_network_comparison.pdf Graphic file (type pdf)
 <use media/fig_network_comparison.pdf>
-Package pdftex.def Info: media/fig_network_comparison.pdf  used on input line 3
-08.
+Package pdftex.def Info: media/fig_network_comparison.pdf  used on input line 4
+38.
 (pdftex.def)             Requested size: 483.69687pt x 213.1526pt.
-<media/fig_overlay_norm_citations.pdf, id=804, 921.02455pt x 712.64804pt>
+ [39] [40 <./media/fig_cluster_comparison.pdf>] [41 <./media/fig_network_python
+.pdf>]
+<media/fig_overlay_norm_citations.pdf, id=980, 921.02455pt x 712.64804pt>
 File: media/fig_overlay_norm_citations.pdf Graphic file (type pdf)
 <use media/fig_overlay_norm_citations.pdf>
 Package pdftex.def Info: media/fig_overlay_norm_citations.pdf  used on input li
-ne 317.
+ne 447.
 (pdftex.def)             Requested size: 483.69687pt x 374.26544pt.
 
 
@@ -3344,21 +3391,16 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.322 ... кореляцій VOSViewer~↔~Python}
+l.452 ... кореляцій VOSViewer~↔~Python}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+(./media/table_comparison.tex)
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 330.
-(./media/table_comparison.tex
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 3.
-)
+(Font)              scaled to size 7.0pt on input line 464.
+ [42 <./media/fig_network_comparison.pdf>]
+[43 <./media/fig_overlay_norm_citations.pdf>]
 
 ! Package inputenc Error: Unicode character ↔ (U+2194)
 (inputenc)                not set up for use with LaTeX.
@@ -3367,23 +3409,19 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...кореляцій VOSViewer~↔~Python.}
+l.493 ...кореляцій VOSViewer~↔~Python.}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[28] [29 <./media/fig_cluster_comparison.pdf>] [30 <./media/fig_network_python.
-pdf> <./media/fig_network_comparison.pdf>] [31 <./media/fig_overlay_norm_citati
-ons.pdf>] [32] (./llm_naming/results_table.tex
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 4.
+[44] [45] (./llm_naming/results_table.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 6.
-) [33]
+) [46]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/it' will be
-(Font)              scaled to size 14.4pt on input line 394.
- [34] [35] [36] [37]
-[38] [39]) [40] (./chapters/rozdil2.tex
+(Font)              scaled to size 14.4pt on input line 549.
+ [47] [48] [49] [50] [51]
+[52] [53] [54] [55] [56]) [57] (./chapters/rozdil2.tex
 ! Undefined control sequence.
 \MakeUppercase ...ppercaseUnsupportedInPdfStrings 
                                                   
@@ -3395,36 +3433,161 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 52.
+[58
+
+] [59]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 68.
+
+Overfull \hbox (1.97131pt too wide) in paragraph at lines 80--81
+[]|\T2A/Tempora-TLF/b/n/8 ������������| 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \end{table}
+                 [60] [61]
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ...і реалізовані як~ауді́
+                                                  т із~SHA-256 хеш-л�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[62] [63]
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...азовість даних).} Ауді́
+                                                  т-лог append-only з~S...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[64]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 156.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\geq' on input line 81.
+(hyperref)                removing `\to' on input line 156.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 156.
 
-) [41
-
-]
-Overfull \vbox (211.38905pt too high) has occurred while \output is active []
-
-
-[42] (./chapters/vysnovky.tex [43
-
-]) [44]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfil' on input line 96.
+(hyperref)                removing `math shift' on input line 156.
 
-[45
 
-] [46] [47] [48] [49] [50] [51] (./chapters/appendix.tex
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\to' on input line 156.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 156.
+
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 170.
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 ...�рочесність) & --- & Ауді́
+                                                  т усіх~операці...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.203 \end{table}
+                  [65]pdfTeX warning (ext4): destination with the same identifi
+er (name{table.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.239 \end{table}
+                  [66]
+Overfull \hbox (17.91248pt too wide) in paragraph at lines 286--286
+[]|\T2A/cmtt/m/n/10 territorial_contains| 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.289 \end{table}
+                  [67] [68]
+
+! Package inputenc Error: Unicode character ́ (U+0301)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 ...~цього механізму ауді́
+                                                  т-ланцюг забру...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[69] [70] [71]
+Overfull \hbox (17.8815pt too wide) in paragraph at lines 378--379
+[]\T2A/Tempora-TLF/m/n/14.4 ���� ���-��-���[]i[]� ��-���-�� $\OMS/Tempora-TLF/m
+/up/14.4 !$ \T2A/Tempora-TLF/m/n/14.4 ��-���-��-�-�� $\OMS/Tempora-TLF/m/up/14.
+4 !$ []\T2A/Tempora-TLF/m/n/14.4 i[]����� $\OMS/Tempora-TLF/m/up/14.4 !$ \T2A/T
+empora-TLF/m/n/14.4 ���-���� $\OMS/Tempora-TLF/m/up/14.4 !$ \T2A/Tempora-TLF/m/
+n/14.4 ���[]i[]�������
+ []
+
+[72]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 390.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\geq' on input line 390.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 390.
+
+[73] [74] [75] [76] [77] [78] [79] [80] [81]) [82] (./chapters/vysnovky.tex
+[83
+
+] [84]) [85]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfil' on input line 106.
+
+[86
+
+] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98]
+(./chapters/appendix.tex
 
 ! LaTeX Error: Environment landscape undefined.
 
@@ -3432,19 +3595,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \begin{landscape}
+l.23 \begin{landscape}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 27.
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 \end{table}
+l.55 \end{table}
                 
 
 ! LaTeX Error: \begin{document} ended by \end{landscape}.
@@ -3453,12 +3614,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \end{landscape}
+l.56 \end{landscape}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[99
+
+]
 
 ! LaTeX Error: Environment landscape undefined.
 
@@ -3466,7 +3630,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \begin{landscape}
+l.67 \begin{landscape}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3476,7 +3640,7 @@ or  <return>  to continue without it.
 identifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \end{table}
+l.74 \end{table}
                 
 
 ! LaTeX Error: \begin{document} ended by \end{landscape}.
@@ -3485,54 +3649,66 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \end{landscape}
+l.75 \end{landscape}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[52
+[100
 
-] [53]) 
+] [101
+
+] [102]pdfTeX warning (ext4): destination with the same identifier (name{table.
+1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 \end{table}
+                 ) 
 AED: lastpage setting LastPage
-[54] (./main.aux)
+[103
+
+] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 821C02EEE641F1F6080748D4457A6BB9;22794.
+(rerunfilecheck)             Checksum: 19917EA823C9C54440CDA1F6DD363CC1;23868.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51480 strings out of 478754
- 1124245 string characters out of 5854204
- 2309536 words of memory out of 5000000
- 67971 multiletter control sequences out of 15000+600000
- 448663 words of font info for 90 fonts, out of 8000000 for 9000
+ 52420 strings out of 478754
+ 1146915 string characters out of 5854204
+ 2330371 words of memory out of 5000000
+ 68778 multiletter control sequences out of 15000+600000
+ 456960 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,131p,1919b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/tmp_arnbc6.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}{/usr
-/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/
-local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}</usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-BoldItalic.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Regular
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (55 pages, 1099088 bytes).
+ 117i,15n,131p,2657b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}{/
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}</usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-BoldItalic.pf
+b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Italic
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Reg
+ular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
+b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on main.pdf (104 pages, 1386703 bytes).
 PDF statistics:
- 1240 PDF objects out of 1440 (max. 8388607)
- 1053 compressed objects within 11 object streams
- 239 named destinations out of 1000 (max. 500000)
- 584 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1742 PDF objects out of 2073 (max. 8388607)
+ 1495 compressed objects within 15 object streams
+ 355 named destinations out of 1000 (max. 500000)
+ 600 words of extra memory for PDF output out of 10000 (max. 10000000)
 

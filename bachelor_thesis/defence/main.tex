@@ -1,0 +1,333 @@
+% =============================================================
+% bachelor_thesis/defence/main.tex
+% Захисна доповідь — Beamer ~18 слайдів, 12--13 хв.
+% =============================================================
+\documentclass[14pt,aspectratio=169]{beamer}
+
+\usepackage{tempora}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,ukrainian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,positioning,backgrounds,fit}
+\usepackage{booktabs}
+\usepackage{xcolor}
+
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+\useoutertheme{infolines}
+\useinnertheme{rounded}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{frametitle}{size=\normalsize}
+\setbeamerfont{footline}{size=\tiny}
+
+\graphicspath{{../media/}}
+
+\title[Моніторинг ПТО]{Розробка інформаційно-аналітичної системи моніторингу й~аналізу освітньої діяльності закладів професійної освіти}
+\author[Підгайко С.В.]{Підгайко Сергій Володимирович}
+\institute[КДПУ]{Криворізький державний педагогічний університет\\Фізико-математичний факультет\\Кафедра інформатики та прикладної математики}
+\date[2026]{Кваліфікаційна робота бакалавра, 2026~р.\\Науковий керівник: проф., д.пед.н. С.~О.~Семеріков}
+
+\begin{document}
+
+% ----- 1. Title slide -----
+\begin{frame}
+\titlepage
+\end{frame}
+
+% ----- 2. Актуальність -----
+\begin{frame}{Актуальність та~постановка проблеми}
+\begin{itemize}
+\item \textbf{Реформа ПТО~України}~-- Закон №~4574-IX (2025), потреби воєнного часу, повоєнне відновлення, EU4Skills/EQAVET.
+\item \textbf{Особливий випадок:} переміщені заклади П(ПТ)О Луганщини~-- евакуйована МТБ, роззосереджений контингент, ВПО серед здобувачів.
+\item \textbf{Прогалина:} жодна з~5~національних систем (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ) не~забезпечує обласного моніторингу П(ПТ)О з~повним покриттям 24~форм Specifikatsiya~v2.0.
+\item Глобальна академічна література містить структуру для~теоретичного обґрунтування, але~досі не~картувалася в~український контекст реформи.
+\end{itemize}
+\end{frame}
+
+% ----- 3. RQ -----
+\begin{frame}{Дослідницькі питання}
+\textbf{Розділ~1 (бібліометрика).}
+\begin{itemize}\small
+\item RQ1.1. Структура глобальної літератури з~моніторингу ПТО (1997--2025)?
+\item RQ1.2. Узгодженість VOSViewer~$\leftrightarrow$~Python-Louvain~$\leftrightarrow$~multi-LLM інтерпретацій?
+\item RQ1.3. Картування виявлених кластерів у~систему національної звітності?
+\end{itemize}
+\textbf{Розділ~2 (система).}
+\begin{itemize}\small
+\item RQ2.1. Як декомпозувати 24~форми у~ідемпотентну реляційну модель?
+\item RQ2.2. Декларативна модель доступу адекватна територіальній ієрархії?
+\item RQ2.3. Гарантії невідмовності SHA-256 хеш-ланцюга аудиту?
+\item RQ2.4. Рівень зрілості (TRL) і~шлях пілотного впровадження?
+\end{itemize}
+\end{frame}
+
+% ----- 4. Вибірка та методика (Розділ 1) -----
+\begin{frame}{Розділ~1: вибірка та~методика}
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\begin{itemize}\small
+\item \textbf{1\,998~публікацій} Web~of~Science Core Collection, 1997--2025
+\item PRISMA~2020 flow~+ checklist
+\item VOSViewer text~mining: 28~ключових слів, поріг~$\geq$\,100, тезаурус
+\item Python-конвеєр: 9~скриптів (NetworkX, scikit-learn, Louvain)
+\item Multi-LLM ансамбль: \textbf{11~моделей з~7~родин}
+\end{itemize}
+\end{column}
+\begin{column}{0.45\textwidth}
+\centering
+\includegraphics[width=\linewidth]{fig_pub_years.pdf}\\
+\tiny Розподіл публікацій 1997--2025
+\end{column}
+\end{columns}
+\end{frame}
+
+% ----- 5. 4 кластери -----
+\begin{frame}{4~тематичні кластери VOSViewer}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\small
+\textbf{К1: Системи та~політика ПТО} (11~термінів)\\
+\textit{vet, training, country, germany, company, higher education}\dots\\[0.3em]
+\textbf{К2: Результати навчання} (8~термінів)\\
+\textit{study, student, assessment, performance, effect}\dots\\[0.3em]
+\textbf{К3: Педагогічна практика} (6~термінів)\\
+\textit{teacher, competence, practice, learning, context}\dots\\[0.3em]
+\textbf{К4: Когнітивні результати} (3~терміни)\\
+\textit{skill, knowledge, problem}
+\end{column}
+\begin{column}{0.5\textwidth}
+\centering
+\includegraphics[width=\linewidth]{fig_network_vosviewer.pdf}\\
+\tiny Мережа за~координатами VOSViewer
+\end{column}
+\end{columns}
+\end{frame}
+
+% ----- 6. Python vs VOSViewer -----
+\begin{frame}{Відтворюваність: Python~$\leftrightarrow$~VOSViewer}
+\begin{columns}
+\begin{column}{0.55\textwidth}
+\begin{table}\footnotesize
+\begin{tabular}{lc}
+\toprule
+\textbf{Метрика} & \textbf{Pearson~$r$} \\
+\midrule
+Частоти входжень & \textbf{0,923} \\
+Total~Link~Strength & \textbf{0,919} \\
+Середній рік публікації & 0,74 \\
+Середня цитованість & 0,74 \\
+Норм.\ цитованість & 0,79 \\
+\midrule
+ARI кластеризації & 0,47 \\
+NMI кластеризації & 0,61 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\textbf{Висновок:} високе відтворення кількісних метрик; Лувена-артефакт degree-attraction обмежує точність кластеризації.
+\end{column}
+\begin{column}{0.45\textwidth}
+\centering
+\includegraphics[width=\linewidth]{fig_cluster_comparison.pdf}\\
+\tiny Порівняння кластерів
+\end{column}
+\end{columns}
+\end{frame}
+
+% ----- 7. Multi-LLM -----
+\begin{frame}{Multi-LLM ансамбль: 11~моделей з~7~родин}
+\small
+\textbf{Anthropic:} Claude Haiku~4.5, Sonnet~4.6, Opus~4.7\\
+\textbf{Open-weight (Ollama cloud):} DeepSeek v4 Pro/Flash, Qwen 3.5/coder-next, Gemma 4, GLM 5.1, MiniMax m2.7, Kimi k2.6\\[0.4em]
+\textbf{Метрики згоди:}
+\begin{itemize}\small
+\item Krippendorff $\alpha$ = \textbf{0,531} (методологія)
+\item Modal-method agreement: К2~100\%, К1~91\%, К4~64\%, К3~55\%
+\item Cosine similarity до~експерта: Sonnet \textbf{0,87}, Opus 0,79, GLM~5.1 0,77, Haiku 0,69
+\end{itemize}
+\textbf{Знахідка:} термінологічний дрейф ПТО~/~ПОН~/~ВПО як~побічний ефект Закону~№~4574-IX. Cross-vendor варіативність~>~intra-vendor~-- обґрунтовує ансамблевий підхід.
+\end{frame}
+
+% ----- 8. Імплікації для України -----
+\begin{frame}{Імплікації: картування у~Specifikatsiya~v2.0}
+\centering
+\begin{tikzpicture}[node distance=0.5cm, font=\footnotesize]
+\node[draw,fill=blue!10,rounded corners,minimum width=2.5cm] (k1) {К1: Системи};
+\node[draw,fill=green!10,rounded corners,minimum width=2.5cm,below=of k1] (k2) {К2: Результати};
+\node[draw,fill=orange!10,rounded corners,minimum width=2.5cm,below=of k2] (k3) {К3: Педагогіка};
+\node[draw,fill=red!10,rounded corners,minimum width=2.5cm,below=of k3] (k4) {К4: Навички};
+\node[draw,fill=gray!8,rounded corners,minimum width=3.5cm,right=2.5cm of k1] (b45) {Блоки 4--5: професії, проєкти};
+\node[draw,fill=gray!8,rounded corners,minimum width=3.5cm,right=2.5cm of k2] (b16) {Блоки 1, 6: контингент, якість};
+\node[draw,fill=gray!8,rounded corners,minimum width=3.5cm,right=2.5cm of k3] (b2)  {Блок 2: кадри};
+\node[draw,fill=gray!8,rounded corners,minimum width=3.5cm,right=2.5cm of k4] (b6)  {Блок 6: форми 6.1--6.4};
+\draw[->,thick] (k1)--(b45); \draw[->,thick] (k2)--(b16);
+\draw[->,thick] (k3)--(b2);  \draw[->,thick] (k4)--(b6);
+\end{tikzpicture}\\[0.4em]
+\small\textbf{Блок~7 (інформаційна відкритість)~-- власний результат:} концептуально не~представлений жодним кластером, що~підтверджує доцільність окремого блоку.
+\end{frame}
+
+% ----- 9. Кейс переміщених закладів -----
+\begin{frame}{Кейс переміщених закладів П(ПТ)О Луганщини}
+\textbf{Виклики моніторингу:}
+\begin{itemize}\small
+\item Розрив юридичної (окупована територія) та~фактичної адреси
+\item Роззосереджений контингент (ВПО, ветерани, родини ветеранів)
+\item Евакуйована МТБ, обмежений доступ до~архівів
+\end{itemize}
+\textbf{5~дизайн-вимог} (виведено в~Розділі~1, реалізовано в~Розділі~2):
+\begin{enumerate}\small
+\item Окремі поля \texttt{registered\_oblast\_id} та~\texttt{actual\_oblast\_id}
+\item Дискретний статус \texttt{evacuation\_status} (not/partial/yes)
+\item Категорії здобувача (ВПО, ветеран, родина, переміщений)
+\item ABAC за~\textit{фактичним} розміщенням (\texttt{territorial\_contains})
+\item Публічна карта релокації \texttt{/institutions/relocation-map}
+\end{enumerate}
+\end{frame}
+
+% ----- 10. Розділ 2 архітектура -----
+\begin{frame}{Розділ~2: архітектура системи}
+\centering
+\begin{tikzpicture}[node distance=0.4cm, font=\scriptsize]
+\node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Server-rendered UI: EJS + htmx + Alpine + axe-core a11y};
+\node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + ABAC decorator};
+\node[draw,rounded corners,fill=yellow!10,minimum width=8cm,minimum height=0.6cm,below=of api] (svc) {Service layer: idempotent compare-then-write + audit emit};
+\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Drizzle repositories: 8 модулів даних, 24 форми Spec v2.0};
+\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,below=of rep,xshift=-2.1cm] (pg) {PostgreSQL 16: append-only audit + SHA-256 hash chain};
+\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,right=0.3cm of pg] (rd) {Redis 7: ABAC cache + BullMQ jobs};
+\draw[->,thick] (ui)--(api); \draw[->,thick] (api)--(svc); \draw[->,thick] (svc)--(rep);
+\draw[->,thick] (rep)--(pg); \draw[->,thick] (rep)--(rd);
+\end{tikzpicture}
+\end{frame}
+
+% ----- 11. ABAC JSON-AST -----
+\begin{frame}{ABAC: декларативна мова політик}
+\centering
+\begin{tikzpicture}[node distance=0.35cm and 0.6cm, font=\tiny,
+    op/.style={draw,rounded corners,fill=blue!8,minimum width=2cm,minimum height=0.6cm,align=center},
+    leaf/.style={draw,rounded corners,fill=gray!10,minimum width=2.6cm,minimum height=0.55cm,align=center}]
+\node[op] (root) {\texttt{and}};
+\node[op,below left=of root,xshift=-0.5cm] (eq) {\texttt{eq}};
+\node[op,below right=of root,xshift=0.5cm] (terr) {\texttt{territorial\_contains}};
+\node[leaf,below=of eq,xshift=-1.2cm] (a1) {\texttt{user.role} = \texttt{"director"}};
+\node[leaf,below=of eq,xshift=1.2cm] (a2) {\texttt{user.instId}\\\texttt{= res.instId}};
+\node[leaf,below=of terr,xshift=-1.2cm] (b1) {scope: \texttt{user.oblastId}};
+\node[leaf,below=of terr,xshift=1.2cm] (b2) {target: \texttt{res.actual\_oblastId}};
+\draw[->] (root)--(eq); \draw[->] (root)--(terr);
+\draw[->] (eq)--(a1); \draw[->] (eq)--(a2);
+\draw[->] (terr)--(b1); \draw[->] (terr)--(b2);
+\end{tikzpicture}\\[0.5em]
+\small\textbf{Семантика:} deny-overrides default-deny\quad\textbar\quad Redis cache + pub/sub\quad\textbar\quad $p_{95}<5$~мс
+\end{frame}
+
+% ----- 12. Аудит SHA-256 -----
+\begin{frame}{Аудит з SHA-256 хеш-ланцюгом}
+\textbf{Кожен запис:} \texttt{\{actor, action, resource, before, after, prev\_hash, hash\}}\\[0.5em]
+\textbf{Хеш:} $h_n = \mathrm{SHA{-}256}(h_{n-1} \,\|\, \mathrm{canonical\_json}(\text{запис}_n))$\\[0.3em]
+\begin{itemize}\small
+\item Append-only тригер блокує \texttt{UPDATE}/\texttt{DELETE}
+\item \texttt{audit.verify()} перевіряє цілісність ланцюга на~10\,000 синтетичних upsert
+\item Канонічна JSON-проєкція стабільна між~PostgreSQL JSONB round-trip
+\item Криптографічний доказ для~зовнішнього перевіряючого
+\end{itemize}
+\textbf{Імплікації:} вищий рівень доказовості, ніж~у~всіх~5~національних системах; відповідає Закону «Про~освіту» (моніторинг якості) та~Закону про~академічну доброчесність.
+\end{frame}
+
+% ----- 13. Евалюація -----
+\begin{frame}{Емпірична евалюація}
+\begin{itemize}\small
+\item \textbf{Аудит-ланцюг:} 10\,000 upsert + \texttt{verify()}~$\to$~100\% цілісність
+\item \textbf{ABAC:} матриця role~$\times$~action~$\times$~resource ($\sim$160~тестів) + e2e~no-bypass
+\item \textbf{Excel round-trip:} 8~шаблонів, fidelity 100\% для~валідних рядків
+\item \textbf{Латентність:} цільовий $p_{95}<500$~мс (50~закладів~$\times$~1\,000~здобувачів)
+\item \textbf{WCAG~2.1~AA:} axe-core на~9~маршрутах, 0~критичних порушень
+\item \textbf{Експертне оцінювання $n\geq 3$:} SUS + 8 domain-питань + 4 open-feedback + 1--2 half-day сесії
+\item \textbf{Walkthrough:} 5~сценаріїв, включно з~кейсом переміщеного закладу
+\end{itemize}
+\end{frame}
+
+% ----- 14. Дорожня карта -----
+\begin{frame}{Дорожня карта впровадження}
+\begin{itemize}\small
+\item \textbf{6~місяців} (\textit{воєнний час}): розгортання у~НМЦ ПТО Луганщини; імпорт із~Аналітичного збірника 2025; завершення експертного оцінювання
+\item \textbf{12~місяців} (\textit{повоєнне відновлення}): пілот у~3--5~областях; інтеграція з~ЄДЕБО (ETL); КЕП-підпис; розширення PPP за~моделями ЄС
+\item \textbf{24~місяці} (\textit{гармонізація з~ЄС}): сумісність з~10~індикаторами EQAVET; ML-передбачення відрахування з~explainability; поширення на~всі~25~областей; передача МОН
+\end{itemize}
+\textbf{Адресні рекомендації:} МОН (стандарт переміщених, EQAVET); обласні департаменти (on-prem, risk-based); керівники (юр./факт.\ адреса, Excel-bulk); інспектори (ABAC спеціалізація, обмін досвідом).
+\end{frame}
+
+% ----- 15. Висновки -----
+\begin{frame}{Основні висновки}
+\textbf{Розділ~1 (RQ1.1--1.3):}
+\begin{itemize}\small
+\item 4~стійкі семантичні кластери глобальної літератури; темпоральний зсув до~ролі бізнесу та~контекстуального навчання
+\item Python-конвеєр відтворює VOSViewer-метрики ($r>0,9$); multi-LLM $\alpha=0{,}531$; ансамблевий підхід обґрунтовано
+\item Кластери прямо мапяться на~7~блоків Specifikatsiya~v2.0
+\end{itemize}
+\textbf{Розділ~2 (RQ2.1--2.4):}
+\begin{itemize}\small
+\item 24~форми реалізовано у~8 модулях з~ідемпотентним прийомом і~крос-формовими warnings
+\item ABAC JSON-AST коректний для~територіальної ієрархії (no-bypass інваріанти)
+\item SHA-256 хеш-ланцюг забезпечує криптографічну невідмовність аудиту
+\item TRL~5--6, готовність до~пілоту з~трирічною дорожньою картою
+\end{itemize}
+\end{frame}
+
+% ----- 16. Дякую -----
+\begin{frame}
+\centering
+\Huge\bfseries Дякую за~увагу!\\[0.6em]
+\large\normalfont Готовий відповісти на~запитання
+\\[1em]
+\small Підгайко С.~В.\quad\textbar\quad КДПУ, 2026
+\end{frame}
+
+% ===== Запасні слайди =====
+\begin{frame}{Запасний: traceability матриця}
+\centering\tiny
+\begin{tabular}{|p{3.2cm}|p{1.5cm}|p{2.5cm}|p{2cm}|}
+\hline
+\textbf{Нормативне джерело} & \textbf{Форма} & \textbf{Вимога} & \textbf{Модуль} \\
+\hline
+Закон №~4574-IX (контингент) & 1.1--1.5 & Контингент здобувачів & \texttt{students} \\
+\hline
+Закон №~4574-IX (кадри) & 2.1--2.8 & Педагогічні працівники & \texttt{staff} \\
+\hline
+Закон №~4574-IX (динаміка) & 3.1--3.3 & Зарахування / випуск / працевл. & \texttt{enrollment\_dynamics} \\
+\hline
+Закон №~4574-IX (професії) & 4.1--4.2 & Класифікатор + контингент & \texttt{professions} \\
+\hline
+Закон «Про освіту» (якість) & 6.1--6.4 & ДКР, НМТ, олімпіади & \texttt{quality} \\
+\hline
+Закон «Про освіту» (відкритість) & 7.1 & 20 критеріїв веб-сайту & \texttt{transparency} \\
+\hline
+Закон №~4742-IX (доброчесність) & --- & Audit SHA-256 & \texttt{audit} \\
+\hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}{Запасний: порівняння з національними системами}
+\centering\tiny
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Параметр} & \textbf{ІСУО} & \textbf{ЄДЕБО} & \textbf{ДІСО} & \textbf{УЦОЯО} & \textbf{АІКОМ} & \textbf{Ця~робота} \\
+\hline
+24~форми Spec~v2.0 & ні & ні & ні & ні & частк. & \textbf{так} \\
+\hline
+Карта релокації & ні & ні & ні & ні & ні & \textbf{так} \\
+\hline
+ABAC ролі & ні & ролі & --- & ролі & --- & \textbf{декл.} \\
+\hline
+Хеш-ланцюг audit & ? & сист. & ? & сист. & ? & \textbf{SHA-256} \\
+\hline
+WCAG~2.1~AA & ні & частк. & --- & частк. & ні & \textbf{2.1~AA} \\
+\hline
+Підтримка переміщ. & ні & неявн. & ні & ні & ні & \textbf{так} \\
+\hline
+\end{tabular}
+\end{frame}
+
+\end{document}

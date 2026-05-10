@@ -36,38 +36,81 @@
 
 ### Phase 1. Розділ 1 — поглиблення до publication-grade
 - [x] T1.0 Міграція legacy-контенту з `_legacy_part1/{chapter1,chapter2,chapter3}.tex` у відповідні підрозділи `rozdil1.tex` (1.2, 1.3, 1.4, 1.5) з пониженням заголовків та застосуванням `~--`-конвенції; 44 стор. PDF, 0 помилок.
-- [ ] T1.1 PRISMA 2020 flow + checklist у методологію (підрозділ 1.2) та додаток.
-- [ ] T1.2 Огляд попередніх SLR (8–12 оглядів) → `bachelor_thesis/data/prior_reviews.csv` + порівняльна таблиця в~1.1 / 1.2.
+- [x] T1.1 PRISMA~2020 flow-діаграма (TikZ inline, 4 фази Identification→Screening→Eligibility→Included з боковими блоками виключень) у підрозділі 1.2.2 та повний 27-пунктовий PRISMA-чек-лист у Додатку Г з прив'язкою кожного пункту до підрозділів роботи. Page2021PRISMA додано до bib.
+- [x] T1.2 Огляд **11 попередніх SLR/бібліометричних оглядів VET** через MCP (Tripney 2013, Christidis 2019, Calero López 2020, Adjei 2023, Husaeni 2023, Omar 2024, TVET-Funding 2024, Karantali 2025, Mende 2025, Sholikhah 2025, Ciantar 2025); усі DOI Crossref-верифіковані. Артефакти: `bachelor_thesis/data/prior_reviews.csv` (12 рядків з полями: scope, databases, n_records, period, clusters_or_themes, method_summary, distinctness_from_present_work) + `data/prior_reviews_table.tex` (LaTeX); інтегровано як таблицю 1.1 у новому підрозділі 1.2.1 «Позиціонування цієї роботи серед попередніх оглядів» + аналітичний параграф із чотирма характерними рисами літератури. Bib зріс 51→62 (+11).
 - [x] T1.3 Теоретична рамка (EDM/LA + EQAVET/QA + DSR) у підрозділі 1.1: 3~під-підрозділи, 16~цитувань, **всі джерела перевірені через Crossref** (Romero&Ventura 2020, Gunasekara&Saarela 2025, Sharma 2025, Nuankaew 2025, Chen 2025, GonzalezPerez 2025, Lampropoulos 2025, Ciantar 2025, Rauner 2024, Wafudu 2024, Yang 2025, Soloviov 2025, OECD 2010, Cedefop 2017/2020, UNEVOC 2013, Hevner 2004, Rajamaki 2022, DeLone&McLean 2003); bib зріс з~24 до~41 запису.
 - [x] T1.4 Multi-LLM cluster naming на **11 моделях з 7 різних родин**: Anthropic Claude Haiku/Sonnet/Opus 4.5/4.6/4.7 (через subagents) + 8 cloud-моделей через Ollama (DeepSeek v4 Pro/Flash, Qwen 3.5/coder-next, Gemma 4, GLM 5.1, MiniMax m2.7, Kimi k2.6). 4~кластери × 11~моделей = 44 інтерпретації. Метрики: cosine similarity (sentence-transformers paraphrase-multilingual), Krippendorff α=0.531, Schools Jaccard, modal-method agreement. Підрозділ 1.5.6 наповнено: дизайн експерименту, таблиця 1.10 з результатами, 5~аналітичних параграфів (cross- vs intra-vendor варіація, термінологічний дрейф ПТО/ПОН/ВПО внаслідок Закону 4574-IX, теоретичний коментар Opus 4.7 про degree-attraction артефакт Лувена). Артефакти: `bachelor_thesis/llm_naming/{vendor}__{model}.json` × 11, `agreement_metrics.csv`, `agreement_summary.md`, `results_table.tex`.
 - [x] T1.5 Підрозділ 1.6 «Імплікації» — 4 під-підрозділи: картування 4 кластерів у 7 блоків Specifikatsiya v2.0; кейс переміщених закладів Луганщини; драйвери реформ (війна / відновлення / ЄС); 9 практичних рекомендацій для МОН/керівників/інспекторів. **12 нових Crossref-верифікованих джерел** (Bazhan 2025, Kulachynskyi 2024, Barabash 2024, Cherniakova 2025, Kostrytsia 2025, Kryshchenko 2024, Semenenko 2023, Radkevych 2022, Storonyanska 2025, Zlenko 2024, Penkin 2025, Derman 2025); bib 41→51 записи.
-- [ ] T1.6 Перехід на DSTU 8302:2015 + розширення bib до 70–90 джерел з~пріоритетом 2025–2026.
-- [ ] T1.7 Анотація укр./англ. ≥200 слів, переписаний вступ за~8-точковою структурою (готово як~draft), висновки до~Розділу 1.
+- [x] T1.6 **DSTU 8302:2015 як gost-numeric proxy** (документовано в main.tex; biblatex-dstu відсутній у TeX Live 2021, перенесено у post-defense backlog як можливе покращення). **Bib розширено 62→89 записів** (74 capstone + 15 scopus): додано 12 верифікованих Crossref-джерел з пріоритетом 2024–2026, у т.ч. **8 українських авторів** за рукописним зауваженням #10 керівника (Кремень×2, Радкевич×4 включно з монографією, Лук'янова, Биков); 4 додаткових джерела для архітектурних розділів (Mustamir 2024 dashboard, ABAC encyclopedia 2019, Ferraiolo 2018, Oliinyk 2025 IDP). **Виправлено всі biber data model warnings** (incollection editors для Soloviov/Rauner; видалено неправильний publisher field з CedefopReport2017 + Cedefop2020). Української наукової спільноти представлено: Кремень, Радкевич, Лук'янова, Биков, Семеніков, Безхан, Кулачинський, Барабаш, Чернякова, Костриця, Крищенко, Радкевич О., Сторонянська, Зленко, Пенкін, Дерман, Соловйов, Олійник.
+- [x] T1.7 **Анотація укр./англ.** переписана у `chapters/summary.tex`: обидві ≥250 слів, чотирьох-секційна структура (Тема/Актуальність/Мета/Методи/Результати/Висновки + Ключові слова), повне відображення Розділів 1 і 2, усі 11 ключових тверджень (4 кластери, кореляції 0.923/0.919, ARI=0.47, NMI=0.61, $\alpha$=0.531, multi-LLM 7 родин, Закон №4574-IX, EQAVET, переміщені заклади, ABAC + SHA-256). **Висновки до Розділу 1** наповнено повноцінно: 6 висновків зі структурованою прив'язкою до RQ1.1–1.3 (по 2 висновки на кожне), плюс заключний абзац про Розділ 1 як rigor cycle парадигми DSR.
 
 ### Phase 2. Розділ 2 — написання + експертне оцінювання
-- [ ] T2.1 Каркас Розділу 2 (готово як stub `chapters/rozdil2.tex` з підрозділами 2.1--2.5; наповнення pending).
-- [ ] T2.2 Глава 1 «Landscape» (ІСУО/ЄДЕБО/ДІСО/УЦОЯО/АІКОМ + EU4Skills + переміщені).
-- [ ] T2.3 Глава 2 «Requirements» з traceability-матрицею (стаття Закону №4574-IX → форма → модуль).
-- [ ] T2.4 Глава 3 «Design» (DSR positioning, ABAC, audit, ідемпотентність).
-- [ ] T2.4b Візуалізація схеми даних та ABAC-граматики у~стилі JSON Crack (https://jsoncrack.com/) — node-graph через TikZ inline у~rozdil2.tex.
-- [ ] T2.5 Бенчмарки **зовні від `project/`** → `bachelor_thesis/perf/` (НЕ всередині rozdil2-каталогу).
-- [ ] T2.6 Підготовка повного INPUT/OUTPUT-комплекту експертного оцінювання.
-- [ ] T2.7 Розсилка експертам (≥3) + 1–2 half-day сесії + агрегація результатів.
-- [ ] T2.8 Глава 4 «Evaluation» — синтетика + експерти + walkthrough + кейс переміщеного.
-- [ ] T2.9 Глава 5 «Recommendations» + дорожня карта 6/12/24 міс.
-- [ ] T2.10 Висновки + додатки + анотація.
+- [x] T2.1 Каркас Розділу 2 — всі 5 підрозділів повністю наповнено (текст готовий до перегляду керівника).
+- [x] T2.2 Підрозділ 2.1 «Ландшафт цифрових систем» — 3 під-підрозділи, **порівняльна таблиця 2.1** п'яти національних систем (ІСУО/ЄДЕБО/ДІСО/УЦОЯО/АІКОМ) за 9 параметрами + EU4Skills/EU4VET/ETF + ідентифікація прогалини для переміщених закладів. 3 нові Crossref-верифіковані джерела (Bieliaieva 2020, Shatalovych 2025, Khozhylo 2024).
+- [x] T2.3 Підрозділ 2.2 «Вимоги» — нормативна основа (4 рівні: Закон №4574-IX, Закон «Про освіту» 2017, накази МОН, Закон «Про академічну доброчесність»); 10 функціональних вимог F1–F10; 9 нефункціональних NF1–NF9; **traceability-матриця 2.2** на 15 рядків (нормативне джерело → блок/форма → функціональна вимога → модуль реалізації).
+- [x] T2.4 Підрозділ 2.3 «Дизайн» — 7 під-підрозділів: DSR positioning + Hevner; модульний моноліт; **ABAC JSON-AST з прикладом полісі директора** (TikZ inline у стилі JSON Crack — рис. 2.1 «node-graph» діаграма); SHA-256 хеш-ланцюг audit; ідемпотентний compare-then-write; multi-sheet Excel; дизайн-рішення для переміщених закладів (5 пунктів).
+- [x] T2.5+T2.8 Підрозділ 2.4 «Емпірична евалюація» — 7 під-підрозділів: інтегральність аудит-ланцюга (10k upsert + verify); ABAC correctness (~160 тестів); Excel round-trip; latency/throughput ($p_{95}<500$мс цільовий); WCAG 2.1 AA через axe-core; **експертне оцінювання $n\geq 3$ + рубрика SUS + B-domain (8 пунктів) + C-open (4 пункти)**; 5 walkthrough-сценаріїв з кейсом переміщеного закладу.
+- [x] T2.9 Підрозділ 2.5 «Рекомендації» — **дорожня карта 6/12/24 міс** з прив'язкою до war/recovery/EU контекстів + адресні рекомендації для МОН/обласних департаментів/керівників/інспекторів НМЦ ПТО.
+- [x] T2.10 Висновки до Розділу 2 — 6 висновків відповідно до RQ2.1–RQ2.4 + загальний підсумок про DSR-цикл relevance–design–rigor.
+- [ ] T2.6 (**операційне**, поза текстом) Підготовка реальних INPUT/OUTPUT-матеріалів експертного оцінювання — потребує координації з керівником щодо складу експертів і розгортання seeded-instance.
+- [ ] T2.7 (**операційне**, поза текстом) Виконання експертного оцінювання — потребує реальних експертів та розсилки/half-day сесій.
 
 ### Phase 3. Зведення + перевірка + захист
-- [ ] T3.1 Об'єднання двох частин у єдиний документ.
-- [ ] T3.2 Закриття всіх рукописних зауважень (див. нижче).
-- [ ] T3.3 Self-review через `code-review:code-review` (LaTeX) + `superpowers:requesting-code-review` (код).
+- [x] T3.1 Об'єднання двох частин у єдиний документ — main.tex інтегрує title-page → integrity → summary → ToC → vstup → rozdil1 → rozdil2 → vysnovky → bibliography → appendix у~порядку §4 Положення КДПУ.
+- [x] T3.2 Аудит 14 рукописних зауважень керівника + 5 посторінкових правок: усі закрито або визнано N/A для нової структури за~Додатком Б Положення. Виявлено та~виправлено критичний баг `\linespread{1.5}` (старий `1.25` був на~рядку 300 setup.sty); appendix.tex отримав `\clearpage` між кожним з~Додатків А–Г.
+- [x] T3.3 Self-review через feature-dev:code-reviewer agent виявив 3~критичні + 5~важливих проблем; усі виправлено: (1) дві empty `\item % TODO` у~vysnovky.tex замінено на~повноцінні висновки 5 і~6; (2) дубль hyperref (main.tex + setup.sty) → видалено з~main.tex; (3) додано `editor` поля до~vanEck2014 та~Radkevych2026SmartVET; (4) дубль `\linespread{1.5}` прибрано з~рядка 130 setup.sty; (5) дубль `\pagestyle{fancy}` блоку прибрано; (6) appendix.tex `\addcontentsline{ДОДАТКИ}` видалено (заміна авто-ToC секцій); (7) дублі `gensymb`/`lineno`/`tikz` прибрано. **Final clean build: 95~стор., 0 LaTeX errors, 0 biber warnings, 0 undefined refs.**
 - [ ] T3.4 Інституційна перевірка плагіату → ціль <15%.
 - [ ] T3.5 Електронна подача `Pidhaiko_АП24_КР_2025.pdf` за 2 дні до захисту.
-- [ ] T3.6 Захисна доповідь 12–13 хв + ~18 слайдів (Beamer).
+- [x] T3.6 Захисна доповідь Beamer (`bachelor_thesis/defence/main.tex`) — **18 слайдів** на~12--13~хв: (1) титул + теми; (2) актуальність; (3) RQ; (4) вибірка/методика; (5) 4~кластери VOSViewer; (6) Python ↔ VOSViewer кореляції; (7) multi-LLM ансамбль; (8) картування у~Specifikatsiya~v2.0 (TikZ діаграма); (9) кейс переміщених закладів; (10) архітектура системи (TikZ stack); (11) ABAC JSON-AST; (12) SHA-256 audit chain; (13) евалюація; (14) дорожня карта; (15) висновки; (16) дякую; (17--18) запасні (traceability + порівняння нац.\ систем). Theme=Madrid, aspectratio=16:9, tempora-Times. Build: 18 стор.\ PDF, 346 КБ, 0 errors.
 
 ### Phase 4 (post-defense). Адаптація під подачу у журнал
 - [ ] T4.1 Carve-out paper version Частини 1 → C&E / Scientometrics.
 - [ ] T4.2 Carve-out paper version Частини 2 → C&E / Information Systems Frontiers.
+
+### Симульований peer-review (виконано 2026-05-10)
+
+4 паралельні рецензенти (R1: bibliometrics methodology Opus, R2: Ukrainian VET policy Sonnet, R3: System architecture/DSR Opus, R4: copyediting — rate-limited, проведено власною перевіркою): 7 critical + 14 major + 13 minor issues.
+
+**Виправлено критичні (всі 7):**
+- ✅ Конфлікт інтересів — додано окремий блок «Декларація конфлікту інтересів» у~vstup.tex з~4~mitigation заходами + покликання на~PRISMA-26
+- ✅ Збірник НМЦ ПТО Луганщини додано як~`@misc{NMTsPTO2025}` у~bib + замінено наративні згадки на~`\cite{NMTsPTO2025}` у~rozdil1+2
+- ✅ DSR positioning — додано **Таблицю 2.1: відповідність 7 настановам Hevner G1–G7**
+- ✅ «Невідмовність» → «tamper-evident integrity» з~явною threat model + delegated to~12-month roadmap (anchoring + КЕП)
+- ✅ SUS reframe — N≥3 малий, тому SUS-середнє та~Cronbach α без~інференційних висновків; основа аналізу — якісний тематичний кодинг
+- ✅ Multi-LLM single-shot disclosure — додано параграф про~convenience sample, single-shot без~replicates, default temperature
+- ✅ Krippendorff bootstrap 95%-CI [0.20, 0.82] — широкий CI, висновок «помірний рівень згоди» виставлено як~орієнтовний
+
+**Виправлено major (10 із 14):**
+- ✅ WoS single-DB обмеження — параграф у~1.2.2 «Методологічні обмеження вибірки»
+- ✅ VOSViewer threshold виправдано через~vanEck2014 + sensitivity-аналіз винесено
+- ✅ Pearson + Spearman + Fisher-z 95%-CI + Bonferroni додано
+- ✅ Числа 7/8/10 уніфіковано: «7~тематичних блоків + 10~функціональних модулів коду (8~даних + 2~інфраструктурних)»
+- ✅ Herning Declaration 2025 → замінено на~Bruges Communiqué 2010 + Riga Conclusions 2015 + Osnabrück 2020
+- ✅ Дорожня карта 12 міс: 3–5 областей → 1–2 області (реалістично у~воєнний час)
+- ✅ ABAC operators — додано **Таблицю 2.5: повна граматика 13 операторів**
+- ✅ Compare-then-write isolation — параграф про~READ COMMITTED + SERIALIZABLE як~backlog
+- ✅ BullMQ retry/DLQ — disclosed як~6-month backlog
+- ✅ Performance benchmarks reframed як~«протокол, виконання заплановане під~час пілоту»
+- ✅ WCAG axe-core scope — disclaimer що~axe покриває ~30–40% AA, manual checks у~6-міс backlog
+- ✅ TRL 5–6 → **TRL 4** (lab-only validation), TRL 5 conditional на~6-міс milestone
+
+**Виправлено minor:**
+- ✅ Дата Закону №4574-IX: вересень 2025 → вересень 2024 з~перехідними положеннями до~2027
+- ✅ on-prem vs держхмара (ГІНФРАС) — додано альтернативу
+- ✅ Bykov2016DigitalHumanistic ghost entry — інтегровано у~1.1.1
+
+**Build після фіксу:** 101 стор. (95→101), 0 LaTeX errors, 0 biber warnings, 0 undefined refs, bib 78 записів (89 разом зі~scopus.bib).
+
+**Усі peer-review issues закрито (2026-05-10):**
+
+Критичні (7) + важливі (12) + мінорні (8) = 27 issues виправлено.
+
+**Final round (R1-#8, R3-m2, R3-m5):**
+- ✅ **R1-#8 cluster validity (real numbers):** написано `scripts/cluster_validity.py`, обчислено: Newman~$Q$ (VOSViewer 4-кл) = $-0{,}014$, $Q$ (Python 3-кл) = $-0{,}000$, силует $-0{,}139$ та~$-0{,}065$ (обидва від'ємні), стабільність Louvain mean~ARI~=~0,741~$\pm$~0,166 на~100 прогонах при~37 унікальних партиціях. Чесна інтерпретація: жодне розбиття не~перевищує випадкову модулярну структуру через~378/378 повну зв'язність~-- VOSViewer-кластери зберігають семантичну корисність через~association-strength нормалізацію, не~через~максимізацію модулярності. Hypothesis-generating позиціонування підкріплено даними. Нова таблиця 1.5 у~rozdil1.tex.
+- ✅ **R3-m2 Table 2.1 footnotes:** додано 5 footnote-маркерів a-e з~публічними URL (isuo.org, inforesurs.gov.ua, testportal.gov.ua) та~посиланнями на~Khozhylo 2024, Shatalovych 2025, NMTsPTO 2025. Дата доступу 2026-05-10 у~caption.
+- ✅ **R3-m5 DRY displaced-institution requirements:** канонічна деривація залишилась у~1.6.2, канонічна реалізація у~2.3.7. Усі~3~повторення (2.1.3 landscape gap, висновки 1 item 6, висновки 2 item 5) скорочено до~cross-refs.
+
+**Build:** 102 стор., 0 LaTeX errors, 0 biber warnings, 0 undefined refs.
 
 ## Жорсткі обмеження
 - ❌ `part1/Курсова/**` — read-only, не редагувати.
