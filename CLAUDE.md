@@ -109,7 +109,15 @@ cd bachelor_thesis/defence && pdflatex -interaction=nonstopmode main.tex
 
 Bibliography migrates to **DSTU 8302:2015** (currently `gost-numeric` as a near-equivalent technical proxy; replace in Phase 1 / T1.6). Body font: **Times New Roman 14pt** via `tempora`, 1.5 line spacing, margins **30/10/20/20 mm** (left/right/top/bottom per Положення КДПУ §6), page numbers in the **upper-right corner**, hyphenation disabled (`\hyphenpenalty=10000`).
 
-**Document structure (per Положення КДПУ §4):** rigid 2-розділ layout — Розділ 1 = бібліометрика + теоретичні засади, Розділ 2 = система + евалюація. Top-level structure: `title-page → integrity (Додаток В affidavit) → summary → ToC → vstup → rozdil1 → rozdil2 → vysnovky → bibliography → appendix`. Висновки до розділу — наприкінці кожного rozdil. **Do not** split into more than 2 розділи; subordinate content goes into subsections (1.1, 1.2, 2.1, 2.2, …). Old per-chapter stubs are archived in `bachelor_thesis/chapters/_legacy_part1/`.
+**Document structure (per Положення КДПУ §4, redesigned 2026-05-13):** **3-розділ layout** — Розділ 1 = теоретичні засади (стиснений бібліометричний огляд + реформа №4574-IX + аналіз нац. систем) ~14 стор.; Розділ 2 = концепція й архітектура («ПрофОсвіта Луганщини» + ABAC/audit концептуально + кейс переміщених закладів) ~13 стор.; Розділ 3 = веб-розробка (тех. стек + публічна частина + закрита частина моніторингу + візуалізація + дизайн + апробація) ~17 стор. Top-level structure: `title-page → integrity (Додаток В affidavit) → ToC → abbreviations → vstup → rozdil1 → rozdil2 → rozdil3 → vysnovky → bibliography → appendix`. **Анотація/Abstract видалено** (`summary.tex` архівовано). Висновки до розділу — `\subsection*{}` наприкінці кожного rozdil (НЕ `\section*{}`). Old per-chapter stubs are archived in `bachelor_thesis/chapters/_legacy_part1/`. Цільовий обсяг основного тексту: ≤50 стор. за Положенням §6.
+
+**Термінологічна уніфікація (2026-05-13):** усі форми ПТО / П(ПТ)О / ЗП(ПТ)О → «ЗПО» (заклад професійної освіти). Винятки — цитати з пре-реформних джерел та офіційна назва «Навчально-методичний центр професійно-технічної освіти у Луганській області».
+
+**Мета роботи (2026-05-13):** «Спроєктувати інформаційно-аналітичну систему моніторингу освітньої діяльності закладів професійної освіти Луганщини на основі архітектури "ПрофОсвіта Луганщини" та реалізувати її прототип». Дієслово «спроєктувати», не «розробити» — система ще не повністю реалізована.
+
+**Назва роботи зберігається:** «Розробка інформаційно-аналітичної системи моніторингу й аналізу освітньої діяльності закладів професійної освіти». Слово «аналізу» лишається попри §3.1 Положення (рішення автора 2026-05-13).
+
+**ЗАБОРОНЕНО** використовувати в тілі тексту: PRISMA-діаграми/чек-листи (не SLR), «Form Specification 2.0» (винайдений термін → «24 форми моніторингу за 7 блоками»), DSR/Hevner-justification meta-commentary, англомовні позначки RQ/LLM у вступі/висновках.
 
 **GenAI disclosure** belongs in the «Методи дослідження» subsection of `vstup.tex`, not as a standalone declaration.
 
