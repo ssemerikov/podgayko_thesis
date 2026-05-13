@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  14 MAY 2026 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  14 MAY 2026 01:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2857,64 +2857,64 @@ Package csquotes Info: Redefining alias 'default' -> 'ukrainian'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 7
-5.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for T2C+cmr on input line 7
-5.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2ccmr.fd
 File: t2ccmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for T2B+cmr on input line 7
-5.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2bcmr.fd
 File: t2bcmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
-5.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 78.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
-5.
+8.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2949,27 +2949,27 @@ e
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/Tempora-TLF/m/n --> TS1/Tempora-TLF/b/n on input li
-ne 75.
-Package gensymb Info: Math companion symbols declared on input line 75.
-LaTeX Info: Redefining \degree on input line 75.
-LaTeX Info: Redefining \celsius on input line 75.
+ne 78.
+Package gensymb Info: Math companion symbols declared on input line 78.
+LaTeX Info: Redefining \degree on input line 78.
+LaTeX Info: Redefining \celsius on input line 78.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 75.
-LaTeX Info: Redefining \ohm on input line 75.
-Package gensymb Info: Using \textohm for \ohm on input line 75.
-Package gensymb Info: Using \textmu for \micro on input line 75.
+erthousand on input line 78.
+LaTeX Info: Redefining \ohm on input line 78.
+Package gensymb Info: Using \textohm for \ohm on input line 78.
+Package gensymb Info: Using \textmu for \micro on input line 78.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 75.
+(lastpage)             ! on input line 78.
 \c@mv@tabular=\count559
 \c@mv@boldtabular=\count560
-LaTeX Info: Redefining \th on input line 75.
+LaTeX Info: Redefining \th on input line 78.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 75.
+LaTeX Info: Redefining \selectfont on input line 78.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -3009,7 +3009,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 78.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -3022,9 +3022,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count561
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -3087,8 +3087,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 75.
-Package biblatex Info: Reference segment=0 on input line 75.
+Package biblatex Info: Reference section=0 on input line 78.
+Package biblatex Info: Reference segment=0 on input line 78.
  (./chapters/title-page.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 9.
@@ -3160,14 +3160,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.29 \clearpage
+l.25 \clearpage
                 [1
 
 ])
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 85.
+(Font)              scaled to size 20.74pt on input line 88.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 85.
+(Font)              scaled to size 20.74pt on input line 88.
  (./main.toc
 LaTeX Font Info:    Trying to load font information for T1+Tempora-TLF on input
  line 2.
@@ -3179,7 +3179,7 @@ F.
 LaTeX Font Info:    Font shape `T1/Tempora-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
 
-Overfull \hbox (12.13635pt too wide) in paragraph at lines 30--30
+Overfull \hbox (12.13635pt too wide) in paragraph at lines 32--32
  [][] [][]\T2A/Tempora-TLF/b/n/14.4 ВЕБ-РОЗРОБКА []I[]НФОРМАЦ[]I[]ЙНО-АНАЛ[]I[]
 ТИЧНО€ 
  []
@@ -3226,7 +3226,7 @@ Overfull \hbox (1.97131pt too wide) in paragraph at lines 87--88
  []
 
 [14] [15] [16]
-<media/fig_network_vosviewer.pdf, id=413, 713.30492pt x 568.5886pt>
+<media/fig_network_vosviewer.pdf, id=416, 713.30492pt x 568.5886pt>
 File: media/fig_network_vosviewer.pdf Graphic file (type pdf)
 <use media/fig_network_vosviewer.pdf>
 Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 13
@@ -3263,40 +3263,40 @@ s been already used, duplicate ignored
                    \relax 
 l.61 \end{table}
                  [36] [37]
-<media/screenshots/01_index.pdf, id=675, 614.295pt x 794.97pt>
+<media/screenshots/01_index.pdf, id=676, 614.295pt x 794.97pt>
 File: media/screenshots/01_index.pdf Graphic file (type pdf)
 <use media/screenshots/01_index.pdf>
 Package pdftex.def Info: media/screenshots/01_index.pdf  used on input line 75.
 
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/02_dashboard.pdf, id=676, 614.295pt x 794.97pt>
+<media/screenshots/02_dashboard.pdf, id=677, 614.295pt x 794.97pt>
 File: media/screenshots/02_dashboard.pdf Graphic file (type pdf)
 <use media/screenshots/02_dashboard.pdf>
 Package pdftex.def Info: media/screenshots/02_dashboard.pdf  used on input line
  79.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/03_institutions.pdf, id=679, 614.295pt x 794.97pt>
+ [38 <./media/screenshots/01_index.pdf> <./media/screenshots/02_dashboard.pdf>]
+<media/screenshots/03_institutions.pdf, id=1296, 614.295pt x 794.97pt>
 File: media/screenshots/03_institutions.pdf Graphic file (type pdf)
 <use media/screenshots/03_institutions.pdf>
 Package pdftex.def Info: media/screenshots/03_institutions.pdf  used on input l
 ine 91.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/04_institution.pdf, id=680, 614.295pt x 794.97pt>
+<media/screenshots/04_institution.pdf, id=1297, 614.295pt x 794.97pt>
 File: media/screenshots/04_institution.pdf Graphic file (type pdf)
 <use media/screenshots/04_institution.pdf>
 Package pdftex.def Info: media/screenshots/04_institution.pdf  used on input li
 ne 95.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
- [38] [39 <./media/screenshots/01_index.pdf> <./media/screenshots/02_dashboard.
-pdf> <./media/screenshots/03_institutions.pdf> <./media/screenshots/04_institut
+ [39 <./media/screenshots/03_institutions.pdf> <./media/screenshots/04_institut
 ion.pdf>]
-<media/screenshots/05_applicants.pdf, id=1850, 614.295pt x 794.97pt>
+<media/screenshots/05_applicants.pdf, id=1852, 614.295pt x 794.97pt>
 File: media/screenshots/05_applicants.pdf Graphic file (type pdf)
 <use media/screenshots/05_applicants.pdf>
 Package pdftex.def Info: media/screenshots/05_applicants.pdf  used on input lin
 e 109.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/10_publications.pdf, id=1851, 614.295pt x 794.97pt>
+<media/screenshots/10_publications.pdf, id=1853, 614.295pt x 794.97pt>
 File: media/screenshots/10_publications.pdf Graphic file (type pdf)
 <use media/screenshots/10_publications.pdf>
 Package pdftex.def Info: media/screenshots/10_publications.pdf  used on input l
@@ -3304,13 +3304,13 @@ ine 113.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
  [40] [41 <./media/screenshots/05_applicants.pdf> <./media/screenshots/10_publi
 cations.pdf>]
-<media/screenshots/06_monitoring_public.pdf, id=2424, 614.295pt x 794.97pt>
+<media/screenshots/06_monitoring_public.pdf, id=2425, 614.295pt x 794.97pt>
 File: media/screenshots/06_monitoring_public.pdf Graphic file (type pdf)
 <use media/screenshots/06_monitoring_public.pdf>
 Package pdftex.def Info: media/screenshots/06_monitoring_public.pdf  used on in
 put line 134.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/07_monitoring_login.pdf, id=2425, 614.295pt x 794.97pt>
+<media/screenshots/07_monitoring_login.pdf, id=2426, 614.295pt x 794.97pt>
 File: media/screenshots/07_monitoring_login.pdf Graphic file (type pdf)
 <use media/screenshots/07_monitoring_login.pdf>
 Package pdftex.def Info: media/screenshots/07_monitoring_login.pdf  used on inp
@@ -3323,51 +3323,44 @@ Overfull \hbox (139.47682pt too wide) in paragraph at lines 145--146
 ]i[]Ё).
  []
 
-[42]
-<media/screenshots/08_monitoring_cabinet.pdf, id=2436, 614.295pt x 794.97pt>
+[42 <./media/screenshots/06_monitoring_public.pdf> <./media/screenshots/07_moni
+toring_login.pdf>] [43]
+<media/screenshots/08_monitoring_cabinet.pdf, id=2902, 614.295pt x 794.97pt>
 File: media/screenshots/08_monitoring_cabinet.pdf Graphic file (type pdf)
 <use media/screenshots/08_monitoring_cabinet.pdf>
 Package pdftex.def Info: media/screenshots/08_monitoring_cabinet.pdf  used on i
 nput line 216.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/09_monitoring_form.pdf, id=2437, 614.295pt x 794.97pt>
+<media/screenshots/09_monitoring_form.pdf, id=2903, 614.295pt x 794.97pt>
 File: media/screenshots/09_monitoring_form.pdf Graphic file (type pdf)
 <use media/screenshots/09_monitoring_form.pdf>
 Package pdftex.def Info: media/screenshots/09_monitoring_form.pdf  used on inpu
 t line 220.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
- [43 <./media/screenshots/06_monitoring_public.pdf> <./media/screenshots/07_mon
-itoring_login.pdf>] [44 <./media/screenshots/08_monitoring_cabinet.pdf> <./medi
-a/screenshots/09_monitoring_form.pdf>] [45]
+ [44 <./media/screenshots/08_monitoring_cabinet.pdf> <./media/screenshots/09_mo
+nitoring_form.pdf>] [45]
 Overfull \hbox (6.59875pt too wide) in paragraph at lines 266--266
 []|\T2A/Tempora-TLF/m/n/12 Помаранчевий| 
  []
 
-[46] [47] [48] [49] [50] [51]
+[46] [47] [48] [49] [50]
 Overfull \hbox (209.64581pt too wide) in paragraph at lines 349--350
 \T2A/Tempora-TLF/m/n/14.4 (Кон-тин-гент 5 / Пе-да-го-ги 8 / Ди-нам[]i[]ка 3 / П
 ро-фес[]i[]Ё 2 / Роз-ви-ток 1 / Як[]i[]сть осв[]i[]ти 4 / []I[]нформац[]i[]йна 
 в[]i[]дкрит[]i[]сть 1;
  []
 
-
-Overfull \hbox (21.18292pt too wide) in paragraph at lines 358--359
-\T2A/Tempora-TLF/m/n/14.4 вне-сок -- б[]i[]бл[]i[]ометричний $\OT1/cmr/m/n/14.4
- +$ \T2A/Tempora-TLF/m/n/14.4 арх[]i[]тектурний $\OT1/cmr/m/n/14.4 +$ \T2A/Temp
-ora-TLF/m/n/14.4 дизайнерсько-реал[]i[]зац[]i[]йний -- фор-му№
- []
-
-[52] [53]) (./chapters/vysnovky.tex [54
+[51] [52]) (./chapters/vysnovky.tex [53
 
 
-] [55]) [56]
+] [54]) [55]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfil' on input line 112.
+(hyperref)                removing `\hfil' on input line 115.
 
-[57
+[56
 
-] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
 (./chapters/appendix.tex
 
 ! LaTeX Error: Environment landscape undefined.
@@ -3401,7 +3394,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[70
+[69
 
 ]
 
@@ -3436,13 +3429,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[71
+[70
 
-] [72
+] [71
 
-] [73] [74
+] [72] [73
 
-] [75]pdfTeX warning (ext4): destination with the same identifier (name{table.1
+] [74]pdfTeX warning (ext4): destination with the same identifier (name{table.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3452,7 +3445,7 @@ ame{table.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.191 \end{table}
-                  [76]
+                  [75]
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 195.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
@@ -3462,7 +3455,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
 <to be read again> 
                    \relax 
 l.221 \end{table}
-                  [77] (./llm_naming/results_table.tex
+                  [76] (./llm_naming/results_table.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 6.
 )pdfTeX warning (ext4): destination with the same identifier (name{table.4}) ha
@@ -3470,13 +3463,13 @@ s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \end{table}
-                  [78] (./data/prior_reviews_table.tex)pdfTeX warning (ext4): d
+                  [77] (./data/prior_reviews_table.tex)pdfTeX warning (ext4): d
 estination with the same identifier (name{table.5}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
 l.255 \end{table}
-                  [79] [80]
+                  [78] [79]
 Overfull \hbox (36.59174pt too wide) in paragraph at lines 288--288
 []|\T2A/cmtt/m/n/12 04_demo_credentials_template.md| 
  []
@@ -3508,9 +3501,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.317 \end{table}
-                  [81
+                  [80
 
-] [82]
+] [81]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -3757,7 +3750,7 @@ l.370 \end{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[83]
+[82]
 Overfull \hbox (74.8519pt too wide) in paragraph at lines 394--394
 []|\T2A/Tempora-TLF/m/n/12 Директор$\OMS/Tempora-TLF/m/up/12 !$[]\T2A/Tempora-T
 LF/m/n/12 I[]нспектор$\OMS/Tempora-TLF/m/up/12 !$\T2A/Tempora-TLF/m/n/12 Аудит|
@@ -3769,14 +3762,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
 <to be read again> 
                    \relax 
 l.397 \end{table}
-                  [84] [85] [86]pdfTeX warning (ext4): destination with the sam
+                  [83] [84] [85]pdfTeX warning (ext4): destination with the sam
 e identifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.481 \end{table}
-                  [87
+                  [86
 
-] [88]
+] [87]
 
 ! Package inputenc Error: Unicode character в”њ (U+251C)
 (inputenc)                not set up for use with LaTeX.
@@ -4765,7 +4758,7 @@ l.521 \end{verbatim}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[89
+[88
 
 ]
 
@@ -5054,7 +5047,7 @@ l.521 \end{verbatim}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[90]
+[89]
 Overfull \hbox (17.91248pt too wide) in paragraph at lines 571--571
 []|\T2A/cmtt/m/n/10 territorial_contains| 
  []
@@ -5064,36 +5057,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.574 \end{table}
-                  [91
+                  [90
 
-] [92] [93] [94]
+] [91] [92] [93]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 634.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [95]pdfTeX warning (ext4): destination with the same identifier (name{table.2
+) [94]pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.685 \end{table}
-                  [96] [97] [98]) 
+                  [95] [96] [97]) 
 AED: lastpage setting LastPage
-[99] (./main.aux)
+[98] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D2BCC77517CC2A23EC41A56DA3D49FB9;12365.
+(rerunfilecheck)             Checksum: 417A98EB61F6E71FB6DDB7C1ECF0AF0B;12609.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  52258 strings out of 478754
- 1144626 string characters out of 5854204
- 2331579 words of memory out of 5000000
- 68670 multiletter control sequences out of 15000+600000
+ 1144634 string characters out of 5854204
+ 2331601 words of memory out of 5000000
+ 68671 multiletter control sequences out of 15000+600000
  460140 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,15n,131p,2495b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5117,10 +5110,10 @@ al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
 ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (100 pages, 2926243 bytes).
+Output written on main.pdf (99 pages, 2924546 bytes).
 PDF statistics:
- 4069 PDF objects out of 4296 (max. 8388607)
- 1616 compressed objects within 17 object streams
- 299 named destinations out of 1000 (max. 500000)
- 324 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4066 PDF objects out of 4296 (max. 8388607)
+ 1614 compressed objects within 17 object streams
+ 298 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 

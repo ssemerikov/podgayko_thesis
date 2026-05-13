@@ -1,6 +1,8 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ukrainian}{}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{ПЕРЕЛІК УМОВНИХ СКОРОЧЕНЬ}{4}{Doc-Start}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{ВСТУП}{6}{Doc-Start}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}\MakeUppercase {Теоретичні засади моніторингу професійної освіти}}{9}{section.1}%
@@ -31,11 +33,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Технологічний стек і засоби розробки}{35}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Прототип.}{36}{paragraph*.3}%
+\contentsline {paragraph}{Прототип.}{35}{paragraph*.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Виробничий стек.}{36}{paragraph*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Реалізація публічної частини порталу}{37}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Реалізація публічної частини порталу}{36}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}Реалізація закритої частини моніторингу}{41}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
@@ -45,7 +47,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{KPI-панель (Chart.js).}{45}{paragraph*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Графік динаміки контингенту 2021--2026.}{46}{paragraph*.12}%
+\contentsline {paragraph}{Графік динаміки контингенту 2021--2026.}{45}{paragraph*.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Експорт даних.}{46}{paragraph*.13}%
 \defcounter {refsection}{0}\relax 
@@ -53,11 +55,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Кольорова палітра.}{46}{paragraph*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Типографіка і~принципи дизайну.}{47}{paragraph*.15}%
+\contentsline {paragraph}{Типографіка і~принципи дизайну.}{46}{paragraph*.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Адаптивність (стратегія «спочатку мобільний»).}{47}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Доступність (WCAG~2.1 рівень~AA).}{48}{paragraph*.17}%
+\contentsline {paragraph}{Доступність (WCAG~2.1 рівень~AA).}{47}{paragraph*.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.6}Результати експертного оцінювання прототипу}{48}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
@@ -67,36 +69,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Виявлені недоліки і~план виправлень.}{49}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Дорожня карта впровадження.}{51}{paragraph*.21}%
+\contentsline {paragraph}{Дорожня карта впровадження.}{50}{paragraph*.21}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{Висновки до розділу 3}{51}{paragraph*.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ВИСНОВКИ}{54}{Item.22}%
+\contentsline {section}{ВИСНОВКИ}{53}{Item.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{57}{Item.27}%
+\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{56}{Item.27}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftsecpresnum }{ДОДАТОК~}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{70}{appendix.Alph1}%
+\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{69}{appendix.Alph1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{71}{appendix.Alph2}%
+\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{70}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{72}{appendix.Alph3}%
+\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{71}{appendix.Alph3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRG }Бібліометричні розрахунки}{74}{appendix.Alph4}%
+\contentsline {section}{\numberline {\CYRG }Бібліометричні розрахунки}{73}{appendix.Alph4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRD }Комплект експертного оцінювання прототипу}{81}{appendix.Alph5}%
+\contentsline {section}{\numberline {\CYRD }Комплект експертного оцінювання прототипу}{80}{appendix.Alph5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRE }Перелік 14 закладів професійної освіти Луганщини}{87}{appendix.Alph6}%
+\contentsline {section}{\numberline {\CYRE }Перелік 14 закладів професійної освіти Луганщини}{86}{appendix.Alph6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRZH }Деталізована мапа сайту порталу «ПрофОсвіта Луганщини»}{89}{appendix.Alph7}%
+\contentsline {section}{\numberline {\CYRZH }Деталізована мапа сайту порталу «ПрофОсвіта Луганщини»}{88}{appendix.Alph7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRZ }Концепція моделі доступу ABAC та схема SHA-256 хеш-ланцюга}{91}{appendix.Alph8}%
+\contentsline {section}{\numberline {\CYRZ }Концепція моделі доступу ABAC та схема SHA-256 хеш-ланцюга}{90}{appendix.Alph8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Приклад політики «директор бачить тільки~власний заклад».}{92}{paragraph*.22}%
+\contentsline {paragraph}{Приклад політики «директор бачить тільки~власний заклад».}{91}{paragraph*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Модель загроз і~обмеження.}{94}{paragraph*.23}%
+\contentsline {paragraph}{Модель загроз і~обмеження.}{93}{paragraph*.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Обмеження.}{95}{paragraph*.24}%
+\contentsline {paragraph}{Обмеження.}{94}{paragraph*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRI }Декларація прозорого використання генеративного штучного інтелекту}{97}{appendix.Alph9}%
+\contentsline {section}{\numberline {\CYRI }Декларація прозорого використання генеративного штучного інтелекту}{96}{appendix.Alph9}%

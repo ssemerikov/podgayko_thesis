@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'main.blg'
-[138] biber:340> INFO - === чт тра 14, 2026, 00:56:51
-[162] Biber.pm:415> INFO - Reading 'main.bcf'
-[337] Biber.pm:952> INFO - Found 89 citekeys in bib section 0
-[363] Biber.pm:4340> INFO - Processing section 0
-[379] Biber.pm:4531> INFO - Looking for bibtex format file 'scopus.bib' for section 0
-[380] bibtex.pm:1689> INFO - LaTeX decoding ...
-[406] bibtex.pm:1494> INFO - Found BibTeX data source 'scopus.bib'
-[521] Biber.pm:4531> INFO - Looking for bibtex format file 'capstone.bib' for section 0
-[528] bibtex.pm:1689> INFO - LaTeX decoding ...
-[676] bibtex.pm:1494> INFO - Found BibTeX data source 'capstone.bib'
-[1414] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1414] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1414] Biber.pm:4168> INFO - Sorting list 'abyrvalg/global//global/global' of type 'entry' with template 'abyrvalg' and locale 'uk-UA'
-[1558] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1622] bbl.pm:757> INFO - Output to main.bbl
+[80] biber:340> INFO - === чт тра 14, 2026, 01:20:50
+[96] Biber.pm:415> INFO - Reading 'main.bcf'
+[232] Biber.pm:952> INFO - Found 89 citekeys in bib section 0
+[251] Biber.pm:4340> INFO - Processing section 0
+[264] Biber.pm:4531> INFO - Looking for bibtex format file 'scopus.bib' for section 0
+[266] bibtex.pm:1689> INFO - LaTeX decoding ...
+[284] bibtex.pm:1494> INFO - Found BibTeX data source 'scopus.bib'
+[375] Biber.pm:4531> INFO - Looking for bibtex format file 'capstone.bib' for section 0
+[379] bibtex.pm:1689> INFO - LaTeX decoding ...
+[491] bibtex.pm:1494> INFO - Found BibTeX data source 'capstone.bib'
+[1145] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1145] UCollate.pm:68> INFO - Overriding locale 'uk-UA' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1145] Biber.pm:4168> INFO - Sorting list 'abyrvalg/global//global/global' of type 'entry' with template 'abyrvalg' and locale 'uk-UA'
+[1272] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1319] bbl.pm:757> INFO - Output to main.bbl
