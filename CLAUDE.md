@@ -22,10 +22,13 @@ bachelor_thesis/     Working directory for the qualifying thesis. All edits go h
   chapters/          title-page, integrity, summary, vstup, rozdil1, rozdil2, vysnovky, appendix
     _legacy_part1/   Archived pre-refactor chapter stubs (kept for content migration)
   media/             Vector PDF figures only (matplotlib output)
-  scripts/           Adapted Python pipeline + LLM cluster naming + perf benchmarks
-  data/              Derived artifacts (thesaurus, prior_reviews.csv)
+  scripts/           Adapted Python pipeline + LLM cluster naming + sensitivity + expert-eval aggregation
+  data/              Derived artifacts (thesaurus, prior_reviews.csv, bib_verification_report.csv, cluster_validity.csv, correlation_recompute.csv, threshold_sensitivity.csv)
   data_src           symlink → ../part1/Дані/  (raw WoS + VOSViewer inputs)
   llm_naming/        Multi-LLM cluster naming experiment outputs (Phase 1 / T1.4)
+  defence/           Beamer ~18-slide defence presentation (12–13 min)
+  expert_eval/       T2.6/T2.7 package — invitation, consent, walkthrough, rubric, protocol, form schema, results templates
+  PROOFREAD_NOTES.md Staged philological revision catalog (anglicism → Ukrainian replacements)
 common/              Ukrainian academic regulations (PDF + закон.txt — Закон про академічну доброчесність)
 part1/
   Дані/              Web of Science exports + VOSViewer maps (read-only inputs)
@@ -57,6 +60,12 @@ Reference for what each module does:
 - `descriptive_stats.py`, `text_mining.py`, `cooccurrence.py`, `clustering.py` — derived metrics
 - `network_viz.py`, `overlay_viz.py`, `density_viz.py` — VOSViewer-style plots
 - `comparison.py` — Python-vs-VOSViewer reconciliation, CSV + LaTeX export, Pearson + ARI/NMI summaries in Ukrainian
+
+Newer additions (live only in `bachelor_thesis/scripts/`):
+- `llm_cluster_naming.py` — Phase 1 / T1.4 multi-LLM cluster naming, Krippendorff agreement, cosine similarity
+- `cluster_validity.py`, `threshold_sensitivity.py`, `correlation_recompute.py` — Розділ 1 sensitivity / validity analyses
+- `eval_aggregate.py`, `eval_aggregate_experts.py`, `eval_pdf_to_csv.py` — T2.6/T2.7 expert-eval ingestion + aggregation
+- `verify_bib_crossref.py` — Crossref-based bibliography verification (writes `data/bib_verification_report.csv`)
 
 In `bachelor_thesis/scripts/wos_parser.py` the path bug is fixed: `DATA_DIR = ROOT_DIR / "data_src"` resolves through the symlink to `part1/Дані/`. Use that copy. Dependencies pinned in `bachelor_thesis/scripts/requirements.txt`.
 
@@ -93,6 +102,9 @@ make            # builds both main.pdf (Part 1) and part2/main.pdf (Part 2)
 make main       # Part 1 only
 make part2      # Part 2 only
 make clean
+
+# Defence slides build separately — not covered by the Makefile:
+cd bachelor_thesis/defence && pdflatex -interaction=nonstopmode main.tex
 ```
 
 Bibliography migrates to **DSTU 8302:2015** (currently `gost-numeric` as a near-equivalent technical proxy; replace in Phase 1 / T1.6). Body font: **Times New Roman 14pt** via `tempora`, 1.5 line spacing, margins **30/10/20/20 mm** (left/right/top/bottom per Положення КДПУ §6), page numbers in the **upper-right corner**, hyphenation disabled (`\hyphenpenalty=10000`).
@@ -101,11 +113,11 @@ Bibliography migrates to **DSTU 8302:2015** (currently `gost-numeric` as a near-
 
 **GenAI disclosure** belongs in the «Методи дослідження» subsection of `vstup.tex`, not as a standalone declaration.
 
-**Tire convention:** in Ukrainian academic style, write `~-- ` (non-breaking space + en-dash + space) literally in source. Never write ` -- ` with a regular leading space. Example: `Кривий Ріг~-- 2026`.
+**Dash convention (тире):** in Ukrainian academic style, write `~-- ` (non-breaking space + en-dash + space) literally in source. Never write ` -- ` with a regular leading space. Example: `Кривий Ріг~-- 2026`.
 
 **Figure convention:** vector only (PDF / TikZ inline). PNG is forbidden. matplotlib scripts in `bachelor_thesis/scripts/` are configured with `savefig.format='pdf'`. For Розділ 2, **data-schema and ABAC policy visualisations follow the JSON Crack approach** (https://jsoncrack.com/) — node-graph layouts implemented inline via TikZ; do not embed external images.
 
-Detailed plan: `~/.claude/plans/crispy-soaring-swing.md`. Open punch list with all supervisor remarks: `BACKLOG.md`. Transcribed handwritten remarks: `part1/Зауваження/transcribed.md`.
+Detailed plan: `crispy-soaring-swing.md` at the repo root (synchronized copy also at `~/.claude/plans/crispy-soaring-swing.md`). Open punch list with all supervisor remarks: `BACKLOG.md`. Transcribed handwritten remarks: `part1/Зауваження/transcribed.md`. Staged proofreading actions: `bachelor_thesis/PROOFREAD_NOTES.md`.
 
 ## Sub-project: `part1/Курсова/` (frozen reference — Part 1 draft)
 
