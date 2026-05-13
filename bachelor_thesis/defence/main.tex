@@ -27,7 +27,7 @@
 
 \graphicspath{{../media/}}
 
-\title[Моніторинг ПТО]{Розробка інформаційно-аналітичної системи моніторингу й~аналізу освітньої діяльності закладів професійної освіти}
+\title[Моніторинг ЗПО]{Розробка інформаційно-аналітичної системи моніторингу й~аналізу освітньої діяльності закладів професійної освіти}
 \author[Підгайко С.В.]{Підгайко Сергій Володимирович}
 \institute[КДПУ]{Криворізький державний педагогічний університет\\Фізико-математичний факультет\\Кафедра інформатики та прикладної математики}
 \date[2026]{Кваліфікаційна робота бакалавра, 2026~р.\\Науковий керівник: проф., д.пед.н. С.~О.~Семеріков}
@@ -42,28 +42,22 @@
 % ----- 2. Актуальність -----
 \begin{frame}{Актуальність та~постановка проблеми}
 \begin{itemize}
-\item \textbf{Реформа ПТО~України}~-- Закон №~4574-IX (2025), потреби воєнного часу, повоєнне відновлення, EU4Skills/EQAVET.
+\item \textbf{Реформа професійної освіти України}~-- Закон №~4574-IX (2024), потреби воєнного часу, повоєнне відновлення, EU4Skills/EQAVET.
 \item \textbf{Особливий випадок:} переміщені заклади ЗПО Луганщини~-- евакуйована МТБ, роззосереджений контингент, ВПО серед здобувачів.
 \item \textbf{Прогалина:} жодна з~5~національних систем (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ) не~забезпечує обласного моніторингу ЗПО з~повним покриттям 24~форм моніторингу за~7~блоками.
 \item Глобальна академічна література містить структуру для~теоретичного обґрунтування, але~досі не~картувалася в~український контекст реформи.
 \end{itemize}
 \end{frame}
 
-% ----- 3. RQ -----
-\begin{frame}{Дослідницькі питання}
-\textbf{Розділ~1 (бібліометрика).}
-\begin{itemize}\small
-\item RQ1.1. Структура глобальної літератури з~моніторингу ПТО (1997--2025)?
-\item RQ1.2. Узгодженість VOSViewer~$\leftrightarrow$~Python-Louvain~$\leftrightarrow$~multi-LLM інтерпретацій?
-\item RQ1.3. Картування виявлених кластерів у~систему національної звітності?
-\end{itemize}
-\textbf{Розділ~2 (система).}
-\begin{itemize}\small
-\item RQ2.1. Як декомпозувати 24~форми у~ідемпотентну реляційну модель?
-\item RQ2.2. Декларативна модель доступу адекватна територіальній ієрархії?
-\item RQ2.3. Гарантії невідмовності SHA-256 хеш-ланцюга аудиту?
-\item RQ2.4. Рівень зрілості (TRL) і~шлях пілотного впровадження?
-\end{itemize}
+% ----- 3. Завдання дослідження -----
+\begin{frame}{Завдання дослідження}
+\begin{enumerate}\small
+\item Обґрунтувати теоретичні засади моніторингу професійної освіти, проаналізувати реформу №~4574-IX та~її~цифровий вимір, описати наявні національні системи моніторингу та~зіставити їх із~світовим досвідом цифрового моніторингу професійної освіти.
+\item Розробити концепцію та~архітектуру інформаційно-аналітичної системи «ПрофОсвіта~Луганщини»: цільові аудиторії, функціональні і~нефункціональні вимоги, архітектурні рішення (модель доступу на~основі атрибутів, цілісність аудит-журналу, ідемпотентний прийом даних).
+\item Реалізувати прототип веб-системи на~базі обраного технологічного стеку, провести експертне оцінювання та~сформулювати дорожню карту впровадження.
+\end{enumerate}
+\textbf{Об'єкт:} процес моніторингу освітньої діяльності закладів професійної освіти.\\
+\textbf{Предмет:} інформаційно-аналітична система моніторингу освітньої діяльності закладів професійної освіти Луганщини.
 \end{frame}
 
 % ----- 4. Вибірка та методика (Розділ 1) -----
@@ -91,7 +85,7 @@
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \small
-\textbf{К1: Системи та~політика ПТО} (11~термінів)\\
+\textbf{К1: Системи та~політика професійної освіти} (11~термінів)\\
 \textit{vet, training, country, germany, company, higher education}\dots\\[0.3em]
 \textbf{К2: Результати навчання} (8~термінів)\\
 \textit{study, student, assessment, performance, effect}\dots\\[0.3em]
@@ -115,10 +109,10 @@
 \begin{table}\footnotesize
 \begin{tabular}{lc}
 \toprule
-\textbf{Метрика} & \textbf{Pearson~$r$} \\
+\textbf{Метрика} & \textbf{Пірсон~$r$} \\
 \midrule
 Частоти входжень & \textbf{0,923} \\
-Total~Link~Strength & \textbf{0,919} \\
+Загальна сила зв'язків & \textbf{0,919} \\
 Середній рік публікації & 0,74 \\
 Середня цитованість & 0,74 \\
 Норм.\ цитованість & 0,79 \\
@@ -128,7 +122,7 @@ NMI кластеризації & 0,61 \\
 \bottomrule
 \end{tabular}
 \end{table}
-\textbf{Висновок:} високе відтворення кількісних метрик; Лувена-артефакт degree-attraction обмежує точність кластеризації.
+\textbf{Висновок:} високе відтворення кількісних метрик; ефект тяжіння високозв'язних термінів у~алгоритмі Лувена обмежує точність кластеризації.
 \end{column}
 \begin{column}{0.45\textwidth}
 \centering
@@ -149,7 +143,7 @@ NMI кластеризації & 0,61 \\
 \item Modal-method agreement: К2~100\%, К1~91\%, К4~64\%, К3~55\%
 \item Cosine similarity до~експерта: Sonnet \textbf{0,87}, Opus 0,79, GLM~5.1 0,77, Haiku 0,69
 \end{itemize}
-\textbf{Знахідка:} термінологічний дрейф ПТО~/~ПОН~/~ВПО як~побічний ефект Закону~№~4574-IX. Cross-vendor варіативність~>~intra-vendor~-- обґрунтовує ансамблевий підхід.
+\textbf{Знахідка:} термінологічний дрейф у~назвах кластера~1 як~побічний ефект Закону~№~4574-IX. Варіативність між~моделями різних родин~$>$~варіативності між~моделями однієї родини~-- обґрунтовує ансамблевий підхід.
 \end{frame}
 
 % ----- 8. Імплікації для України -----
@@ -192,12 +186,12 @@ NMI кластеризації & 0,61 \\
 \begin{frame}{Розділ~2: архітектура системи}
 \centering
 \begin{tikzpicture}[node distance=0.4cm, font=\scriptsize]
-\node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Server-rendered UI: EJS + htmx + Alpine + axe-core a11y};
-\node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + ABAC decorator};
-\node[draw,rounded corners,fill=yellow!10,minimum width=8cm,minimum height=0.6cm,below=of api] (svc) {Service layer: idempotent compare-then-write + audit emit};
-\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Drizzle repositories: 8 модулів даних, 24~форми моніторингу};
-\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,below=of rep,xshift=-2.1cm] (pg) {PostgreSQL 16: append-only audit + SHA-256 hash chain};
-\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,right=0.3cm of pg] (rd) {Redis 7: ABAC cache + BullMQ jobs};
+\node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Серверне відображення: EJS + htmx + Alpine + axe-core (доступність)};
+\node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + декоратор ABAC};
+\node[draw,rounded corners,fill=yellow!10,minimum width=8cm,minimum height=0.6cm,below=of api] (svc) {Сервісний шар: ідемпотентне «звірити-перш-ніж-записати» + аудит};
+\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Репозиторії Drizzle: 8 модулів даних, 24~форми моніторингу};
+\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,below=of rep,xshift=-2.1cm] (pg) {PostgreSQL 16: журнал аудиту (append-only) + SHA-256 хеш-ланцюг};
+\node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,right=0.3cm of pg] (rd) {Redis 7: кеш ABAC + BullMQ-черги завдань};
 \draw[->,thick] (ui)--(api); \draw[->,thick] (api)--(svc); \draw[->,thick] (svc)--(rep);
 \draw[->,thick] (rep)--(pg); \draw[->,thick] (rep)--(rd);
 \end{tikzpicture}
@@ -220,7 +214,7 @@ NMI кластеризації & 0,61 \\
 \draw[->] (eq)--(a1); \draw[->] (eq)--(a2);
 \draw[->] (terr)--(b1); \draw[->] (terr)--(b2);
 \end{tikzpicture}\\[0.5em]
-\small\textbf{Семантика:} deny-overrides default-deny\quad\textbar\quad Redis cache + pub/sub\quad\textbar\quad $p_{95}<5$~мс
+\small\textbf{Семантика:} «відмова має~пріоритет за~стандартної відмови»\quad\textbar\quad кеш Redis + pub/sub\quad\textbar\quad $p_{95}<5$~мс
 \end{frame}
 
 % ----- 12. Аудит SHA-256 -----
@@ -228,12 +222,12 @@ NMI кластеризації & 0,61 \\
 \textbf{Кожен запис:} \texttt{\{actor, action, resource, before, after, prev\_hash, hash\}}\\[0.5em]
 \textbf{Хеш:} $h_n = \mathrm{SHA{-}256}(h_{n-1} \,\|\, \mathrm{canonical\_json}(\text{запис}_n))$\\[0.3em]
 \begin{itemize}\small
-\item Append-only тригер блокує \texttt{UPDATE}/\texttt{DELETE}
-\item \texttt{audit.verify()} перевіряє цілісність ланцюга на~10\,000 синтетичних upsert
-\item Канонічна JSON-проєкція стабільна між~PostgreSQL JSONB round-trip
+\item Тригер режиму «лише~додавання» блокує \texttt{UPDATE}/\texttt{DELETE}
+\item Процедура \texttt{audit.verify()} перевіряє цілісність ланцюга на~10\,000 синтетичних оновлень
+\item Канонічна JSON-проєкція стабільна між~записом і~зчитуванням з~PostgreSQL JSONB
 \item Криптографічний доказ для~зовнішнього перевіряючого
 \end{itemize}
-\textbf{Імплікації:} вищий рівень доказовості, ніж~у~всіх~5~національних системах; відповідає Закону «Про~освіту» (моніторинг якості) та~Закону про~академічну доброчесність.
+\textbf{Висновки:} вищий рівень доказовості, ніж~у~всіх~5~національних системах; відповідає Закону «Про~освіту» (моніторинг якості) та~Закону про~академічну доброчесність.
 \end{frame}
 
 % ----- 12.5 Розділ 3: веб-прототип -----
@@ -242,13 +236,13 @@ NMI кластеризації & 0,61 \\
 \begin{column}{0.45\textwidth}
 \textbf{Реалізовано:}
 \begin{itemize}\small
-\item 13~HTML-сторінок (8~публ. + 5~закр.)
+\item 13~HTML-сторінок (8~публічних + 5~закритих)
 \item Tailwind CSS, Chart.js, Leaflet+OSM
 \item Каталог 14~ЗПО + мапа релокації
-\item KPI-дашборд, динаміка контингенту 2021--2026 з~маркером 24.02.2022
+\item KPI-панель, динаміка контингенту 2021--2026 з~маркером 24.02.2022
 \item Кабінет ЗПО, 24~форми за~7~блоками
 \item Дизайн-система: 6~кольорів, Inter+Lora
-\item WCAG~2.1~AA, mobile-first
+\item WCAG~2.1~AA, стратегія «спочатку мобільний»
 \end{itemize}
 \end{column}
 \begin{column}{0.55\textwidth}
@@ -260,15 +254,15 @@ NMI кластеризації & 0,61 \\
 \end{frame}
 
 % ----- 13. Оцінювання -----
-\begin{frame}{Емпіричне оцінювання прототипу}
+\begin{frame}{Експертне оцінювання прототипу}
 \begin{itemize}\small
-\item \textbf{Аудит-ланцюг:} 10\,000 upsert + \texttt{verify()}~$\to$~100\% цілісність
-\item \textbf{ABAC:} матриця role~$\times$~action~$\times$~resource ($\sim$160~тестів) + e2e~no-bypass
-\item \textbf{Excel round-trip:} 8~шаблонів, fidelity 100\% для~валідних рядків
-\item \textbf{Латентність:} цільовий $p_{95}<500$~мс (50~закладів~$\times$~1\,000~здобувачів)
+\item \textbf{Аудит-ланцюг:} 10\,000 оновлень + перевірка цілісності~$\to$~100\% цілісність
+\item \textbf{ABAC:} матриця «роль~$\times$~дія~$\times$~ресурс» ($\sim$160~тестів) + наскрізні тести без~обхідних шляхів
+\item \textbf{Двосторонній обмін з~Excel:} 8~шаблонів, повна відповідність для~валідних рядків
+\item \textbf{Затримка:} цільовий $p_{95}<500$~мс (50~закладів~$\times$~1\,000~здобувачів)
 \item \textbf{WCAG~2.1~AA:} axe-core на~9~маршрутах, 0~критичних порушень
-\item \textbf{Експертне оцінювання $n\geq 3$:} SUS + 8 domain-питань + 4 open-feedback + 1--2 half-day сесії
-\item \textbf{Walkthrough:} 5~сценаріїв, включно з~кейсом переміщеного закладу
+\item \textbf{Експертне оцінювання $n\geq 3$:} SUS + 8 домен-специфічних питань + 4 відкриті відповіді + 1--2 поглиблені сесії
+\item \textbf{Сценарний прохід:} 5~сценаріїв, включно з~кейсом переміщеного закладу
 \end{itemize}
 \end{frame}
 
@@ -276,17 +270,17 @@ NMI кластеризації & 0,61 \\
 \begin{frame}{Дорожня карта впровадження}
 \begin{itemize}\small
 \item \textbf{6~місяців} (\textit{воєнний час}): розгортання у~НМЦ ПТО Луганщини; імпорт із~Аналітичного збірника 2025; завершення експертного оцінювання
-\item \textbf{12~місяців} (\textit{повоєнне відновлення}): пілот у~3--5~областях; інтеграція з~ЄДЕБО (ETL); КЕП-підпис; розширення PPP за~моделями ЄС
-\item \textbf{24~місяці} (\textit{гармонізація з~ЄС}): сумісність з~10~індикаторами EQAVET; ML-передбачення відрахування з~explainability; поширення на~всі~25~областей; передача МОН
+\item \textbf{12~місяців} (\textit{повоєнне відновлення}): пілот у~3--5~областях; інтеграція з~ЄДЕБО (ETL); КЕП-підпис; розширення публічно-приватних партнерств за~моделями ЄС
+\item \textbf{24~місяці} (\textit{гармонізація з~ЄС}): сумісність з~10~індикаторами EQAVET; машинне навчання для~передбачення відрахування з~пояснюваністю результатів; поширення на~всі~25~областей; передача МОН
 \end{itemize}
-\textbf{Адресні рекомендації:} МОН (стандарт переміщених, EQAVET); обласні департаменти (on-prem, risk-based); керівники (юр./факт.\ адреса, Excel-bulk); інспектори (ABAC спеціалізація, обмін досвідом).
+\textbf{Адресні рекомендації:} МОН (стандарт переміщених, EQAVET); обласні департаменти (локальне розгортання, ризик-орієнтований підхід); керівники (юр./факт.\ адреса, масовий імпорт із~Excel); інспектори (спеціалізація ABAC, обмін досвідом).
 \end{frame}
 
 % ----- 15. Висновки -----
 \begin{frame}{Основні висновки}
 \textbf{Розділ~1 (теоретичні засади):}
 \begin{itemize}\footnotesize
-\item Сутність моніторингу ЗПО~+~3~драйвери реформи №~4574-IX (війна, відбудова, ЄС)
+\item Сутність моніторингу ЗПО~+~3~чинники реформи №~4574-IX (війна, відбудова, ЄС)
 \item Аналіз 5~нац.\ систем~$\to$~функціональна прогалина обласного рівня
 \item 4~семантичні кластери глобальної літератури; $r>0{,}9$~VOSViewer~$\leftrightarrow$~Python
 \end{itemize}
@@ -299,7 +293,7 @@ NMI кластеризації & 0,61 \\
 \textbf{Розділ~3 (веб-розробка):}
 \begin{itemize}\footnotesize
 \item Прототип: 13~HTML-сторінок, Tailwind/Chart.js/Leaflet, мапа релокації
-\item Дизайн-система~+~WCAG~2.1~AA~+~mobile-first
+\item Дизайн-система~+~WCAG~2.1~AA~+~стратегія «спочатку мобільний»
 \item Експертне оцінювання $n\geq 3$~+~SUS~$\to$~TRL~4--5; дорожня карта Q2~2026 -- Q1~2027
 \end{itemize}
 \end{frame}
@@ -332,7 +326,7 @@ NMI кластеризації & 0,61 \\
 \hline
 Закон «Про освіту» (відкритість) & 7.1 & 20 критеріїв веб-сайту & \texttt{transparency} \\
 \hline
-Закон №~4742-IX (доброчесність) & --- & Audit SHA-256 & \texttt{audit} \\
+Закон №~4742-IX (доброчесність) & --- & Аудит SHA-256 & \texttt{audit} \\
 \hline
 \end{tabular}
 \end{frame}
@@ -349,7 +343,7 @@ NMI кластеризації & 0,61 \\
 \hline
 ABAC ролі & ні & ролі & --- & ролі & --- & \textbf{декл.} \\
 \hline
-Хеш-ланцюг audit & ? & сист. & ? & сист. & ? & \textbf{SHA-256} \\
+Хеш-ланцюг аудиту & ? & сист. & ? & сист. & ? & \textbf{SHA-256} \\
 \hline
 WCAG~2.1~AA & ні & частк. & --- & частк. & ні & \textbf{2.1~AA} \\
 \hline
