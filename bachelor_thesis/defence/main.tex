@@ -43,8 +43,8 @@
 \begin{frame}{Актуальність та~постановка проблеми}
 \begin{itemize}
 \item \textbf{Реформа ПТО~України}~-- Закон №~4574-IX (2025), потреби воєнного часу, повоєнне відновлення, EU4Skills/EQAVET.
-\item \textbf{Особливий випадок:} переміщені заклади П(ПТ)О Луганщини~-- евакуйована МТБ, роззосереджений контингент, ВПО серед здобувачів.
-\item \textbf{Прогалина:} жодна з~5~національних систем (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ) не~забезпечує обласного моніторингу П(ПТ)О з~повним покриттям 24~форм Specifikatsiya~v2.0.
+\item \textbf{Особливий випадок:} переміщені заклади ЗПО Луганщини~-- евакуйована МТБ, роззосереджений контингент, ВПО серед здобувачів.
+\item \textbf{Прогалина:} жодна з~5~національних систем (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ) не~забезпечує обласного моніторингу ЗПО з~повним покриттям 24~форм моніторингу за~7~блоками.
 \item Глобальна академічна література містить структуру для~теоретичного обґрунтування, але~досі не~картувалася в~український контекст реформи.
 \end{itemize}
 \end{frame}
@@ -72,7 +72,7 @@
 \begin{column}{0.55\textwidth}
 \begin{itemize}\small
 \item \textbf{1\,998~публікацій} Web~of~Science Core Collection, 1997--2025
-\item PRISMA~2020 flow~+ checklist
+\item бібліометрична методика з~прозорою стратегією пошуку
 \item VOSViewer text~mining: 28~ключових слів, поріг~$\geq$\,100, тезаурус
 \item Python-конвеєр: 9~скриптів (NetworkX, scikit-learn, Louvain)
 \item Multi-LLM ансамбль: \textbf{11~моделей з~7~родин}
@@ -153,7 +153,7 @@ NMI кластеризації & 0,61 \\
 \end{frame}
 
 % ----- 8. Імплікації для України -----
-\begin{frame}{Імплікації: картування у~Specifikatsiya~v2.0}
+\begin{frame}{Імплікації: картування у~24~форми моніторингу за~7~блоками}
 \centering
 \begin{tikzpicture}[node distance=0.5cm, font=\footnotesize]
 \node[draw,fill=blue!10,rounded corners,minimum width=2.5cm] (k1) {К1: Системи};
@@ -171,7 +171,7 @@ NMI кластеризації & 0,61 \\
 \end{frame}
 
 % ----- 9. Кейс переміщених закладів -----
-\begin{frame}{Кейс переміщених закладів П(ПТ)О Луганщини}
+\begin{frame}{Кейс переміщених закладів ЗПО Луганщини}
 \textbf{Виклики моніторингу:}
 \begin{itemize}\small
 \item Розрив юридичної (окупована територія) та~фактичної адреси
@@ -195,7 +195,7 @@ NMI кластеризації & 0,61 \\
 \node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Server-rendered UI: EJS + htmx + Alpine + axe-core a11y};
 \node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + ABAC decorator};
 \node[draw,rounded corners,fill=yellow!10,minimum width=8cm,minimum height=0.6cm,below=of api] (svc) {Service layer: idempotent compare-then-write + audit emit};
-\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Drizzle repositories: 8 модулів даних, 24 форми Spec v2.0};
+\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Drizzle repositories: 8 модулів даних, 24~форми моніторингу};
 \node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,below=of rep,xshift=-2.1cm] (pg) {PostgreSQL 16: append-only audit + SHA-256 hash chain};
 \node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,right=0.3cm of pg] (rd) {Redis 7: ABAC cache + BullMQ jobs};
 \draw[->,thick] (ui)--(api); \draw[->,thick] (api)--(svc); \draw[->,thick] (svc)--(rep);
@@ -236,8 +236,31 @@ NMI кластеризації & 0,61 \\
 \textbf{Імплікації:} вищий рівень доказовості, ніж~у~всіх~5~національних системах; відповідає Закону «Про~освіту» (моніторинг якості) та~Закону про~академічну доброчесність.
 \end{frame}
 
-% ----- 13. Евалюація -----
-\begin{frame}{Емпірична евалюація}
+% ----- 12.5 Розділ 3: веб-прототип -----
+\begin{frame}{Розділ~3: веб-прототип «ПрофОсвіта Луганщини»}
+\begin{columns}
+\begin{column}{0.45\textwidth}
+\textbf{Реалізовано:}
+\begin{itemize}\small
+\item 13~HTML-сторінок (8~публ. + 5~закр.)
+\item Tailwind CSS, Chart.js, Leaflet+OSM
+\item Каталог 14~ЗПО + мапа релокації
+\item KPI-дашборд, динаміка контингенту 2021--2026 з~маркером 24.02.2022
+\item Кабінет ЗПО, 24~форми за~7~блоками
+\item Дизайн-система: 6~кольорів, Inter+Lora
+\item WCAG~2.1~AA, mobile-first
+\end{itemize}
+\end{column}
+\begin{column}{0.55\textwidth}
+\centering
+\includegraphics[width=\linewidth, height=0.55\textheight, keepaspectratio]{screenshots/02_dashboard.pdf}\\
+\tiny Дашборд порталу «ПрофОсвіта~Луганщини»
+\end{column}
+\end{columns}
+\end{frame}
+
+% ----- 13. Оцінювання -----
+\begin{frame}{Емпіричне оцінювання прототипу}
 \begin{itemize}\small
 \item \textbf{Аудит-ланцюг:} 10\,000 upsert + \texttt{verify()}~$\to$~100\% цілісність
 \item \textbf{ABAC:} матриця role~$\times$~action~$\times$~resource ($\sim$160~тестів) + e2e~no-bypass
@@ -261,18 +284,23 @@ NMI кластеризації & 0,61 \\
 
 % ----- 15. Висновки -----
 \begin{frame}{Основні висновки}
-\textbf{Розділ~1 (RQ1.1--1.3):}
-\begin{itemize}\small
-\item 4~стійкі семантичні кластери глобальної літератури; темпоральний зсув до~ролі бізнесу та~контекстуального навчання
-\item Python-конвеєр відтворює VOSViewer-метрики ($r>0,9$); multi-LLM $\alpha=0{,}531$; ансамблевий підхід обґрунтовано
-\item Кластери прямо мапяться на~7~блоків Specifikatsiya~v2.0
+\textbf{Розділ~1 (теоретичні засади):}
+\begin{itemize}\footnotesize
+\item Сутність моніторингу ЗПО~+~3~драйвери реформи №~4574-IX (війна, відбудова, ЄС)
+\item Аналіз 5~нац.\ систем~$\to$~функціональна прогалина обласного рівня
+\item 4~семантичні кластери глобальної літератури; $r>0{,}9$~VOSViewer~$\leftrightarrow$~Python
 \end{itemize}
-\textbf{Розділ~2 (RQ2.1--2.4):}
-\begin{itemize}\small
-\item 24~форми реалізовано у~8 модулях з~ідемпотентним прийомом і~крос-формовими warnings
-\item ABAC JSON-AST коректний для~територіальної ієрархії (no-bypass інваріанти)
-\item SHA-256 хеш-ланцюг забезпечує криптографічну невідмовність аудиту
-\item TRL~5--6, готовність до~пілоту з~трирічною дорожньою картою
+\textbf{Розділ~2 (концепція й~архітектура):}
+\begin{itemize}\footnotesize
+\item Концепція порталу «ПрофОсвіта~Луганщини»~+~14~переміщених закладів
+\item ABAC JSON-AST: територіальна ієрархія + спеціалізація
+\item SHA-256 хеш-ланцюг~+~ідемпотентний прийом 24~форм за~7~блоками
+\end{itemize}
+\textbf{Розділ~3 (веб-розробка):}
+\begin{itemize}\footnotesize
+\item Прототип: 13~HTML-сторінок, Tailwind/Chart.js/Leaflet, мапа релокації
+\item Дизайн-система~+~WCAG~2.1~AA~+~mobile-first
+\item Експертне оцінювання $n\geq 3$~+~SUS~$\to$~TRL~4--5; дорожня карта Q2~2026 -- Q1~2027
 \end{itemize}
 \end{frame}
 
@@ -315,7 +343,7 @@ NMI кластеризації & 0,61 \\
 \hline
 \textbf{Параметр} & \textbf{ІСУО} & \textbf{ЄДЕБО} & \textbf{ДІСО} & \textbf{УЦОЯО} & \textbf{АІКОМ} & \textbf{Ця~робота} \\
 \hline
-24~форми Spec~v2.0 & ні & ні & ні & ні & частк. & \textbf{так} \\
+24~форми моніторингу & ні & ні & ні & ні & частк. & \textbf{так} \\
 \hline
 Карта релокації & ні & ні & ні & ні & ні & \textbf{так} \\
 \hline
