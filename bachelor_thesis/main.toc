@@ -1,150 +1,102 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ukrainian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{ВСТУП}{9}{Doc-Start}%
+\contentsline {section}{ВСТУП}{6}{Doc-Start}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}\MakeUppercase {Бібліометричний аналіз досліджень моніторингу професійної освіти}}{14}{section.1}%
+\contentsline {section}{\numberline {1}\MakeUppercase {Теоретичні засади моніторингу професійної освіти}}{9}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}Теоретичні засади моніторингу професійної освіти}{14}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.1}Поняття та~сутність моніторингу професійної освіти}{9}{subsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1}Освітній видобуток даних та~навчальна аналітика}{14}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.2}Реформа професійної освіти України (Закон~№~4574-IX) та~її~цифровий вимір}{10}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2}Забезпечення якості у~професійній освіті: рамки EQAVET, OECD та~ETF}{15}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.3}Аналіз існуючих національних систем моніторингу освіти}{13}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3}Інформаційні системи врядування освітою та~парадигма проєктно-наукового дослідження (Design Science Research)}{16}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.4}Світовий досвід цифрового моніторингу професійної освіти}{16}{subsection.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Очікувані наслідки теоретичної рамки для~бібліометричного аналізу.}{17}{paragraph*.1}%
+\contentsline {subsection}{Висновки до розділу 1}{19}{Item.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}Методика бібліометричного аналізу}{18}{subsection.1.2}%
+\contentsline {section}{\numberline {2}\MakeUppercase {Концепція й архітектура інформаційно-аналітичної системи моніторингу}}{21}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.1}Позиціонування цієї роботи серед попередніх оглядів}{18}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {2.1}Особливості переміщених закладів професійної освіти Луганщини}{21}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.2}Стратегія пошуку та формування вибірки}{19}{subsubsection.1.2.2}%
+\contentsline {subsection}{\numberline {2.2}Цільові аудиторії та функціональні вимоги}{23}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.3}Аналіз засобами VOSViewer}{22}{subsubsection.1.2.3}%
+\contentsline {subsection}{\numberline {2.3}Концепція аналітично-інформаційного порталу «ПрофОсвіта Луганщини»}{26}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.2.4}Аналітична система Python}{24}{subsubsection.1.2.4}%
+\contentsline {subsection}{\numberline {2.4}Архітектурні рішення}{28}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Опис набору публікацій Web of Science}{25}{subsection.1.3}%
+\contentsline {subsection}{Висновки до розділу 2}{31}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}Кластерна структура та ко-входження ключових слів}{28}{subsection.1.4}%
+\contentsline {section}{\numberline {3}\MakeUppercase {Веб-розробка інформаційно-аналітичної системи}}{33}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.1}Чотири тематичні кластери VOSViewer}{28}{subsubsection.1.4.1}%
+\contentsline {subsection}{\numberline {3.1}Технологічний стек і засоби розробки}{33}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.2}Мережеві візуалізації та оверлей-карти}{32}{subsubsection.1.4.2}%
+\contentsline {paragraph}{Прототип.}{34}{paragraph*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5}Порівняння методів кластеризації та інтерпретації}{36}{subsection.1.5}%
+\contentsline {paragraph}{Виробничий стек.}{34}{paragraph*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.1}Відтворення текстового аналізу засобами Python}{36}{subsubsection.1.5.1}%
+\contentsline {subsection}{\numberline {3.2}Реалізація публічної частини порталу}{35}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.2}Порівняння ко-входжень та Total Link Strength}{37}{subsubsection.1.5.2}%
+\contentsline {subsection}{\numberline {3.3}Реалізація закритої частини моніторингу}{39}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3}Порівняння кластеризації}{38}{subsubsection.1.5.3}%
+\contentsline {subsection}{\numberline {3.4}Реалізація візуалізації даних}{43}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Внутрішні метрики валідності кластеризації.}{38}{paragraph*.14}%
+\contentsline {paragraph}{Карта релокації (Leaflet~+~OpenStreetMap).}{43}{paragraph*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.4}Порівняння мережевих візуалізацій}{39}{subsubsection.1.5.4}%
+\contentsline {paragraph}{KPI-дашборд (Chart.js).}{43}{paragraph*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.5}Зведена таблиця кореляцій VOSViewer~↔~Python}{42}{subsubsection.1.5.5}%
+\contentsline {paragraph}{Графік динаміки контингенту 2021--2026.}{43}{paragraph*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.6}Multi-LLM іменування кластерів}{44}{subsubsection.1.5.6}%
+\contentsline {paragraph}{Експорт даних.}{44}{paragraph*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Дизайн експерименту.}{45}{paragraph*.19}%
+\contentsline {subsection}{\numberline {3.5}Дизайн-система, адаптивність, доступність}{44}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Результати.}{45}{paragraph*.20}%
+\contentsline {paragraph}{Кольорова палітра.}{44}{paragraph*.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Cross-vendor vs.\ intra-vendor варіація.}{47}{paragraph*.21}%
+\contentsline {paragraph}{Типографіка і~принципи дизайну.}{44}{paragraph*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Термінологічний дрейф ПТО~/~ПОН~/~ВПО.}{47}{paragraph*.22}%
+\contentsline {paragraph}{Адаптивність (mobile-first).}{45}{paragraph*.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Артефакт переприсвоєння \textit {vet} у~Python-Louvain.}{47}{paragraph*.23}%
+\contentsline {paragraph}{Доступність (WCAG~2.1 рівень~AA).}{45}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Дослідницький внесок.}{48}{paragraph*.24}%
+\contentsline {subsection}{\numberline {3.6}Результати апробації прототипу}{46}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6}Імплікації для реформи професійної освіти України}{48}{subsection.1.6}%
+\contentsline {paragraph}{Методологія експертного оцінювання.}{46}{paragraph*.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.1}Картування бібліометричних кластерів у~систему національної звітності}{49}{subsubsection.1.6.1}%
+\contentsline {paragraph}{Результати оцінювання.}{47}{paragraph*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.2}Кейс переміщених закладів П(ПТ)О Луганщини}{50}{subsubsection.1.6.2}%
+\contentsline {paragraph}{Виявлені недоліки і~план виправлень.}{47}{paragraph*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.3}Чинники реформи: воєнний час, повоєнне відновлення, гармонізація з~ЄС}{51}{subsubsection.1.6.3}%
+\contentsline {paragraph}{Дорожня карта впровадження.}{48}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.4}Практичні рекомендації}{53}{subsubsection.1.6.4}%
+\contentsline {subsection}{Висновки до розділу 3}{49}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Висновки до розділу 1}{54}{Item.32}%
+\contentsline {section}{ВИСНОВКИ}{51}{Item.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}\MakeUppercase {Розробка інформаційно-аналітичної системи моніторингу}}{58}{section.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Ландшафт цифрових систем моніторингу освіти в Україні}{58}{subsection.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}Існуючі національні системи: ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ}{58}{subsubsection.2.1.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Донорські цифрові ініціативи: EU4Skills, EU4VET, ETF}{60}{subsubsection.2.1.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Прогалина: обласний моніторинг ПТО з урахуванням переміщених закладів}{61}{subsubsection.2.1.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Вимоги до системи}{61}{subsection.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Нормативно-правова основа}{62}{subsubsection.2.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Функціональні вимоги}{63}{subsubsection.2.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Нефункціональні вимоги}{64}{subsubsection.2.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Traceability-матриця: стаття закону~$\to $~форма~$\to $~модуль}{65}{subsubsection.2.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Архітектура та проєктні рішення}{66}{subsection.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Позиціонування у~Design Science Research}{66}{subsubsection.2.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Модульний моноліт: обґрунтування вибору}{66}{subsubsection.2.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}ABAC: декларативна мова політик доступу}{67}{subsubsection.2.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.4}Аудит з SHA-256 хеш-ланцюгом}{69}{subsubsection.2.3.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.5}Ідемпотентний прийом даних: стратегія «звірити-перш-ніж-записати»}{69}{subsubsection.2.3.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.6}Multi-sheet Excel імпорт}{70}{subsubsection.2.3.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.7}Дизайн-рішення для~переміщених закладів та~ВПО-здобувачів}{70}{subsubsection.2.3.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Емпіричне оцінювання системи}{71}{subsection.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Цілісність аудит-ланцюга}{72}{subsubsection.2.4.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Коректність ABAC}{72}{subsubsection.2.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}Достовірність повного циклу імпорту/експорту Excel}{72}{subsubsection.2.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.4}Час відгуку та~пропускна здатність}{73}{subsubsection.2.4.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.5}Відповідність WCAG~2.1~AA}{73}{subsubsection.2.4.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.6}Експертне оцінювання ($n\geq 3$)}{74}{subsubsection.2.4.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.7}Сценарний прохід і~кейс переміщеного закладу}{76}{subsubsection.2.4.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Рекомендації щодо впровадження та дорожня карта}{77}{subsection.2.5}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}Дорожня карта 6/12/24 місяців}{77}{subsubsection.2.5.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}Адресні рекомендації за~зацікавленими сторонами}{79}{subsubsection.2.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Висновки до розділу 2}{81}{subsubsection.2.5.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{ВИСНОВКИ}{85}{Item.61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{88}{Item.67}%
+\contentsline {section}{\hfil СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}{54}{Item.27}%
 \defcounter {refsection}{0}\relax 
 \renewcommand {\cftsecpresnum }{ДОДАТОК~}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{102}{appendix.Alph1}%
+\contentsline {section}{\numberline {\CYRA }Матриця ко-входжень ключових слів}{66}{appendix.Alph1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{103}{appendix.Alph2}%
+\contentsline {section}{\numberline {\CYRB }Повна таблиця порівняння метрик}{67}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{104}{appendix.Alph3}%
+\contentsline {section}{\numberline {\CYRV }Опис кластерів VOSViewer}{68}{appendix.Alph3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRG }PRISMA 2020 чек-лист}{106}{appendix.Alph4}%
+\contentsline {section}{\numberline {\CYRG }Бібліометричні розрахунки}{70}{appendix.Alph4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\CYRD }Комплект експертного оцінювання прототипу}{107}{appendix.Alph5}%
+\contentsline {section}{\numberline {\CYRD }Комплект експертного оцінювання прототипу}{77}{appendix.Alph5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRE }Перелік 14 закладів професійної освіти Луганщини}{83}{appendix.Alph6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRZH }Деталізована мапа сайту порталу «ПрофОсвіта Луганщини»}{85}{appendix.Alph7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRZ }Концепція моделі доступу ABAC та схема SHA-256 хеш-ланцюга}{87}{appendix.Alph8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Приклад політики «директор бачить тільки~власний заклад».}{88}{paragraph*.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Модель загроз і~обмеження.}{90}{paragraph*.22}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Обмеження.}{91}{paragraph*.23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\CYRI }Декларація прозорого використання генеративного штучного інтелекту}{93}{appendix.Alph9}%

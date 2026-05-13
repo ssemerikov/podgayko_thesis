@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  10 MAY 2026 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  13 MAY 2026 22:02
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -2857,64 +2857,64 @@ Package csquotes Info: Redefining alias 'default' -> 'ukrainian'.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT2/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for OT2+cmr on input line 7
-2.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/ot2cmr.fd
 File: ot2cmr.fd 2001/08/11 v3.2c Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T2C/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for T2C+cmr on input line 7
-2.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2ccmr.fd
 File: t2ccmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T2B/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for T2B+cmr on input line 7
-2.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2bcmr.fd
 File: t2bcmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
-2.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
-2.
+5.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -2949,27 +2949,27 @@ e
 \symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
 (Font)                  TS1/Tempora-TLF/m/n --> TS1/Tempora-TLF/b/n on input li
-ne 72.
-Package gensymb Info: Math companion symbols declared on input line 72.
-LaTeX Info: Redefining \degree on input line 72.
-LaTeX Info: Redefining \celsius on input line 72.
+ne 75.
+Package gensymb Info: Math companion symbols declared on input line 75.
+LaTeX Info: Redefining \degree on input line 75.
+LaTeX Info: Redefining \celsius on input line 75.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 72.
-LaTeX Info: Redefining \ohm on input line 72.
-Package gensymb Info: Using \textohm for \ohm on input line 72.
-Package gensymb Info: Using \textmu for \micro on input line 72.
+erthousand on input line 75.
+LaTeX Info: Redefining \ohm on input line 75.
+Package gensymb Info: Using \textohm for \ohm on input line 75.
+Package gensymb Info: Using \textmu for \micro on input line 75.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 72.
+(lastpage)             ! on input line 75.
 \c@mv@tabular=\count559
 \c@mv@boldtabular=\count560
-LaTeX Info: Redefining \th on input line 72.
+LaTeX Info: Redefining \th on input line 75.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 72.
+LaTeX Info: Redefining \selectfont on input line 75.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -3009,7 +3009,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 75.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -3022,9 +3022,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count561
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -3087,8 +3087,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 72.
-Package biblatex Info: Reference segment=0 on input line 72.
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
  (./chapters/title-page.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 9.
@@ -3155,26 +3155,19 @@ LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 (./chapters/integrity.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 23.
+(Font)              scaled to size 10.0pt on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \clearpage
+l.29 \clearpage
                 [1
 
-]) (./chapters/summary.tex
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 6.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 8.
- [2
-
-] [3] [4
-
-]) [5]
+])
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 86.
+(Font)              scaled to size 20.74pt on input line 85.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 20.74pt on input line 85.
  (./main.toc
 LaTeX Font Info:    Trying to load font information for T1+Tempora-TLF on input
  line 2.
@@ -3186,359 +3179,187 @@ F.
 LaTeX Font Info:    Font shape `T1/Tempora-TLF/m/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
 
+Overfull \hbox (12.13635pt too wide) in paragraph at lines 30--30
+ [][] [][]\T2A/Tempora-TLF/b/n/14.4 ¬≈¡-–Œ«–Œ¡ ¿ []I[]Õ‘Œ–Ã¿÷[]I[]…ÕŒ-¿Õ¿À[]I[]
+“»◊ÕŒà 
+ []
 
-! Package inputenc Error: Unicode character ‚Üî (U+2194)
-(inputenc)                not set up for use with LaTeX.
+[2
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...iewer~‚Üî~Python}{42}{subsubsection.1.5.5}
-                                                  %
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[6
-
-] [7])
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [8] (./chapters/vstup.tex [9
+ [3] (./chapters/abbreviations.tex [4
 
-] [10] [11] [12]) [13]
-(./chapters/rozdil1.tex
-! Undefined control sequence.
-\MakeUppercase ...ppercaseUnsupportedInPdfStrings 
-                                                  
-l.16 ...–≥—É –ø—Ä–æ—Ñ–µ—Å—ñ–π–Ω–æ—ó –æ—Å–≤—ñ—Ç–∏}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [5]) (./chapters/vstup.tex [6
 
-[14
+]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 14.4pt on input line 34.
 
-] [15] [16] [17]
+[7]) [8] (./chapters/rozdil1.tex [9
+
+] [10] [11]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-66.
+52.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+) [12]
+[13]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 72.
-
-(./data/prior_reviews_table.tex
+(Font)              scaled to size 8.0pt on input line 70.
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 4.
+(Font)              scaled to size 8.0pt on input line 73.
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 4.
+(Font)              scaled to size 6.0pt on input line 73.
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 4.
+(Font)              scaled to size 5.0pt on input line 73.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 6.
-) [18] [19]
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 109.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 109.
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 118.
-
-
-LaTeX Font Warning: Font shape `T2A/Tempora-TLF/b/sc' undefined
-(Font)              using `T2A/Tempora-TLF/b/n' instead on input line 118.
-
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 119.
-
-Overfull \hbox (55.41333pt too wide) in paragraph at lines 130--131
- [][] 
- []
-
-[20] [21] [22] [23]
-LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <14.4> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 203.
- [24]
-<media/fig_pub_years.pdf, id=617, 857.69745pt x 351.78966pt>
-File: media/fig_pub_years.pdf Graphic file (type pdf)
-<use media/fig_pub_years.pdf>
-Package pdftex.def Info: media/fig_pub_years.pdf  used on input line 224.
-(pdftex.def)             Requested size: 483.69687pt x 198.39113pt.
-<media/fig_doc_types.pdf, id=619, 713.49312pt x 351.576pt>
-File: media/fig_doc_types.pdf Graphic file (type pdf)
-<use media/fig_doc_types.pdf>
-Package pdftex.def Info: media/fig_doc_types.pdf  used on input line 233.
-(pdftex.def)             Requested size: 483.69687pt x 238.34966pt.
- [25 <./media/fig_pub_years.pdf>]
-<media/fig_top_sources.pdf, id=647, 857.9754pt x 496.02628pt>
-File: media/fig_top_sources.pdf Graphic file (type pdf)
-<use media/fig_top_sources.pdf>
-Package pdftex.def Info: media/fig_top_sources.pdf  used on input line 242.
-(pdftex.def)             Requested size: 483.69687pt x 279.64229pt.
-<media/fig_top_countries.pdf, id=649, 713.27478pt x 496.16054pt>
-File: media/fig_top_countries.pdf Graphic file (type pdf)
-<use media/fig_top_countries.pdf>
-Package pdftex.def Info: media/fig_top_countries.pdf  used on input line 251.
-(pdftex.def)             Requested size: 483.69687pt x 336.46863pt.
-<media/fig_top_authors.pdf, id=651, 713.37518pt x 496.02628pt>
-File: media/fig_top_authors.pdf Graphic file (type pdf)
-<use media/fig_top_authors.pdf>
-Package pdftex.def Info: media/fig_top_authors.pdf  used on input line 260.
-(pdftex.def)             Requested size: 483.69687pt x 336.33217pt.
- [26 <./media/fig_doc_types.pdf>] [27 <./media/fig_top_sources.pdf> <./media/fi
-g_top_countries.pdf>]
-<media/fig_keywords_de.pdf, id=710, 857.86182pt x 640.58763pt>
-File: media/fig_keywords_de.pdf Graphic file (type pdf)
-<use media/fig_keywords_de.pdf>
-Package pdftex.def Info: media/fig_keywords_de.pdf  used on input line 269.
-(pdftex.def)             Requested size: 483.69687pt x 361.18982pt.
-<media/fig_keywords_id.pdf, id=711, 857.90948pt x 640.58763pt>
-File: media/fig_keywords_id.pdf Graphic file (type pdf)
-<use media/fig_keywords_id.pdf>
-Package pdftex.def Info: media/fig_keywords_id.pdf  used on input line 276.
-(pdftex.def)             Requested size: 483.69687pt x 361.16049pt.
-
-[28 <./media/fig_top_authors.pdf>] [29 <./media/fig_keywords_de.pdf>] [30 <./me
-dia/fig_keywords_id.pdf>] [31]
-<media/fig_network_vosviewer.pdf, id=812, 713.30492pt x 568.5886pt>
-File: media/fig_network_vosviewer.pdf Graphic file (type pdf)
-<use media/fig_network_vosviewer.pdf>
-Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 32
-7.
-(pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
-<media/fig_overlay_year.pdf, id=814, 937.88441pt x 712.64804pt>
-File: media/fig_overlay_year.pdf Graphic file (type pdf)
-<use media/fig_overlay_year.pdf>
-Package pdftex.def Info: media/fig_overlay_year.pdf  used on input line 336.
-(pdftex.def)             Requested size: 483.69687pt x 367.53436pt.
-<media/fig_overlay_citations.pdf, id=816, 918.26425pt x 712.64804pt>
-File: media/fig_overlay_citations.pdf Graphic file (type pdf)
-<use media/fig_overlay_citations.pdf>
-Package pdftex.def Info: media/fig_overlay_citations.pdf  used on input line 34
-5.
-(pdftex.def)             Requested size: 483.69687pt x 375.38547pt.
- [32] [33 <./media/fig_network_vosviewer.pdf>]
-[34 <./media/fig_overlay_year.pdf>] [35 <./media/fig_overlay_citations.pdf>]
-<media/fig_density.pdf, id=888, 672.66493pt x 568.88408pt>
-File: media/fig_density.pdf Graphic file (type pdf)
-<use media/fig_density.pdf>
-Package pdftex.def Info: media/fig_density.pdf  used on input line 354.
-(pdftex.def)             Requested size: 483.69687pt x 409.06671pt.
-
-[36 <./media/fig_density.pdf>] [37] [38]
-<media/fig_cluster_comparison.pdf, id=930, 543.54257pt x 423.55992pt>
-File: media/fig_cluster_comparison.pdf Graphic file (type pdf)
-<use media/fig_cluster_comparison.pdf>
-Package pdftex.def Info: media/fig_cluster_comparison.pdf  used on input line 4
-18.
-(pdftex.def)             Requested size: 483.69687pt x 376.92834pt.
-<media/fig_network_python.pdf, id=933, 713.30492pt x 568.5886pt>
-File: media/fig_network_python.pdf Graphic file (type pdf)
-<use media/fig_network_python.pdf>
-Package pdftex.def Info: media/fig_network_python.pdf  used on input line 429.
-(pdftex.def)             Requested size: 483.69687pt x 385.56798pt.
-<media/fig_network_comparison.pdf, id=935, 1291.46492pt x 569.12625pt>
-File: media/fig_network_comparison.pdf Graphic file (type pdf)
-<use media/fig_network_comparison.pdf>
-Package pdftex.def Info: media/fig_network_comparison.pdf  used on input line 4
-38.
-(pdftex.def)             Requested size: 483.69687pt x 213.1526pt.
-<media/fig_overlay_norm_citations.pdf, id=937, 921.02455pt x 712.64804pt>
-File: media/fig_overlay_norm_citations.pdf Graphic file (type pdf)
-<use media/fig_overlay_norm_citations.pdf>
-Package pdftex.def Info: media/fig_overlay_norm_citations.pdf  used on input li
-ne 447.
-(pdftex.def)             Requested size: 483.69687pt x 374.26544pt.
- [39] [40 <./media/fig_cluster_comparison.pdf>] [41 <./media/fig_network_python
-.pdf> <./media/fig_network_comparison.pdf>]
-
-! Package inputenc Error: Unicode character ‚Üî (U+2194)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.452 ... –∫–æ—Ä–µ–ª—è—Ü—ñ–π VOSViewer~‚Üî~Python}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-(./media/table_comparison.tex)
+(Font)              scaled to size 8.0pt on input line 75.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 464.
- [42 <./media/fig_overlay_norm_citations.pdf>]
+(Font)              scaled to size 6.0pt on input line 75.
 
-! Package inputenc Error: Unicode character ‚Üî (U+2194)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.493 ...–∫–æ—Ä–µ–ª—è—Ü—ñ–π VOSViewer~‚Üî~Python.}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[43] [44] (./llm_naming/results_table.tex
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 6.
-) [45] [46]
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/it' will be
-(Font)              scaled to size 14.4pt on input line 549.
- [47] [48] [49] [50]
-[51] [52] [53] [54] [55]) [56] [57] (./chapters/rozdil2.tex
-! Undefined control sequence.
-\MakeUppercase ...ppercaseUnsupportedInPdfStrings 
-                                                  
-l.36 ...—ó —Å–∏—Å—Ç–µ–º–∏ –º–æ–Ω—ñ—Ç–æ—Ä–∏–Ω–≥—É}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[58
-
-] [59]
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 68.
-
-Overfull \hbox (1.97131pt too wide) in paragraph at lines 80--81
+Overfull \hbox (1.97131pt too wide) in paragraph at lines 87--88
 []|\T2A/Tempora-TLF/b/n/8 ‰ÂÍÎ‡‡ÚË‚Ì‡| 
  []
 
+[14] [15] [16] [17] [18] [19]) [20] (./chapters/rozdil2.tex [21
+
+] [22]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 47.
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 50.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 52.
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 \end{table}
-                 [60] [61] [62] [63]
+l.67 \end{table}
+                 [23] [24] [25] [26]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 140.
 
-! Package inputenc Error: Unicode character ÃÅ (U+0301)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.147 ...–∞–∑–æ–≤—ñ—Å—Ç—å –¥–∞–Ω–∏—Ö).} –ê—É–¥—ñÃÅ
-                                                  —Ç-–ª–æ–≥ append-only –∑~S...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[64]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\to' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 156.
-
-LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 170.
-
-! Package inputenc Error: Unicode character ÃÅ (U+0301)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188 ...±—Ä–æ—á–µ—Å–Ω—ñ—Å—Ç—å) & --- & –ê—É–¥—ñÃÅ
-                                                  —Ç —É—Å—ñ—Ö~–æ–ø–µ—Ä–∞—Ü—ñ...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.203 \end{table}
-                  [65]pdfTeX warning (ext4): destination with the same identifi
-er (name{table.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.239 \end{table}
-                  [66]
-Overfull \hbox (17.91248pt too wide) in paragraph at lines 286--286
-[]|\T2A/cmtt/m/n/10 territorial_contains| 
+Overfull \hbox (73.88745pt too wide) in paragraph at lines 155--156
+ [][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
- been already used, duplicate ignored
+[27] [28] [29] [30] [31]) [32] (./chapters/rozdil3.tex [33
+
+]pdfTeX warning (ext4): destination with the same identifier (name{table.1}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.289 \end{table}
-                  [67] [68] [69] [70] [71]
-Overfull \hbox (17.8815pt too wide) in paragraph at lines 378--379
-[]\T2A/Tempora-TLF/m/n/14.4 ÷ËÍÎ æ„Â-ÌÂ-‡ˆ[]i[]ˇ ¯‡-·ÎÓ-ÌÛ $\OMS/Tempora-TLF/m
-/up/14.4 !$ \T2A/Tempora-TLF/m/n/14.4 Á‡-ÔÓ‚-ÌÂ-Ì-Ìˇ $\OMS/Tempora-TLF/m/up/14.
-4 !$ []\T2A/Tempora-TLF/m/n/14.4 i[]ÏÔÓÚ $\OMS/Tempora-TLF/m/up/14.4 !$ \T2A/T
-empora-TLF/m/n/14.4 ÂÍÒ-ÔÓÚ $\OMS/Tempora-TLF/m/up/14.4 !$ \T2A/Tempora-TLF/m/
-n/14.4 ÔÓ[]i[]‚ÌˇÌÌˇø
+l.61 \end{table}
+                 [34] [35]
+<media/screenshots/01_index.pdf, id=634, 614.295pt x 794.97pt>
+File: media/screenshots/01_index.pdf Graphic file (type pdf)
+<use media/screenshots/01_index.pdf>
+Package pdftex.def Info: media/screenshots/01_index.pdf  used on input line 75.
+
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/02_dashboard.pdf, id=635, 614.295pt x 794.97pt>
+File: media/screenshots/02_dashboard.pdf Graphic file (type pdf)
+<use media/screenshots/02_dashboard.pdf>
+Package pdftex.def Info: media/screenshots/02_dashboard.pdf  used on input line
+ 79.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/03_institutions.pdf, id=638, 614.295pt x 794.97pt>
+File: media/screenshots/03_institutions.pdf Graphic file (type pdf)
+<use media/screenshots/03_institutions.pdf>
+Package pdftex.def Info: media/screenshots/03_institutions.pdf  used on input l
+ine 91.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/04_institution.pdf, id=639, 614.295pt x 794.97pt>
+File: media/screenshots/04_institution.pdf Graphic file (type pdf)
+<use media/screenshots/04_institution.pdf>
+Package pdftex.def Info: media/screenshots/04_institution.pdf  used on input li
+ne 95.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+ [36] [37 <./media/screenshots/01_index.pdf> <./media/screenshots/02_dashboard.
+pdf> <./media/screenshots/03_institutions.pdf> <./media/screenshots/04_institut
+ion.pdf>]
+<media/screenshots/05_applicants.pdf, id=1811, 614.295pt x 794.97pt>
+File: media/screenshots/05_applicants.pdf Graphic file (type pdf)
+<use media/screenshots/05_applicants.pdf>
+Package pdftex.def Info: media/screenshots/05_applicants.pdf  used on input lin
+e 109.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/10_publications.pdf, id=1812, 614.295pt x 794.97pt>
+File: media/screenshots/10_publications.pdf Graphic file (type pdf)
+<use media/screenshots/10_publications.pdf>
+Package pdftex.def Info: media/screenshots/10_publications.pdf  used on input l
+ine 113.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+ [38] [39 <./media/screenshots/05_applicants.pdf> <./media/screenshots/10_publi
+cations.pdf>]
+<media/screenshots/06_monitoring_public.pdf, id=2384, 614.295pt x 794.97pt>
+File: media/screenshots/06_monitoring_public.pdf Graphic file (type pdf)
+<use media/screenshots/06_monitoring_public.pdf>
+Package pdftex.def Info: media/screenshots/06_monitoring_public.pdf  used on in
+put line 134.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/07_monitoring_login.pdf, id=2385, 614.295pt x 794.97pt>
+File: media/screenshots/07_monitoring_login.pdf Graphic file (type pdf)
+<use media/screenshots/07_monitoring_login.pdf>
+Package pdftex.def Info: media/screenshots/07_monitoring_login.pdf  used on inp
+ut line 138.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+
+Overfull \hbox (139.47682pt too wide) in paragraph at lines 145--146
+\T2A/Tempora-TLF/m/n/14.4 (ÁÂ-ÎÂ-ÌËÈ -- ‚[]i[]‰Ô‡‚ÎÂÌÓ / ÔÓ-Ï‡-‡Ì-˜Â-‚ËÈ -- ˜
+Â-ÌÂ-ÚÍ‡ / Ò[]i[]ËÈ -- ÌÂ ÓÁ-ÔÓ-˜‡-ÚÓ / ˜Â-‚Ó-ÌËÈ -- ÔÓ-ÏËÎ-Í‡ ‚‡Î[]i[]‰‡ˆ[
+]i[]®).
  []
 
-[72] [73]
+[40 <./media/screenshots/06_monitoring_public.pdf> <./media/screenshots/07_moni
+toring_login.pdf>] [41]
+<media/screenshots/08_monitoring_cabinet.pdf, id=2859, 614.295pt x 794.97pt>
+File: media/screenshots/08_monitoring_cabinet.pdf Graphic file (type pdf)
+<use media/screenshots/08_monitoring_cabinet.pdf>
+Package pdftex.def Info: media/screenshots/08_monitoring_cabinet.pdf  used on i
+nput line 216.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+<media/screenshots/09_monitoring_form.pdf, id=2860, 614.295pt x 794.97pt>
+File: media/screenshots/09_monitoring_form.pdf Graphic file (type pdf)
+<use media/screenshots/09_monitoring_form.pdf>
+Package pdftex.def Info: media/screenshots/09_monitoring_form.pdf  used on inpu
+t line 220.
+(pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
+ [42 <./media/screenshots/08_monitoring_cabinet.pdf> <./media/screenshots/09_mo
+nitoring_form.pdf>] [43]
+Overfull \hbox (6.59875pt too wide) in paragraph at lines 266--266
+[]|\T2A/Tempora-TLF/m/n/12 œÓÏ‡‡Ì˜Â‚ËÈ| 
+ []
+
+[44] [45] [46] [47] [48]
+Overfull \hbox (209.64581pt too wide) in paragraph at lines 349--350
+\T2A/Tempora-TLF/m/n/14.4 ( ÓÌ-ÚËÌ-„ÂÌÚ 5 / œÂ-‰‡-„Ó-„Ë 8 / ƒË-Ì‡Ï[]i[]Í‡ 3 / œ
+Ó-ÙÂÒ[]i[]® 2 / –ÓÁ-‚Ë-ÚÓÍ 1 / ﬂÍ[]i[]ÒÚ¸ ÓÒ‚[]i[]ÚË 4 / []I[]ÌÙÓÏ‡ˆ[]i[]ÈÌ‡ 
+‚[]i[]‰ÍËÚ[]i[]ÒÚ¸ 1;
+ []
+
+[49]
+Overfull \hbox (21.18292pt too wide) in paragraph at lines 358--359
+\T2A/Tempora-TLF/m/n/14.4 ‚ÌÂ-ÒÓÍ -- ·[]i[]·Î[]i[]ÓÏÂÚË˜ÌËÈ $\OT1/cmr/m/n/14.4
+ +$ \T2A/Tempora-TLF/m/n/14.4 ‡ı[]i[]ÚÂÍÚÛÌËÈ $\OT1/cmr/m/n/14.4 +$ \T2A/Temp
+ora-TLF/m/n/14.4 ‰ËÁ‡ÈÌÂÒ¸ÍÓ-Â‡Î[]i[]Á‡ˆ[]i[]ÈÌËÈ -- ÙÓ-ÏÛπ
+ []
+
+[50]) (./chapters/vysnovky.tex [51
+
+
+] [52]) [53]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `\hfil' on input line 112.
 
+[54
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\geq' on input line 390.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
-
-[74] [75] (./expert_eval/results_table.tex
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 8.
-LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 11.
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.45 \end{table}
-                ) [76] [77] [78] [79] [80] [81] [82] [83]) [84]
-(./chapters/vysnovky.tex [85
-
-] [86]) [87]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfil' on input line 106.
-
-[88
-
-] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101]
+] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
 (./chapters/appendix.tex
 
 ! LaTeX Error: Environment landscape undefined.
@@ -3572,7 +3393,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[102
+[66
 
 ]
 
@@ -3607,52 +3428,81 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[103
+[67
 
-] [104
+] [68
 
-] [105]pdfTeX warning (ext4): destination with the same identifier (name{table.
-1}) has been already used, duplicate ignored
+] [69] [70
+
+] [71]pdfTeX warning (ext4): destination with the same identifier (name{table.1
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.187 \end{table}
-                  [106
-
-]
-Overfull \hbox (36.59174pt too wide) in paragraph at lines 218--218
+l.164 \end{table}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.191 \end{table}
+                  [72]
+LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 195.
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 198.
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.221 \end{table}
+                  [73] (./llm_naming/results_table.tex
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 6.
+)pdfTeX warning (ext4): destination with the same identifier (name{table.4}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.238 \end{table}
+                  [74] [75] (./data/prior_reviews_table.tex)pdfTeX warning (ext
+4): destination with the same identifier (name{table.5}) has been already used,
+ duplicate ignored
+<to be read again> 
+                   \relax 
+l.255 \end{table}
+                  [76]
+Overfull \hbox (36.59174pt too wide) in paragraph at lines 288--288
 []|\T2A/cmtt/m/n/12 04_demo_credentials_template.md| 
  []
 
 
-Overfull \hbox (42.76523pt too wide) in paragraph at lines 232--232
+Overfull \hbox (42.76523pt too wide) in paragraph at lines 302--302
 []|\T2A/cmtt/m/n/12 templates/responses_template.csv| 
  []
 
 
-Overfull \hbox (67.4592pt too wide) in paragraph at lines 234--234
+Overfull \hbox (67.4592pt too wide) in paragraph at lines 304--304
 []|\T2A/cmtt/m/n/12 templates/results_table_template.tex| 
  []
 
 
-Overfull \hbox (24.24475pt too wide) in paragraph at lines 236--236
+Overfull \hbox (24.24475pt too wide) in paragraph at lines 306--306
 []|\T2A/cmtt/m/n/12 templates/summary_template.md| 
  []
 
 
-Overfull \hbox (92.15317pt too wide) in paragraph at lines 238--238
+Overfull \hbox (92.15317pt too wide) in paragraph at lines 308--308
 []|\T2A/cmtt/m/n/12 templates/deep_session_NOTES_TEMPLATE.md| 
  []
 
 LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 240.
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 310.
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.247 \end{table}
-                  [107
+l.317 \end{table}
+                  [77
 
-] [108]
+] [78]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -3660,7 +3510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294     \item D
+l.364     \item D
                  .1 –ü–æ—Ç–æ—á–Ω–∞ –ø–æ–∑–∏—Ü—ñ—è (–¥–∏—Ä–µ–∫—Ç–æ—Ä / –º–µ—Ç...
 
 Try typing  <return>  to proceed.
@@ -3673,7 +3523,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294     \item D
+l.364     \item D
                  .1 –ü–æ—Ç–æ—á–Ω–∞ –ø–æ–∑–∏—Ü—ñ—è (–¥–∏—Ä–µ–∫—Ç–æ—Ä / –º–µ—Ç...
 
 Try typing  <return>  to proceed.
@@ -3686,7 +3536,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294     \item D
+l.364     \item D
                  .1 –ü–æ—Ç–æ—á–Ω–∞ –ø–æ–∑–∏—Ü—ñ—è (–¥–∏—Ä–µ–∫—Ç–æ—Ä / –º–µ—Ç...
 
 Try typing  <return>  to proceed.
@@ -3699,7 +3549,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295     \item D
+l.365     \item D
                  .2 –†–µ–≥—ñ–æ–Ω —É—Å—Ç–∞–Ω–æ–≤–∏ (–¶–µ–Ω—Ç—Ä–∞–ª—å–Ω–∞ / –ó...
 
 Try typing  <return>  to proceed.
@@ -3712,7 +3562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295     \item D
+l.365     \item D
                  .2 –†–µ–≥—ñ–æ–Ω —É—Å—Ç–∞–Ω–æ–≤–∏ (–¶–µ–Ω—Ç—Ä–∞–ª—å–Ω–∞ / –ó...
 
 Try typing  <return>  to proceed.
@@ -3725,7 +3575,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295     \item D
+l.365     \item D
                  .2 –†–µ–≥—ñ–æ–Ω —É—Å—Ç–∞–Ω–æ–≤–∏ (–¶–µ–Ω—Ç—Ä–∞–ª—å–Ω–∞ / –ó...
 
 Try typing  <return>  to proceed.
@@ -3738,7 +3588,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296     \item D
+l.366     \item D
                  .3 –°—Ç–∞–∂ —É~—Å—Ñ–µ—Ä—ñ (–º–µ–Ω—à–µ~3 / 3--5 / 6--10 / 11...
 
 Try typing  <return>  to proceed.
@@ -3751,7 +3601,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296     \item D
+l.366     \item D
                  .3 –°—Ç–∞–∂ —É~—Å—Ñ–µ—Ä—ñ (–º–µ–Ω—à–µ~3 / 3--5 / 6--10 / 11...
 
 Try typing  <return>  to proceed.
@@ -3764,7 +3614,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296     \item D
+l.366     \item D
                  .3 –°—Ç–∞–∂ —É~—Å—Ñ–µ—Ä—ñ (–º–µ–Ω—à–µ~3 / 3--5 / 6--10 / 11...
 
 Try typing  <return>  to proceed.
@@ -3777,7 +3627,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297     \item D
+l.367     \item D
                  .4 –ß–∏~–ø—Ä–µ–¥—Å—Ç–∞–≤–ª—è—î –ø–µ—Ä–µ–º—ñ—â–µ–Ω–∏–π –∑–∞–...
 
 Try typing  <return>  to proceed.
@@ -3790,7 +3640,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297     \item D
+l.367     \item D
                  .4 –ß–∏~–ø—Ä–µ–¥—Å—Ç–∞–≤–ª—è—î –ø–µ—Ä–µ–º—ñ—â–µ–Ω–∏–π –∑–∞–...
 
 Try typing  <return>  to proceed.
@@ -3803,7 +3653,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297     \item D
+l.367     \item D
                  .4 –ß–∏~–ø—Ä–µ–¥—Å—Ç–∞–≤–ª—è—î –ø–µ—Ä–µ–º—ñ—â–µ–Ω–∏–π –∑–∞–...
 
 Try typing  <return>  to proceed.
@@ -3816,7 +3666,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298     \item D
+l.368     \item D
                  .5 –¢–µ—Ö–Ω–æ–ª–æ–≥—ñ—á–Ω–∏–π —Ä—ñ–≤–µ–Ω—å —Ä–æ–±–æ—á–æ–≥–æ...
 
 Try typing  <return>  to proceed.
@@ -3829,7 +3679,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298     \item D
+l.368     \item D
                  .5 –¢–µ—Ö–Ω–æ–ª–æ–≥—ñ—á–Ω–∏–π —Ä—ñ–≤–µ–Ω—å —Ä–æ–±–æ—á–æ–≥–æ...
 
 Try typing  <return>  to proceed.
@@ -3842,7 +3692,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298     \item D
+l.368     \item D
                  .5 –¢–µ—Ö–Ω–æ–ª–æ–≥—ñ—á–Ω–∏–π —Ä—ñ–≤–µ–Ω—å —Ä–æ–±–æ—á–æ–≥–æ...
 
 Try typing  <return>  to proceed.
@@ -3855,7 +3705,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299     \item D
+l.369     \item D
                  .6 –ó–≥–æ–¥–∞ –Ω–∞~half-day —Å–µ—Å—ñ—é (—Ç–∞–∫ / –º–æ–∂–ª–∏...
 
 Try typing  <return>  to proceed.
@@ -3868,7 +3718,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299     \item D
+l.369     \item D
                  .6 –ó–≥–æ–¥–∞ –Ω–∞~half-day —Å–µ—Å—ñ—é (—Ç–∞–∫ / –º–æ–∂–ª–∏...
 
 Try typing  <return>  to proceed.
@@ -3881,7 +3731,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299     \item D
+l.369     \item D
                  .6 –ó–≥–æ–¥–∞ –Ω–∞~half-day —Å–µ—Å—ñ—é (—Ç–∞–∫ / –º–æ–∂–ª–∏...
 
 Try typing  <return>  to proceed.
@@ -3894,13 +3744,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.300 \end{itemize}
+l.370 \end{itemize}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[109]
-Overfull \hbox (71.2639pt too wide) in paragraph at lines 324--324
+[79]
+Overfull \hbox (71.2639pt too wide) in paragraph at lines 394--394
 []|\T2A/Tempora-TLF/m/n/12 ƒËÂÍÚÓ$\OMS/Tempora-TLF/m/up/12 !$[]\T2A/Tempora-T
 LF/m/n/12 I[]ÌÒÔÂÍÚÓ$\OMS/Tempora-TLF/m/up/12 !$\T2A/Tempora-TLF/m/n/12 Audit|
  
@@ -3910,51 +3760,1359 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.327 \end{table}
-                  [110] [111]) 
+l.397 \end{table}
+                  [80] [81] [82]pdfTeX warning (ext4): destination with the sam
+e identifier (name{table.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.481 \end{table}
+                  [83
+
+] [84]
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚â• (U+2265)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[85
+
+]
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÇ (U+2502)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îú (U+251C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îî (U+2514)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ‚îÄ (U+2500)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.521 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[86]
+Overfull \hbox (17.91248pt too wide) in paragraph at lines 571--571
+[]|\T2A/cmtt/m/n/10 territorial_contains| 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.574 \end{table}
+                  [87
+
+] [88] [89] [90]
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+634.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [91]pdfTeX warning (ext4): destination with the same identifier (name{table.2
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.685 \end{table}
+                  [92] [93] [94]) 
 AED: lastpage setting LastPage
-[112] (./main.aux)
+[95] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E967873AB3C78EEC3BC834321D579DCA;25201.
+(rerunfilecheck)             Checksum: B91FED8E869077EEF1CB340BCDD18913;12251.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52486 strings out of 478754
- 1147951 string characters out of 5854204
- 2336317 words of memory out of 5000000
- 68810 multiletter control sequences out of 15000+600000
- 461882 words of font info for 105 fonts, out of 8000000 for 9000
+ 52237 strings out of 478754
+ 1143841 string characters out of 5854204
+ 2329813 words of memory out of 5000000
+ 68658 multiletter control sequences out of 15000+600000
+ 460140 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,131p,2827b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}</usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-BoldItalic.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Italic
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Reg
-ular.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (113 pages, 1458806 bytes).
+ 117i,15n,131p,2622b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}</u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Italic.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Regular
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
+Output written on main.pdf (96 pages, 2890717 bytes).
 PDF statistics:
- 1833 PDF objects out of 2073 (max. 8388607)
- 1575 compressed objects within 16 object streams
- 385 named destinations out of 1000 (max. 500000)
- 608 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4007 PDF objects out of 4296 (max. 8388607)
+ 1566 compressed objects within 16 object streams
+ 291 named destinations out of 1000 (max. 500000)
+ 319 words of extra memory for PDF output out of 10000 (max. 10000000)
 

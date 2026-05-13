@@ -61,37 +61,6 @@
       \verb 10.1177/0019793914564963
       \endverb
     \endentry
-    \entry{Aarkrog2005}{article}{}
-      \name{author}{1}{}{%
-        {{hash=62d4994f2d14250fa92070ce5fd615fe}{%
-           family={Aarkrog},
-           familyi={A\bibinitperiod},
-           given={Vibe},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{62d4994f2d14250fa92070ce5fd615fe}
-      \strng{fullhash}{62d4994f2d14250fa92070ce5fd615fe}
-      \strng{bibnamehash}{62d4994f2d14250fa92070ce5fd615fe}
-      \strng{authorbibnamehash}{62d4994f2d14250fa92070ce5fd615fe}
-      \strng{authornamehash}{62d4994f2d14250fa92070ce5fd615fe}
-      \strng{authorfullhash}{62d4994f2d14250fa92070ce5fd615fe}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Lifelong Education}
-      \field{title}{Learning in the workplace and the significance of school-based education: a study of learning in a {D}anish vocational education and training programme}
-      \field{year}{2005}
-      \field{number}{2}
-      \range{number}{1}
-      \field{pages}{137\bibrangedash 147}
-      \range{pages}{11}
-      \field{volume}{24}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1080/02601370500056268
-      \endverb
-    \endentry
     \entry{Husaeni2023VocSchoolVOS}{article}{}
       \name{author}{2}{}{%
         {{hash=bbe7262544e8eafe0c8a4c5bf01b05ac}{%
@@ -116,7 +85,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ASEAN Journal of Science and Engineering Education}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2023~$\to$~2022 (стаття опублікована онлайн 2022-04-18; друкованого випуску у~Crossref не~зареєстровано). Citekey збережено}
       \field{title}{A Bibliometric Analysis of Vocational School Keywords Using {VOSviewer}}
       \field{year}{2022}
       \field{number}{1}
@@ -407,7 +375,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The Political Economy of Collective Skill Formation}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2012~$\to$~2011 (друкована публікація 2011-11-01). Citekey збережено}
       \field{title}{The comparative political economy of collective skill formation}
       \field{year}{2011}
       \field{pages}{3\bibrangedash 38}
@@ -567,7 +534,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Interactive Learning Environments}
-      \field{note}{Crossref-перевірено 2026-05-10. Онлайн опубліковано 2024-12-27, друкований випуск~-- 2025. Citekey збережено для~стабільності цитувань}
       \field{title}{The use of learning analytics and educational data mining to analyze teachers' teaching in online environments: a systematic literature review}
       \field{year}{2025}
       \verb{doi}
@@ -643,88 +609,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vocational Education \& Training}
-      \field{note}{Crossref-перевірено 2026-05-10. Онлайн опубліковано 2024-12-12, друкований випуск~-- 2025-10}
       \field{title}{Researching policy transfer of vocational education and training across the European Union: a systematic literature review}
       \field{year}{2025}
       \verb{doi}
       \verb 10.1080/13636820.2024.2442030
-      \endverb
-    \endentry
-    \entry{DeLone2003}{article}{}
-      \name{author}{2}{}{%
-        {{hash=156d2f8c6d5940f7c153038df1e3cdd8}{%
-           family={DeLone},
-           familyi={D\bibinitperiod},
-           given={William\bibnamedelima H.},
-           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=080c328b971c5d1e88a5515519f06bb2}{%
-           family={McLean},
-           familyi={M\bibinitperiod},
-           given={Ephraim\bibnamedelima R.},
-           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \strng{namehash}{931395b6fa2060343187d2644441ff4b}
-      \strng{fullhash}{931395b6fa2060343187d2644441ff4b}
-      \strng{bibnamehash}{931395b6fa2060343187d2644441ff4b}
-      \strng{authorbibnamehash}{931395b6fa2060343187d2644441ff4b}
-      \strng{authornamehash}{931395b6fa2060343187d2644441ff4b}
-      \strng{authorfullhash}{931395b6fa2060343187d2644441ff4b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Management Information Systems}
-      \field{title}{The DeLone and McLean Model of Information Systems Success: A Ten-Year Update}
-      \field{year}{2003}
-      \field{number}{4}
-      \range{number}{1}
-      \field{pages}{9\bibrangedash 30}
-      \range{pages}{22}
-      \field{volume}{19}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1080/07421222.2003.11045748
-      \endverb
-    \endentry
-    \entry{Derman2025FashionWar}{article}{}
-      \name{author}{3}{}{%
-        {{hash=2efecb6f1c0dce5b0d8c135ff32fbca6}{%
-           family={Derman},
-           familyi={D\bibinitperiod},
-           given={Liliia},
-           giveni={L\bibinitperiod}}}%
-        {{hash=c95b01b35f6635a89e04d27106ea480e}{%
-           family={Dyogtyev},
-           familyi={D\bibinitperiod},
-           given={Andriy},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3aa7070720079bcc3a41d437050d29a5}{%
-           family={Okhman},
-           familyi={O\bibinitperiod},
-           given={Natalia},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \strng{fullhash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \strng{bibnamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \strng{authorbibnamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \strng{authornamehash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \strng{authorfullhash}{91e1d432ea6564e2ad75c2d2040e10ce}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Baltic Journal of Economic Studies}
-      \field{title}{The impact of the Russian-Ukrainian war on the training of fashion industry specialists in Ukraine}
-      \field{year}{2025}
-      \field{number}{4}
-      \range{number}{1}
-      \field{pages}{69\bibrangedash 78}
-      \range{pages}{10}
-      \field{volume}{11}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.30525/2256-0742/2025-11-4-69-78
       \endverb
     \endentry
     \entry{Hevner2004DSR}{article}{useauthor=false}
@@ -866,45 +754,6 @@
       \verb 10.1007/978-3-319-10377-8_13
       \endverb
     \endentry
-    \entry{vanEck2017}{article}{}
-      \name{author}{2}{}{%
-        {{hash=994b93c88bd25e51c7ed58e11eb69f12}{%
-           family={Eck},
-           familyi={E\bibinitperiod},
-           given={Nees\bibnamedelima Jan},
-           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-        {{hash=783af1eb97144feb275a9c50368af326}{%
-           family={Waltman},
-           familyi={W\bibinitperiod},
-           given={Ludo},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{914f4b705c14de24c87ad45fb523d677}
-      \strng{fullhash}{914f4b705c14de24c87ad45fb523d677}
-      \strng{bibnamehash}{914f4b705c14de24c87ad45fb523d677}
-      \strng{authorbibnamehash}{914f4b705c14de24c87ad45fb523d677}
-      \strng{authornamehash}{914f4b705c14de24c87ad45fb523d677}
-      \strng{authorfullhash}{914f4b705c14de24c87ad45fb523d677}
-      \field{extraname}{3}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scientometrics}
-      \field{title}{Citation-based clustering of publications using {CitNetExplorer} and {VOSviewer}}
-      \field{year}{2017}
-      \field{number}{2}
-      \range{number}{1}
-      \field{pages}{1053\bibrangedash 1070}
-      \range{pages}{18}
-      \field{volume}{111}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1007/s11192-017-2300-7
-      \endverb
-    \endentry
     \entry{Euler2013}{book}{}
       \name{author}{1}{}{%
         {{hash=f2c915bc553005b94adae47d074d7230}{%
@@ -967,7 +816,6 @@
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Vocational Education Studies}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2023~$\to$~2024 (Vol.\,7~No.\,2 видано у~2024). Citekey збережено для~стабільності цитувань}
       \field{title}{Exploring Approaches in Green Technical and Vocational Education Training ({TVET}): A Systematic and Bibliometric Review}
       \field{year}{2024}
       \field{number}{2}
@@ -1150,35 +998,6 @@
       \verb 10.3368/jhr.52.1.0415-7074R
       \endverb
     \endentry
-    \entry{Gonon2014}{incollection}{}
-      \name{author}{1}{}{%
-        {{hash=cdb73142b1c90046d7df57fb3e785e43}{%
-           family={Gonon},
-           familyi={G\bibinitperiod},
-           given={Philipp},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Peter Lang}%
-      }
-      \strng{namehash}{cdb73142b1c90046d7df57fb3e785e43}
-      \strng{fullhash}{cdb73142b1c90046d7df57fb3e785e43}
-      \strng{bibnamehash}{cdb73142b1c90046d7df57fb3e785e43}
-      \strng{authorbibnamehash}{cdb73142b1c90046d7df57fb3e785e43}
-      \strng{authornamehash}{cdb73142b1c90046d7df57fb3e785e43}
-      \strng{authorfullhash}{cdb73142b1c90046d7df57fb3e785e43}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{The Challenges of Policy Transfer in Vocational Skills Development}
-      \field{note}{Crossref-перевірено 2026-05-10. Початковий~DOI~\texttt{10.1007/978-94-017-8902-8\_53} повертає 404; правильна публікація~-- у~Peter~Lang (рік~2016), не~у~Springer~(2014). Citekey збережено для~стабільності цитувань}
-      \field{title}{Development cooperation in the field of vocational education and training --- the dual system as a global role model?}
-      \field{year}{2016}
-      \verb{doi}
-      \verb 10.3726/978-3-0351-0758-6/24
-      \endverb
-    \endentry
     \entry{GonzalezPerez2025}{article}{}
       \name{author}{3}{}{%
         {{hash=b1a4ac32313e44d2ab57003d19eaad3e}{%
@@ -1306,7 +1125,6 @@
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{labeltitlesource}{title}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2008~$\to$~2009 (Springer друкована та~онлайн-публікація~-- 2009). Виправлено \texttt{author}~$\to$~\texttt{editor} (Rauner і~Maclean~-- редактори, не~автори монографії). Citekey збережено}
       \field{title}{Handbook of Technical and Vocational Education and Training Research}
       \field{year}{2009}
       \verb{doi}
@@ -1548,7 +1366,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{European Journal of Education}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2024~$\to$~2023 (онлайн опубліковано 2023-11-04; друкований випуск у~Crossref не~зареєстровано). Citekey збережено}
       \field{title}{Education in {Ukraine} defies the war}
       \field{year}{2023}
       \verb{doi}
@@ -1575,7 +1392,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bulletin of the National Academy of Educational Sciences of Ukraine}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2024~$\to$~2025 (видання випуску~7 датоване 2025~р., DOI зареєстровано 2024). Citekey збережено}
       \field{title}{Pedagogical science in the development of education in {Ukraine} in times of war}
       \field{year}{2025}
       \verb{doi}
@@ -1635,42 +1451,6 @@
       \field{year}{2024}
       \verb{doi}
       \verb 10.32987/2617-8532-2024-5-27-39
-      \endverb
-    \endentry
-    \entry{Lampropoulos2025XR}{article}{}
-      \name{author}{2}{}{%
-        {{hash=15f4a76efc6ca7c2948b950019c56ec5}{%
-           family={Lampropoulos},
-           familyi={L\bibinitperiod},
-           given={Georgios},
-           giveni={G\bibinitperiod}}}%
-        {{hash=86a24736f4ba6917e39f8b88bb920aa2}{%
-           family={Evangelidis},
-           familyi={E\bibinitperiod},
-           given={Georgios},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \strng{fullhash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \strng{bibnamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \strng{authorbibnamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \strng{authornamehash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \strng{authorfullhash}{11f2c0aed16a0d5cbb0faabe6a306bd4}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Sciences}
-      \field{title}{Learning Analytics and Educational Data Mining in Augmented Reality, Virtual Reality, and the Metaverse: A Systematic Literature Review, Content Analysis, and Bibliometric Analysis}
-      \field{year}{2025}
-      \field{number}{2}
-      \range{number}{1}
-      \field{pages}{971}
-      \range{pages}{1}
-      \field{volume}{15}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.3390/app15020971
       \endverb
     \endentry
     \entry{Lukianova2020Adult}{article}{}
@@ -1851,37 +1631,6 @@
       \verb 10.1109/icitee62483.2024.10808311
       \endverb
     \endentry
-    \entry{Newman2006}{article}{}
-      \name{author}{1}{}{%
-        {{hash=214f45e2823b5430ca6f11c0fb3b6552}{%
-           family={Newman},
-           familyi={N\bibinitperiod},
-           given={Mark\bibnamedelimb E.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \strng{fullhash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \strng{bibnamehash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \strng{authorbibnamehash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \strng{authornamehash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \strng{authorfullhash}{214f45e2823b5430ca6f11c0fb3b6552}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
-      \field{title}{Modularity and community structure in networks}
-      \field{year}{2006}
-      \field{number}{23}
-      \range{number}{1}
-      \field{pages}{8577\bibrangedash 8582}
-      \range{pages}{6}
-      \field{volume}{103}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1073/pnas.0601602103
-      \endverb
-    \endentry
     \entry{Nuankaew2025AISDG4}{article}{}
       \name{author}{3}{}{%
         {{hash=0f50230b9f01e8609ae7a23093a1d381}{%
@@ -2049,7 +1798,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Vocational Education and Training in Times of Economic Crisis: Lessons from Around the World}
-      \field{note}{Crossref-перевірено 2026-05-10. Початкова версія посилалась на~помилковий~DOI~\texttt{10.1080/13636820.2017.1303785} (стаття Agrawal~\&~Agrawal); виправлено на~канонічну роботу Pilz про~6P-стратегію політичного запозичення}
       \field{title}{Policy Borrowing in Vocational Education and Training ({VET}) --- {VET} System Typologies and the `6~{P}~Strategy' for Transfer Analysis}
       \field{year}{2017}
       \field{pages}{473\bibrangedash 490}
@@ -2145,7 +1893,6 @@
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено рік 2023~$\to$~2025 (фактичний рік видання~-- 2025). Citekey збережено}
       \field{title}{Scientific and methodological support for the development of vocational education: monograph}
       \field{year}{2025}
       \verb{doi}
@@ -2629,7 +2376,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Slobozhansky Scientific Herald. Series: Psychology}
-      \field{note}{Crossref-перевірено 2026-05-10. Виправлено помилкову назву журналу (\textit{Psychology and Society}~$\to$~\textit{Слобожанський науковий вісник.\ Серія: Психологія})}
       \field{title}{National multidisciplinary test as a psychological factor of academic success}
       \field{year}{2025}
       \field{number}{1}
@@ -2747,156 +2493,6 @@
       \field{year}{2025}
       \verb{doi}
       \verb 10.36818/2071-4653-2025-3-6
-      \endverb
-    \endentry
-    \entry{Page2021PRISMA}{article}{useauthor=false}
-      \name{author}{26}{}{%
-        {{hash=016b86afb0a98379bf77b3f074f34761}{%
-           family={Page},
-           familyi={P\bibinitperiod},
-           given={Matthew\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=8c647eae0c93ec008ebe092eb144eeee}{%
-           family={McKenzie},
-           familyi={M\bibinitperiod},
-           given={Joanne\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=c342b2f9e98d8bcaabcbd5ec10522ad4}{%
-           family={Bossuyt},
-           familyi={B\bibinitperiod},
-           given={Patrick\bibnamedelima M.},
-           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=fa885033d820893c45692b99c8b4bbc6}{%
-           family={Boutron},
-           familyi={B\bibinitperiod},
-           given={Isabelle},
-           giveni={I\bibinitperiod}}}%
-        {{hash=8fd2430e75c6bb84661c811e408f6377}{%
-           family={Hoffmann},
-           familyi={H\bibinitperiod},
-           given={Tammy\bibnamedelima C.},
-           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=9da5818ae381747539d8a98ecf2d13b1}{%
-           family={Mulrow},
-           familyi={M\bibinitperiod},
-           given={Cynthia\bibnamedelima D.},
-           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=d1c6b0b224969ed1ccfe648b31dc7de4}{%
-           family={Shamseer},
-           familyi={S\bibinitperiod},
-           given={Larissa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=640f8392f6a7388c779d2b60fdd93350}{%
-           family={Tetzlaff},
-           familyi={T\bibinitperiod},
-           given={Jennifer\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=4ca61686dc125837a0d9741be62f3427}{%
-           family={Akl},
-           familyi={A\bibinitperiod},
-           given={Elie\bibnamedelima A.},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=e822c8724e88eb518ec5eb8015bbaab0}{%
-           family={Brennan},
-           familyi={B\bibinitperiod},
-           given={Sue\bibnamedelima E.},
-           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=01e789422f68da54234ac2f1e791eac4}{%
-           family={Chou},
-           familyi={C\bibinitperiod},
-           given={Roger},
-           giveni={R\bibinitperiod}}}%
-        {{hash=19c8626c5dbf0aaa5ca05c6fa19ad49f}{%
-           family={Glanville},
-           familyi={G\bibinitperiod},
-           given={Julie},
-           giveni={J\bibinitperiod}}}%
-        {{hash=18acccd95580a48bd6c5f4010bb058a7}{%
-           family={Grimshaw},
-           familyi={G\bibinitperiod},
-           given={Jeremy\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=aa6b6295cc5b496c1858297b2a62fa5f}{%
-           family={Hróbjartsson},
-           familyi={H\bibinitperiod},
-           given={Asbj{ø}rn},
-           giveni={A\bibinitperiod}}}%
-        {{hash=0a2541509ccb6793b91fce2cf0f72dcc}{%
-           family={Lalu},
-           familyi={L\bibinitperiod},
-           given={Manoj\bibnamedelima M.},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=0100456cf4ced53a2aab31f2c3055f6a}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Tianjing},
-           giveni={T\bibinitperiod}}}%
-        {{hash=6e270d436c864242b119a3605283c8bf}{%
-           family={Loder},
-           familyi={L\bibinitperiod},
-           given={Elizabeth\bibnamedelima W.},
-           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=d149e7026acd95db856d30314dba9a9e}{%
-           family={Mayo-Wilson},
-           familyi={M\bibinithyphendelim W\bibinitperiod},
-           given={Evan},
-           giveni={E\bibinitperiod}}}%
-        {{hash=4ed61e5ea9f906c20e5e737e3d84c854}{%
-           family={McDonald},
-           familyi={M\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod}}}%
-        {{hash=b7314b4cde4c01764b4b3580e015b768}{%
-           family={McGuinness},
-           familyi={M\bibinitperiod},
-           given={Luke\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=d600e9a8a01053464e53fc2aadeb009b}{%
-           family={Stewart},
-           familyi={S\bibinitperiod},
-           given={Lesley\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=1ad8d835a95f8df394e6faf5d8e0548f}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=0b396572e13e5a8b08e1ee1d493aaa2a}{%
-           family={Tricco},
-           familyi={T\bibinitperiod},
-           given={Andrea\bibnamedelima C.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=75fdbaed8e43fddb210da313631d8639}{%
-           family={Welch},
-           familyi={W\bibinitperiod},
-           given={Vivian\bibnamedelima A.},
-           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=792d7051a4c2169e6aac0073ce62ba8e}{%
-           family={Whiting},
-           familyi={W\bibinitperiod},
-           given={Penny},
-           giveni={P\bibinitperiod}}}%
-        {{hash=af56ff14657d1110bff4b784198b0505}{%
-           family={Moher},
-           familyi={M\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{authorbibnamehash}{69c1efa4f6ab0deea3df12876fea0709}
-      \strng{authornamehash}{69c1efa4f6ab0deea3df12876fea0709}
-      \strng{authorfullhash}{b37368b8b0982e5c110334919bd2e0e1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{BMJ}
-      \field{title}{The {PRISMA} 2020 statement: an updated guideline for reporting systematic reviews}
-      \field{year}{2021}
-      \field{pages}{n71}
-      \range{pages}{-1}
-      \field{volume}{372}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.1136/bmj.n71
       \endverb
     \endentry
     \entry{Tripney2013TVETLMIC}{article}{}
@@ -3180,7 +2776,6 @@
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Crossref-перевірено 2026-05-10. Crossref індексує електронне видання 2012-07-26; цитуємо рік першого друкованого видання Routledge~2010 за~канонічною бібліотечною конвенцією}
       \field{title}{Why Knowledge Matters in Curriculum: A Social Realist Argument}
       \field{year}{2010}
       \verb{doi}
@@ -3318,6 +2913,36 @@
       \range{volume}{1}
       \verb{doi}
       \verb 10.1177/1094428114562629
+      \endverb
+    \endentry
+    \entry{Zakon4574IX}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c26a9cd3c18486f00f36f50a18aeb2a1}{%
+           family={{Верховна Рада України}},
+           familyi={В\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {ukrainian}%
+      }
+      \strng{namehash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \strng{fullhash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \strng{bibnamehash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \strng{authorbibnamehash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \strng{authornamehash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \strng{authorfullhash}{c26a9cd3c18486f00f36f50a18aeb2a1}
+      \field{sortinit}{В}
+      \field{sortinithash}{769561dacf0468c568f33adb4926797c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Закон України №~4574-IX}
+      \field{note}{Чинний; набрав чинності у~вересні 2024~р.\ з~перехідними положеннями до~2027~р.}
+      \field{title}{Про професійну освіту: Закон України №~4574-IX від~12.06.2024}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://zakon.rada.gov.ua/laws/show/4574-20
+      \endverb
+      \verb{url}
+      \verb https://zakon.rada.gov.ua/laws/show/4574-20
       \endverb
     \endentry
     \entry{NMTsPTO2025}{misc}{}
