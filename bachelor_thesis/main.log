@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  13 MAY 2026 22:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  14 MAY 2026 00:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3195,10 +3195,10 @@ Overfull \hbox (12.13635pt too wide) in paragraph at lines 30--30
 ] [5]) (./chapters/vstup.tex [6
 
 ]
+[7]) [8] (./chapters/rozdil1.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 14.4pt on input line 34.
-
-[7]) [8] (./chapters/rozdil1.tex [9
+(Font)              scaled to size 14.4pt on input line 25.
+ [9
 
 ] [10] [11]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
@@ -3225,9 +3225,17 @@ Overfull \hbox (1.97131pt too wide) in paragraph at lines 87--88
 []|\T2A/Tempora-TLF/b/n/8 декларативна| 
  []
 
-[14] [15] [16] [17] [18] [19]) [20] (./chapters/rozdil2.tex [21
+[14] [15] [16]
+<media/fig_network_vosviewer.pdf, id=413, 713.30492pt x 568.5886pt>
+File: media/fig_network_vosviewer.pdf Graphic file (type pdf)
+<use media/fig_network_vosviewer.pdf>
+Package pdftex.def Info: media/fig_network_vosviewer.pdf  used on input line 13
+4.
+(pdftex.def)             Requested size: 411.14528pt x 327.73409pt.
+ [17] [18 <./media/fig_network_vosviewer.pdf>] [19] [20])
+[21] (./chapters/rozdil2.tex [22
 
-] [22]
+] [23]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 47.
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
@@ -3239,7 +3247,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.67 \end{table}
-                 [23] [24] [25] [26]
+                 [24] [25] [26] [27]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 140.
 
@@ -3247,62 +3255,62 @@ Overfull \hbox (73.88745pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-[27] [28] [29] [30] [31]) [32] (./chapters/rozdil3.tex [33
+[28] [29] [30] [31] [32]) [33] [34] (./chapters/rozdil3.tex [35
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{table.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.61 \end{table}
-                 [34] [35]
-<media/screenshots/01_index.pdf, id=634, 614.295pt x 794.97pt>
+                 [36] [37]
+<media/screenshots/01_index.pdf, id=675, 614.295pt x 794.97pt>
 File: media/screenshots/01_index.pdf Graphic file (type pdf)
 <use media/screenshots/01_index.pdf>
 Package pdftex.def Info: media/screenshots/01_index.pdf  used on input line 75.
 
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/02_dashboard.pdf, id=635, 614.295pt x 794.97pt>
+<media/screenshots/02_dashboard.pdf, id=676, 614.295pt x 794.97pt>
 File: media/screenshots/02_dashboard.pdf Graphic file (type pdf)
 <use media/screenshots/02_dashboard.pdf>
 Package pdftex.def Info: media/screenshots/02_dashboard.pdf  used on input line
  79.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/03_institutions.pdf, id=638, 614.295pt x 794.97pt>
+<media/screenshots/03_institutions.pdf, id=679, 614.295pt x 794.97pt>
 File: media/screenshots/03_institutions.pdf Graphic file (type pdf)
 <use media/screenshots/03_institutions.pdf>
 Package pdftex.def Info: media/screenshots/03_institutions.pdf  used on input l
 ine 91.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/04_institution.pdf, id=639, 614.295pt x 794.97pt>
+<media/screenshots/04_institution.pdf, id=680, 614.295pt x 794.97pt>
 File: media/screenshots/04_institution.pdf Graphic file (type pdf)
 <use media/screenshots/04_institution.pdf>
 Package pdftex.def Info: media/screenshots/04_institution.pdf  used on input li
 ne 95.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
- [36] [37 <./media/screenshots/01_index.pdf> <./media/screenshots/02_dashboard.
+ [38] [39 <./media/screenshots/01_index.pdf> <./media/screenshots/02_dashboard.
 pdf> <./media/screenshots/03_institutions.pdf> <./media/screenshots/04_institut
 ion.pdf>]
-<media/screenshots/05_applicants.pdf, id=1811, 614.295pt x 794.97pt>
+<media/screenshots/05_applicants.pdf, id=1850, 614.295pt x 794.97pt>
 File: media/screenshots/05_applicants.pdf Graphic file (type pdf)
 <use media/screenshots/05_applicants.pdf>
 Package pdftex.def Info: media/screenshots/05_applicants.pdf  used on input lin
 e 109.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/10_publications.pdf, id=1812, 614.295pt x 794.97pt>
+<media/screenshots/10_publications.pdf, id=1851, 614.295pt x 794.97pt>
 File: media/screenshots/10_publications.pdf Graphic file (type pdf)
 <use media/screenshots/10_publications.pdf>
 Package pdftex.def Info: media/screenshots/10_publications.pdf  used on input l
 ine 113.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
- [38] [39 <./media/screenshots/05_applicants.pdf> <./media/screenshots/10_publi
+ [40] [41 <./media/screenshots/05_applicants.pdf> <./media/screenshots/10_publi
 cations.pdf>]
-<media/screenshots/06_monitoring_public.pdf, id=2384, 614.295pt x 794.97pt>
+<media/screenshots/06_monitoring_public.pdf, id=2424, 614.295pt x 794.97pt>
 File: media/screenshots/06_monitoring_public.pdf Graphic file (type pdf)
 <use media/screenshots/06_monitoring_public.pdf>
 Package pdftex.def Info: media/screenshots/06_monitoring_public.pdf  used on in
 put line 134.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/07_monitoring_login.pdf, id=2385, 614.295pt x 794.97pt>
+<media/screenshots/07_monitoring_login.pdf, id=2425, 614.295pt x 794.97pt>
 File: media/screenshots/07_monitoring_login.pdf Graphic file (type pdf)
 <use media/screenshots/07_monitoring_login.pdf>
 Package pdftex.def Info: media/screenshots/07_monitoring_login.pdf  used on inp
@@ -3315,51 +3323,51 @@ Overfull \hbox (139.47682pt too wide) in paragraph at lines 145--146
 ]i[]Ё).
  []
 
-[40 <./media/screenshots/06_monitoring_public.pdf> <./media/screenshots/07_moni
-toring_login.pdf>] [41]
-<media/screenshots/08_monitoring_cabinet.pdf, id=2859, 614.295pt x 794.97pt>
+[42]
+<media/screenshots/08_monitoring_cabinet.pdf, id=2436, 614.295pt x 794.97pt>
 File: media/screenshots/08_monitoring_cabinet.pdf Graphic file (type pdf)
 <use media/screenshots/08_monitoring_cabinet.pdf>
 Package pdftex.def Info: media/screenshots/08_monitoring_cabinet.pdf  used on i
 nput line 216.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
-<media/screenshots/09_monitoring_form.pdf, id=2860, 614.295pt x 794.97pt>
+<media/screenshots/09_monitoring_form.pdf, id=2437, 614.295pt x 794.97pt>
 File: media/screenshots/09_monitoring_form.pdf Graphic file (type pdf)
 <use media/screenshots/09_monitoring_form.pdf>
 Package pdftex.def Info: media/screenshots/09_monitoring_form.pdf  used on inpu
 t line 220.
 (pdftex.def)             Requested size: 169.51747pt x 219.37556pt.
- [42 <./media/screenshots/08_monitoring_cabinet.pdf> <./media/screenshots/09_mo
-nitoring_form.pdf>] [43]
+ [43 <./media/screenshots/06_monitoring_public.pdf> <./media/screenshots/07_mon
+itoring_login.pdf>] [44 <./media/screenshots/08_monitoring_cabinet.pdf> <./medi
+a/screenshots/09_monitoring_form.pdf>] [45]
 Overfull \hbox (6.59875pt too wide) in paragraph at lines 266--266
 []|\T2A/Tempora-TLF/m/n/12 Помаранчевий| 
  []
 
-[44] [45] [46] [47] [48]
+[46] [47] [48] [49] [50] [51]
 Overfull \hbox (209.64581pt too wide) in paragraph at lines 349--350
 \T2A/Tempora-TLF/m/n/14.4 (Кон-тин-гент 5 / Пе-да-го-ги 8 / Ди-нам[]i[]ка 3 / П
 ро-фес[]i[]Ё 2 / Роз-ви-ток 1 / Як[]i[]сть осв[]i[]ти 4 / []I[]нформац[]i[]йна 
 в[]i[]дкрит[]i[]сть 1;
  []
 
-[49]
+
 Overfull \hbox (21.18292pt too wide) in paragraph at lines 358--359
 \T2A/Tempora-TLF/m/n/14.4 вне-сок -- б[]i[]бл[]i[]ометричний $\OT1/cmr/m/n/14.4
  +$ \T2A/Tempora-TLF/m/n/14.4 арх[]i[]тектурний $\OT1/cmr/m/n/14.4 +$ \T2A/Temp
 ora-TLF/m/n/14.4 дизайнерсько-реал[]i[]зац[]i[]йний -- фор-му№
  []
 
-[50]) (./chapters/vysnovky.tex [51
+[52] [53]) (./chapters/vysnovky.tex [54
 
 
-] [52]) [53]
+] [55]) [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfil' on input line 112.
 
-[54
+[57
 
-] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
+] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
 (./chapters/appendix.tex
 
 ! LaTeX Error: Environment landscape undefined.
@@ -3393,7 +3401,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[66
+[70
 
 ]
 
@@ -3428,13 +3436,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[67
+[71
 
-] [68
+] [72
 
-] [69] [70
+] [73] [74
 
-] [71]pdfTeX warning (ext4): destination with the same identifier (name{table.1
+] [75]pdfTeX warning (ext4): destination with the same identifier (name{table.1
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3444,7 +3452,7 @@ ame{table.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.191 \end{table}
-                  [72]
+                  [76]
 LaTeX Font Info:    Font shape `TS1/Tempora-TLF/m/n' will be
 (Font)              scaled to size 17.28pt on input line 195.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
@@ -3454,7 +3462,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
 <to be read again> 
                    \relax 
 l.221 \end{table}
-                  [73] (./llm_naming/results_table.tex
+                  [77] (./llm_naming/results_table.tex
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 6.
 )pdfTeX warning (ext4): destination with the same identifier (name{table.4}) ha
@@ -3462,13 +3470,13 @@ s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.238 \end{table}
-                  [74] [75] (./data/prior_reviews_table.tex)pdfTeX warning (ext
-4): destination with the same identifier (name{table.5}) has been already used,
- duplicate ignored
+                  [78] (./data/prior_reviews_table.tex)pdfTeX warning (ext4): d
+estination with the same identifier (name{table.5}) has been already used, dupl
+icate ignored
 <to be read again> 
                    \relax 
 l.255 \end{table}
-                  [76]
+                  [79] [80]
 Overfull \hbox (36.59174pt too wide) in paragraph at lines 288--288
 []|\T2A/cmtt/m/n/12 04_demo_credentials_template.md| 
  []
@@ -3500,9 +3508,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.317 \end{table}
-                  [77
+                  [81
 
-] [78]
+] [82]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -3706,7 +3714,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.369     \item D
-                 .6 Р—РіРѕРґР° РЅР°~half-day СЃРµСЃС–СЋ (С‚Р°Рє / РјРѕР¶Р»Рё...
+                 .6 Р—РіРѕРґР° РЅР°~РїРѕРіР»РёР±Р»РµРЅСѓ СЃРµСЃС–СЋ С‚СЂРёРІ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3719,7 +3727,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.369     \item D
-                 .6 Р—РіРѕРґР° РЅР°~half-day СЃРµСЃС–СЋ (С‚Р°Рє / РјРѕР¶Р»Рё...
+                 .6 Р—РіРѕРґР° РЅР°~РїРѕРіР»РёР±Р»РµРЅСѓ СЃРµСЃС–СЋ С‚СЂРёРІ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3732,7 +3740,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.369     \item D
-                 .6 Р—РіРѕРґР° РЅР°~half-day СЃРµСЃС–СЋ (С‚Р°Рє / РјРѕР¶Р»Рё...
+                 .6 Р—РіРѕРґР° РЅР°~РїРѕРіР»РёР±Р»РµРЅСѓ СЃРµСЃС–СЋ С‚СЂРёРІ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3749,10 +3757,10 @@ l.370 \end{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[79]
-Overfull \hbox (71.2639pt too wide) in paragraph at lines 394--394
+[83]
+Overfull \hbox (74.8519pt too wide) in paragraph at lines 394--394
 []|\T2A/Tempora-TLF/m/n/12 Директор$\OMS/Tempora-TLF/m/up/12 !$[]\T2A/Tempora-T
-LF/m/n/12 I[]нспектор$\OMS/Tempora-TLF/m/up/12 !$\T2A/Tempora-TLF/m/n/12 Audit|
+LF/m/n/12 I[]нспектор$\OMS/Tempora-TLF/m/up/12 !$\T2A/Tempora-TLF/m/n/12 Аудит|
  
  []
 
@@ -3761,14 +3769,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
 <to be read again> 
                    \relax 
 l.397 \end{table}
-                  [80] [81] [82]pdfTeX warning (ext4): destination with the sam
+                  [84] [85] [86]pdfTeX warning (ext4): destination with the sam
 e identifier (name{table.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.481 \end{table}
-                  [83
+                  [87
 
-] [84]
+] [88]
 
 ! Package inputenc Error: Unicode character в”њ (U+251C)
 (inputenc)                not set up for use with LaTeX.
@@ -4757,7 +4765,7 @@ l.521 \end{verbatim}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[85
+[89
 
 ]
 
@@ -5046,7 +5054,7 @@ l.521 \end{verbatim}
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[86]
+[90]
 Overfull \hbox (17.91248pt too wide) in paragraph at lines 571--571
 []|\T2A/cmtt/m/n/10 territorial_contains| 
  []
@@ -5056,39 +5064,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
 <to be read again> 
                    \relax 
 l.574 \end{table}
-                  [87
+                  [91
 
-] [88] [89] [90]
+] [92] [93] [94]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 634.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [91]pdfTeX warning (ext4): destination with the same identifier (name{table.2
+) [95]pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.685 \end{table}
-                  [92] [93] [94]) 
+                  [96] [97] [98]) 
 AED: lastpage setting LastPage
-[95] (./main.aux)
+[99] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B91FED8E869077EEF1CB340BCDD18913;12251.
+(rerunfilecheck)             Checksum: D2BCC77517CC2A23EC41A56DA3D49FB9;12365.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52237 strings out of 478754
- 1143841 string characters out of 5854204
- 2329813 words of memory out of 5000000
- 68658 multiletter control sequences out of 15000+600000
+ 52258 strings out of 478754
+ 1144626 string characters out of 5854204
+ 2331579 words of memory out of 5000000
+ 68670 multiletter control sequences out of 15000+600000
  460140 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,131p,2622b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,15n,131p,2495b,3055s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}</u
@@ -5109,10 +5117,10 @@ al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
 ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local
 /texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (96 pages, 2890717 bytes).
+Output written on main.pdf (100 pages, 2926243 bytes).
 PDF statistics:
- 4007 PDF objects out of 4296 (max. 8388607)
- 1566 compressed objects within 16 object streams
- 291 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4069 PDF objects out of 4296 (max. 8388607)
+ 1616 compressed objects within 17 object streams
+ 299 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  13 MAY 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.27)  14 MAY 2026 00:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2382,65 +2382,74 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 67.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+(Font)              scaled to size 12.0pt on input line 61.
+
+Overfull \vbox (12.64406pt too high) detected at line 61
+ []
+
+[3
+
+]
+LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
 
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-67.
+81.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 67.
+ut line 81.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [3
-
-]
-LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 87.
-<../media//fig_pub_years.pdf, id=51, 857.69745pt x 351.78966pt>
+)
+<../media//fig_pub_years.pdf, id=50, 857.69745pt x 351.78966pt>
 File: ../media//fig_pub_years.pdf Graphic file (type pdf)
 <use ../media//fig_pub_years.pdf>
-Package pdftex.def Info: ../media//fig_pub_years.pdf  used on input line 87.
+Package pdftex.def Info: ../media//fig_pub_years.pdf  used on input line 81.
 (pdftex.def)             Requested size: 191.89853pt x 78.70372pt.
  [4
 
  <../media//fig_pub_years.pdf>]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 109.
+(Font)              scaled to size 12.0pt on input line 103.
 <../media//fig_network_vosviewer.pdf, id=73, 713.30492pt x 568.5886pt>
 File: ../media//fig_network_vosviewer.pdf Graphic file (type pdf)
 <use ../media//fig_network_vosviewer.pdf>
 Package pdftex.def Info: ../media//fig_network_vosviewer.pdf  used on input lin
-e 109.
+e 103.
 (pdftex.def)             Requested size: 213.22205pt x 169.9619pt.
  [5
 
  <../media//fig_network_vosviewer.pdf>]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 133.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 133.
 <../media//fig_cluster_comparison.pdf, id=96, 543.54257pt x 423.55992pt>
 File: ../media//fig_cluster_comparison.pdf Graphic file (type pdf)
 <use ../media//fig_cluster_comparison.pdf>
 Package pdftex.def Info: ../media//fig_cluster_comparison.pdf  used on input li
-ne 139.
+ne 133.
 (pdftex.def)             Requested size: 191.89853pt x 149.54079pt.
- [6
+
+Overfull \vbox (14.56305pt too high) detected at line 133
+ []
+
+[6
 
  <../media//fig_cluster_comparison.pdf>] [7
 
@@ -2448,7 +2457,7 @@ ne 139.
 
 ]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-189.
+183.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
@@ -2461,7 +2470,7 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 237.
+(Font)              scaled to size 7.0pt on input line 231.
  [12
 
 ]
@@ -2469,10 +2478,10 @@ LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
 File: ../media//screenshots/02_dashboard.pdf Graphic file (type pdf)
 <use ../media//screenshots/02_dashboard.pdf>
 Package pdftex.def Info: ../media//screenshots/02_dashboard.pdf  used on input 
-line 260.
+line 254.
 (pdftex.def)             Requested size: 103.39769pt x 133.80878pt.
 
-Overfull \vbox (16.31284pt too high) detected at line 260
+Overfull \vbox (31.23083pt too high) detected at line 254
  []
 
 [13
@@ -2483,23 +2492,23 @@ Overfull \vbox (16.31284pt too high) detected at line 260
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 305.
+(Font)              scaled to size 5.0pt on input line 299.
  [16
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/m/n' will be
-(Font)              scaled to size 35.83pt on input line 314.
+(Font)              scaled to size 35.83pt on input line 308.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 35.83pt on input line 314.
+(Font)              scaled to size 35.83pt on input line 308.
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 314.
+(Font)              scaled to size 17.28pt on input line 308.
  [17
 
 ]
 LaTeX Font Info:    Font shape `T2A/Tempora-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 338.
+(Font)              scaled to size 6.0pt on input line 332.
 
-Overfull \hbox (3.64221pt too wide) in paragraph at lines 338--338
+Overfull \hbox (3.64221pt too wide) in paragraph at lines 332--332
 []\T2A/cmtt/m/n/6 enrollment_dynamics| 
  []
 
@@ -2532,13 +2541,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30411 strings out of 478754
- 597069 string characters out of 5854204
- 905460 words of memory out of 5000000
- 47397 multiletter control sequences out of 15000+600000
+ 30413 strings out of 478754
+ 597082 string characters out of 5854204
+ 905948 words of memory out of 5000000
+ 47399 multiletter control sequences out of 15000+600000
  462777 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,124p,459b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,124p,508b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/tempora/t2a-tempora.enc}</
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/tempora/Tempora-Bold.pfb><
@@ -2556,7 +2565,7 @@ usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></us
 r/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1440.pfb>
-Output written on main.pdf (19 pages, 496411 bytes).
+Output written on main.pdf (19 pages, 497580 bytes).
 PDF statistics:
  557 PDF objects out of 1000 (max. 8388607)
  237 compressed objects within 3 object streams

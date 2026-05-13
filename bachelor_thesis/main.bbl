@@ -615,46 +615,38 @@
       \verb 10.1080/13636820.2024.2442030
       \endverb
     \endentry
-    \entry{Hevner2004DSR}{article}{useauthor=false}
-      \name{author}{4}{}{%
-        {{hash=e054261c7f1739e1ba1db0a45e385c1b}{%
-           family={Hevner},
-           familyi={H\bibinitperiod},
-           given={Alan\bibnamedelima R.},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=5aec260b5b1381edc4b8ff6755f2d543}{%
-           family={March},
-           familyi={M\bibinitperiod},
-           given={Salvatore\bibnamedelima T.},
-           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=c518c214dc9e77148493e9ea47f505ab}{%
-           family={Park},
-           familyi={P\bibinitperiod},
-           given={Jinsoo},
-           giveni={J\bibinitperiod}}}%
-        {{hash=65565df90d4793da7a2f20e5e1b07345}{%
-           family={Ram},
-           familyi={R\bibinitperiod},
-           given={Sudha},
-           giveni={S\bibinitperiod}}}%
+    \entry{OsnabruckDeclaration2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2be4a816598128ae272abd2cb54c8a67}{%
+           family={{Council of the European Union}},
+           familyi={C\bibinitperiod}}}%
       }
-      \strng{authorbibnamehash}{77b3350005135e016e7a83431f326d8f}
-      \strng{authornamehash}{77b3350005135e016e7a83431f326d8f}
-      \strng{authorfullhash}{b163bef761d9a2c79a3d232595321775}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{2be4a816598128ae272abd2cb54c8a67}
+      \strng{fullhash}{2be4a816598128ae272abd2cb54c8a67}
+      \strng{bibnamehash}{2be4a816598128ae272abd2cb54c8a67}
+      \strng{authorbibnamehash}{2be4a816598128ae272abd2cb54c8a67}
+      \strng{authornamehash}{2be4a816598128ae272abd2cb54c8a67}
+      \strng{authorfullhash}{2be4a816598128ae272abd2cb54c8a67}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{MIS Quarterly}
-      \field{title}{Design Science in Information Systems Research}
-      \field{year}{2004}
-      \field{number}{1}
-      \range{number}{1}
-      \field{pages}{75\bibrangedash 105}
-      \range{pages}{31}
-      \field{volume}{28}
-      \range{volume}{1}
-      \verb{doi}
-      \verb 10.2307/25148625
+      \field{howpublished}{[Електронний ресурс]}
+      \field{note}{Декларація країн ЄС про~роль професійної освіти у~відновленні економіки та~переході до~цифрової і~зеленої економіки}
+      \field{title}{Osnabrück Declaration on Vocational Education and Training as an Enabler of Recovery and Just Transitions to Digital and Green Economies}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cedefop.europa.eu/files/osnabrueck_declaration_eu2020.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cedefop.europa.eu/files/osnabrueck_declaration_eu2020.pdf
       \endverb
     \endentry
     \entry{vanEck2010}{article}{}
@@ -780,6 +772,145 @@
       \field{labeltitlesource}{title}
       \field{title}{Germany's dual vocational training system: a model for other countries?}
       \field{year}{2013}
+    \endentry
+    \entry{CopenhagenProcess2002}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Електронний ресурс]}
+      \field{note}{Базовий документ Копенгагенського процесу європейської співпраці у~сфері професійної освіти}
+      \field{title}{The Copenhagen Declaration on enhanced European cooperation in vocational education and training}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cedefop.europa.eu/files/copenhagen_declaration_en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cedefop.europa.eu/files/copenhagen_declaration_en.pdf
+      \endverb
+    \endentry
+    \entry{BrugesCommunique2010}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Електронний ресурс]}
+      \field{note}{Документ Європейського Союзу про~співпрацю у~сфері професійної освіти і~навчання на 2011--2020~рр.}
+      \field{title}{The Bruges Communiqué on enhanced European Cooperation in Vocational Education and Training for the period 2011--2020}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://education.ec.europa.eu/sites/default/files/document-library-docs/the-bruges-communique.pdf
+      \endverb
+      \verb{url}
+      \verb https://education.ec.europa.eu/sites/default/files/document-library-docs/the-bruges-communique.pdf
+      \endverb
+    \endentry
+    \entry{RigaConclusions2015}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Електронний ресурс]}
+      \field{note}{Висновки міністрів країн ЄС щодо~середньострокових цілей у~сфері професійної освіти на 2015--2020~рр.}
+      \field{title}{Riga Conclusions 2015 on a new set of medium-term deliverables in the field of VET for the period 2015--2020}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.cedefop.europa.eu/files/2015_riga_conclusions.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cedefop.europa.eu/files/2015_riga_conclusions.pdf
+      \endverb
+    \endentry
+    \entry{EQAVET2009Framework}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0baa957acb6522d22e3251a428fe067}{%
+           family={{European Parliament and Council of the European Union}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d0baa957acb6522d22e3251a428fe067}
+      \strng{fullhash}{d0baa957acb6522d22e3251a428fe067}
+      \strng{bibnamehash}{d0baa957acb6522d22e3251a428fe067}
+      \strng{authorbibnamehash}{d0baa957acb6522d22e3251a428fe067}
+      \strng{authornamehash}{d0baa957acb6522d22e3251a428fe067}
+      \strng{authorfullhash}{d0baa957acb6522d22e3251a428fe067}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Електронний ресурс]}
+      \field{note}{Рекомендація Європейського парламенту і~Ради про~створення Європейської рамки забезпечення якості професійної освіти і~навчання (EQAVET)}
+      \field{title}{Recommendation of the European Parliament and of the Council on the establishment of a European Quality Assurance Reference Framework for Vocational Education and Training (EQAVET)}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009H0708(01)
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009H0708(01)
+      \endverb
     \endentry
     \entry{Adjei2023GreenTVET}{article}{useauthor=false}
       \name{author}{5}{}{%
@@ -1966,41 +2097,6 @@
       \range{volume}{1}
       \verb{doi}
       \verb 10.32835/2707-3092.2022.24.4-17
-      \endverb
-    \endentry
-    \entry{Rajamaki2022DSR}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=1f98937eae22c1caf17fe0def5ae2b40}{%
-           family={Rajamäki},
-           familyi={R\bibinitperiod},
-           given={Jyri},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b530ce3ef37885094bed97d69afab2c1}{%
-           family={Lahdenperä},
-           familyi={L\bibinitperiod},
-           given={Janne},
-           giveni={J\bibinitperiod}}}%
-        {{hash=799aac208776c905354d583e86851ba6}{%
-           family={Shalamanov},
-           familyi={S\bibinitperiod},
-           given={Velizar},
-           giveni={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{efba4efe31a80674407fd18bbbfc64bb}
-      \strng{fullhash}{efba4efe31a80674407fd18bbbfc64bb}
-      \strng{bibnamehash}{efba4efe31a80674407fd18bbbfc64bb}
-      \strng{authorbibnamehash}{efba4efe31a80674407fd18bbbfc64bb}
-      \strng{authornamehash}{efba4efe31a80674407fd18bbbfc64bb}
-      \strng{authorfullhash}{efba4efe31a80674407fd18bbbfc64bb}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2022 IEEE 12th International Conference on Dependable Systems, Services and Technologies (DESSERT)}
-      \field{title}{Design Science Research towards ECHO Governance and Management Information System}
-      \field{year}{2022}
-      \verb{doi}
-      \verb 10.1109/DESSERT58054.2022.10018802
       \endverb
     \endentry
     \entry{Rauner2024EuropeanVET}{incollection}{}
