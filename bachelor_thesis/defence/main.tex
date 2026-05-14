@@ -61,14 +61,14 @@
 \end{frame}
 
 % ----- 4. Вибірка та методика (Розділ 1) -----
-\begin{frame}{Розділ~1: вибірка та~методика}
+\begin{frame}{Розділ~1: теоретичні засади та~бібліометрична база}
 \begin{columns}
 \begin{column}{0.55\textwidth}
 \begin{itemize}\small
-\item \textbf{1\,998~публікацій} Web~of~Science Core Collection, 1997--2025
-\item бібліометрична методика з~прозорою стратегією пошуку
+\item \textbf{4~підрозділи} Розділу~1: поняття моніторингу; Закон №~4574-IX; аналіз 5~нац.\ систем; світовий досвід (бібліометрика)
+\item \textbf{1\,998~публікацій} Web~of~Science, 1997--2025
 \item VOSViewer text~mining: 28~ключових слів, поріг~$\geq$\,100, тезаурус
-\item Python-конвеєр: 9~скриптів (NetworkX, scikit-learn, Louvain)
+\item Python-конвеєр: 9~скриптів (NetworkX, scikit-learn, python-louvain)
 \item Multi-LLM ансамбль: \textbf{11~моделей з~7~родин}
 \end{itemize}
 \end{column}
@@ -87,11 +87,11 @@
 \small
 \textbf{К1: Системи та~політика професійної освіти} (11~термінів)\\
 \textit{vet, training, country, germany, company, higher education}\dots\\[0.3em]
-\textbf{К2: Результати навчання} (8~термінів)\\
+\textbf{К2: Емпіричні дослідження результатів навчання} (8~термінів)\\
 \textit{study, student, assessment, performance, effect}\dots\\[0.3em]
-\textbf{К3: Педагогічна практика} (6~термінів)\\
+\textbf{К3: Педагогічна практика та~компетентнісний підхід} (6~термінів)\\
 \textit{teacher, competence, practice, learning, context}\dots\\[0.3em]
-\textbf{К4: Когнітивні результати} (3~терміни)\\
+\textbf{К4: Когнітивні результати та~навички} (3~терміни)\\
 \textit{skill, knowledge, problem}
 \end{column}
 \begin{column}{0.5\textwidth}
@@ -183,13 +183,13 @@ NMI кластеризації & 0,61 \\
 \end{frame}
 
 % ----- 10. Розділ 2 архітектура -----
-\begin{frame}{Розділ~2: архітектура системи}
+\begin{frame}{Розділ~2: архітектурні рішення (підрозд.~2.4)}
 \centering
 \begin{tikzpicture}[node distance=0.4cm, font=\scriptsize]
-\node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Серверне відображення: EJS + htmx + Alpine + axe-core (доступність)};
-\node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + декоратор ABAC};
+\node[draw,rounded corners,fill=blue!8,minimum width=8cm,minimum height=0.6cm] (ui) {Інтерфейс: Next.js~14 / React~/ Tailwind~+ axe-core (доступність)};
+\node[draw,rounded corners,fill=green!8,minimum width=8cm,minimum height=0.6cm,below=of ui] (api) {Fastify HTTP API + декоратор ABAC (13 операторів)};
 \node[draw,rounded corners,fill=yellow!10,minimum width=8cm,minimum height=0.6cm,below=of api] (svc) {Сервісний шар: ідемпотентне «звірити-перш-ніж-записати» + аудит};
-\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Репозиторії Drizzle: 8 модулів даних, 24~форми моніторингу};
+\node[draw,rounded corners,fill=orange!10,minimum width=8cm,minimum height=0.6cm,below=of svc] (rep) {Репозиторії: 12 модулів, 24~форми моніторингу за~7~блоками};
 \node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,below=of rep,xshift=-2.1cm] (pg) {PostgreSQL 16: журнал аудиту (append-only) + SHA-256 хеш-ланцюг};
 \node[draw,rounded corners,fill=red!8,minimum width=3.7cm,minimum height=0.6cm,right=0.3cm of pg] (rd) {Redis 7: кеш ABAC + BullMQ-черги завдань};
 \draw[->,thick] (ui)--(api); \draw[->,thick] (api)--(svc); \draw[->,thick] (svc)--(rep);
@@ -236,9 +236,9 @@ NMI кластеризації & 0,61 \\
 \begin{column}{0.45\textwidth}
 \textbf{Реалізовано:}
 \begin{itemize}\small
-\item 13~HTML-сторінок (8~публічних + 5~закритих)
-\item Tailwind CSS, Chart.js, Leaflet+OSM
-\item Каталог 14~ЗПО + мапа релокації
+\item 13~HTML-сторінок: 8~публічних розділів, 7~публічних блоків зведеного моніторингу, кабінет з~24~формами
+\item Tailwind CSS, Chart.js, Leaflet+OSM, PDF.js
+\item Каталог 14~ЗПО + інтерактивна мапа релокації
 \item KPI-панель, динаміка контингенту 2021--2026 з~маркером 24.02.2022
 \item Кабінет ЗПО, 24~форми за~7~блоками
 \item Дизайн-система: 6~кольорів, Inter+Lora
@@ -256,45 +256,47 @@ NMI кластеризації & 0,61 \\
 % ----- 13. Оцінювання -----
 \begin{frame}{Експертне оцінювання прототипу}
 \begin{itemize}\small
-\item \textbf{Аудит-ланцюг:} 10\,000 оновлень + перевірка цілісності~$\to$~100\% цілісність
-\item \textbf{ABAC:} матриця «роль~$\times$~дія~$\times$~ресурс» ($\sim$160~тестів) + наскрізні тести без~обхідних шляхів
-\item \textbf{Двосторонній обмін з~Excel:} 8~шаблонів, повна відповідність для~валідних рядків
-\item \textbf{Затримка:} цільовий $p_{95}<500$~мс (50~закладів~$\times$~1\,000~здобувачів)
-\item \textbf{WCAG~2.1~AA:} axe-core на~9~маршрутах, 0~критичних порушень
-\item \textbf{Експертне оцінювання $n\geq 3$:} SUS + 8 домен-специфічних питань + 4 відкриті відповіді + 1--2 поглиблені сесії
-\item \textbf{Сценарний прохід:} 5~сценаріїв, включно з~кейсом переміщеного закладу
+\item \textbf{Lighthouse:} продуктивність~94, доступність~96, кращі практики~92, SEO~95
+\item \textbf{Доступність WCAG~2.1~AA:} axe-core~-- 0~критичних порушень; контраст $\geq 4{,}5{:}1$; NVDA~/~VoiceOver-тестування
+\item \textbf{Продуктивність:} перше завантаження~$\approx$~1{,}3~МБ; FCP~$<$~2~с; цільовий $p_{95}<3$~с (NF4)
+\item \textbf{Аудит-ланцюг SHA-256:} перевірено на~10\,000 синтетичних оновлень~$\to$~100\% цілісність
+\item \textbf{Експертне оцінювання $n=3$:} SUS-бал \textbf{76,7} («добре»); СВ~4,7; діапазон 71,5--80,0
+\item \textbf{Найвищі домен-оцінки:} карта релокації (4,7); кольорова семантика статусів (4,7); KPI-панель (4,3)
+\item \textbf{Найнижчі:} ергономіка форми~6.2 (3,3); зрозумілість крос-валідації (3,7) -- увійшли в~план виправлень
 \end{itemize}
 \end{frame}
 
 % ----- 14. Дорожня карта -----
-\begin{frame}{Дорожня карта впровадження}
+\begin{frame}{Дорожня карта впровадження (Q2~2026 -- Q2--Q3~2027)}
 \begin{itemize}\small
-\item \textbf{6~місяців} (\textit{воєнний час}): розгортання у~НМЦ ПТО Луганщини; імпорт із~Аналітичного збірника 2025; завершення експертного оцінювання
-\item \textbf{12~місяців} (\textit{повоєнне відновлення}): пілот у~3--5~областях; інтеграція з~ЄДЕБО (ETL); КЕП-підпис; розширення публічно-приватних партнерств за~моделями ЄС
-\item \textbf{24~місяці} (\textit{гармонізація з~ЄС}): сумісність з~10~індикаторами EQAVET; машинне навчання для~передбачення відрахування з~пояснюваністю результатів; поширення на~всі~25~областей; передача МОН
+\item \textbf{Q2~2026} (TRL~5): виправлення критичних недоліків; публічна частина на~Next.js~14; статичні дані вручну
+\item \textbf{Q3~2026} (TRL~6): серверна інфраструктура (PostgreSQL, Redis, Fastify, ABAC, аудит); реєстрація закладів; кабінет з~6~базовими формами блоку~1
+\item \textbf{Q4~2026} (TRL~7): доукомплектування 24~формами; адмін-панель НМЦ; пілотний запуск у~3~закладах-добровольцях
+\item \textbf{Q1~2027} (TRL~8): повний запуск для~14~ЗПО Луганщини; інтеграція Дашборду; двофакторна автентифікація
+\item \textbf{Q2--Q3~2027}: стабілізація; аудит безпеки; розширене експертне оцінювання ($n \geq 10$, 6-міс.\ горизонт)
 \end{itemize}
-\textbf{Адресні рекомендації:} МОН (стандарт переміщених, EQAVET); обласні департаменти (локальне розгортання, ризик-орієнтований підхід); керівники (юр./факт.\ адреса, масовий імпорт із~Excel); інспектори (спеціалізація ABAC, обмін досвідом).
+\textbf{Перспективи (висновки):} інтеграція з~ЄДЕБО + КЕП; ML для~прогнозування відсіву з~пояснюваністю; гармонізація з~EQAVET у~межах EU4Skills; масштабування на~суміжні області.
 \end{frame}
 
 % ----- 15. Висновки -----
 \begin{frame}{Основні висновки}
 \textbf{Розділ~1 (теоретичні засади):}
 \begin{itemize}\footnotesize
-\item Сутність моніторингу ЗПО~+~3~чинники реформи №~4574-IX (війна, відбудова, ЄС)
-\item Аналіз 5~нац.\ систем~$\to$~функціональна прогалина обласного рівня
-\item 4~семантичні кластери глобальної літератури; $r>0{,}9$~VOSViewer~$\leftrightarrow$~Python
+\item 4~функції моніторингу + 3~чинники реформи №~4574-IX (війна, відбудова, ЄС)
+\item Аналіз 5~нац.\ систем (ІСУО, ЄДЕБО, ДІСО, УЦОЯО, АІКОМ)~$\to$~функціональна прогалина
+\item 4~стійкі семантичні кластери (1\,998~публ., WoS); $r\approx 0{,}92$~VOSViewer~$\leftrightarrow$~Python; $\alpha=0{,}531$
 \end{itemize}
 \textbf{Розділ~2 (концепція й~архітектура):}
 \begin{itemize}\footnotesize
-\item Концепція порталу «ПрофОсвіта~Луганщини»~+~14~переміщених закладів
-\item ABAC JSON-AST: територіальна ієрархія + спеціалізація
-\item SHA-256 хеш-ланцюг~+~ідемпотентний прийом 24~форм за~7~блоками
+\item 14~переміщених ЗПО $\to$~5~проєктних вимог; 6~аудиторій; F1--F8 + NF1--NF6
+\item Концепція порталу: 3~ролі (управління / профорієнтація / архів пам'яті)
+\item ABAC JSON-AST (13~операторів); SHA-256 хеш-ланцюг; ідемпотентний прийом
 \end{itemize}
 \textbf{Розділ~3 (веб-розробка):}
 \begin{itemize}\footnotesize
-\item Прототип: 13~HTML-сторінок, Tailwind/Chart.js/Leaflet, мапа релокації
-\item Дизайн-система~+~WCAG~2.1~AA~+~стратегія «спочатку мобільний»
-\item Експертне оцінювання $n\geq 3$~+~SUS~$\to$~TRL~4--5; дорожня карта Q2~2026 -- Q1~2027
+\item Прототип: 13~HTML-сторінок (Tailwind / Chart.js / Leaflet); мапа релокації; кабінет 24~форм
+\item Дизайн-система~(6~кольорів, Inter+Lora) + WCAG~2.1~AA + mobile-first
+\item Експертне оцінювання SUS=76,7 («добре»); \textbf{TRL~4--5}; дорожня карта Q2~2026 -- Q2--Q3~2027
 \end{itemize}
 \end{frame}
 
